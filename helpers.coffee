@@ -218,7 +218,7 @@ class Helpers
         content = "<nav class=\"navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top\">"
         content += "<a class=\"navbar-brand\" href=\"#{link('index', mode)}\">Waterloo</a>"
         content += "<button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n<span class=\"navbar-toggler-icon\"></span>\n</button>"
-        content += "<div class=\"collapse navbar-collapse show\" id=\"navbarCollapse\">"
+        content += "<div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">"
         content += navigation(templateData.navigation, mode, active1, active2)
         content += "</div>"
         content += "</nav>"
@@ -260,7 +260,8 @@ class Helpers
         content = '<div class="content" id="content-main">'
         content += '<div class="row">'
 
-        content += '<div class="col col-lg-8 col-md-12"><div class="content-main">' + marked(handlebarsedMarkdown) + '</div></div>'
+        # content += '<div class="col col-lg-8 col-md-12"><div class="content-main">' + marked(handlebarsedMarkdown) + '</div></div>'
+        content += '<div class="col"><div class="content-main">' + marked(handlebarsedMarkdown) + '</div></div>'
 
         content += "</div></div>"
 

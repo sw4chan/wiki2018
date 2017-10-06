@@ -1,4 +1,4 @@
-### Background:
+## Background
 
 Prions are a specific type of protein aggregate, consisting of only one protein, and possessing the interesting characteristic of being “infectious.” Proteins in the aggregate (in an insoluble form) have a different conformation than the same protein outside of the aggregate (in a soluble form), but if the former encounter the latter, the latter will “misfold” and join the aggregate.
 
@@ -8,7 +8,7 @@ The proteins that form both disease prions and functional prions have a specific
 
 Many of these proteins decrease in function when they aggregate. For instance, Sup35 performs its function much less efficiently when aggregated. However, there is at least one functional prion that sees an increase of function upon aggregation. This protein is CPEB, the homologs of which are found in the neurons of several animals. CPEB tags certain mRNAs for translation, but it can only do this when in its aggregated form.
 
-## The project:
+## The Project
 
 It has been theorized, as well as demonstrated, that fusing the prion domain to different proteins can reduce their function when aggregates are present. However, it would be interesting to cause an increase in function upon aggregation. This is the basis for the project this year.
 
