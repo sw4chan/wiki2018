@@ -18,6 +18,7 @@ body {
     // see: http://stackoverflow.com/questions/1260122/expand-div-to-take-remaining-width
     background-color: $contentBG;
     margin-left: $navbarIconWidth;
+    margin-top: $navbarHeight;
     min-height: 100%;
     overflow: hidden;
     // padding-bottom: 20px;
