@@ -176,7 +176,11 @@
 
     navigation = function(field, mode, active1, active2, recursed) {
       var active, actives, arg, content, i, isActive, item, j, k, l, len, len1, newItem, ref, value;
-      content = "<ul>\n";
+      if (recursed) {
+        content = "<ul class=\"dropdown-menu\">\n";
+      } else {
+        content = "<ul class=\"navbar-nav mr-auto\">\n";
+      }
       actives = new Array();
       for (i = j = 0, len = arguments.length; j < len; i = ++j) {
         arg = arguments[i];
@@ -202,16 +206,24 @@
         }
         if (typeof value === 'object') {
           if (isActive) {
-            content += "<li class=\"active\"><a href=\"#\"><span>" + item + "</span></a>\n";
+            content += "<li class=\"active dropdown nav-item\"><a href=\"#\" class=\"nav-link dropdown-toggle nav-link\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">" + item + "<span class=\"caret\"></span></a>\n";
           } else {
-            content += "<li><a href=\"#\"><span>" + item + "</span></a>\n";
+            content += "<li class=\"dropdown nav-item\"><a href=\"#\" class=\"nav-link dropdown-toggle nav-link\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">" + item + "<span class=\"caret\"></span></a>\n";
           }
           content += navigation(value, mode, active1, active2, true);
         } else {
           if (isActive) {
-            content += "<li class=\"active\"><a href=\"" + (link(item, mode)) + "\"><span>" + value + "</span></a></li>\n";
+            if (recursed) {
+              content += "<li class=\"active\"><a class=\"dropdown-item\" href=\"" + (link(item, mode)) + "\"><span>" + value + "</span></a></li>\n";
+            } else {
+              content += "<li class=\"active nav-item\"><a class=\"nav-link\" href=\"" + (link(item, mode)) + "\"><span>" + value + "</span></a></li>\n";
+            }
           } else {
-            content += "<li><a href=\"" + (link(item, mode)) + "\"><span>" + value + "</span></a></li>\n";
+            if (recursed) {
+              content += "<li class=\"\"><a class=\"dropdown-item\" href=\"" + (link(item, mode)) + "\"><span>" + value + "</span></a></li>\n";
+            } else {
+              content += "<li class=\"nav-item\"><a class=\"nav-link\" href=\"" + (link(item, mode)) + "\"><span>" + value + "</span></a></li>\n";
+            }
           }
           content += "</li>\n";
         }
@@ -222,9 +234,13 @@
 
     Helpers.prototype.navigationWrapper = function(mode, active1, active2) {
       var content;
-      content = "<div id=\"navigation\">\n";
+      content = "<nav class=\"navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top\">";
+      content += "<a class=\"navbar-brand\" href=\"http://2017.igem.org/Team:Waterloo\">Waterloo</a>";
+      content += "<button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n<span class=\"navbar-toggler-icon\"></span>\n</button>";
+      content += "<div class=\"collapse navbar-collapse show\" id=\"navbarCollapse\">";
       content += navigation(templateData.navigation, mode, active1, active2);
       content += "</div>";
+      content += "</nav>";
       return new hbs.SafeString(content);
     };
 

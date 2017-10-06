@@ -155,7 +155,10 @@ class Helpers
                 return "#{linkName}.html"
 
     navigation = (field, mode, active1, active2, recursed) ->
-        content = "<ul>\n"
+        if recursed
+            content = "<ul class=\"dropdown-menu\">\n"
+        else
+            content = "<ul class=\"navbar-nav mr-auto\">\n"
 
         actives = new Array()
         for arg,i in arguments
@@ -182,10 +185,10 @@ class Helpers
 
             if typeof(value) is 'object'
                 if isActive
-                    content += "<li class=\"active\"><a href=\"#\"><span>#{item}</span></a>\n"
+                    content += "<li class=\"active dropdown nav-item\"><a href=\"#\" class=\"nav-link dropdown-toggle nav-link\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">#{item}<span class=\"caret\"></span></a>\n"
                     # content += "<li class=\"active\"><a href=\"#\"><i class=\"fa #{templateData.icons[item]}\"></i></a>\n"
                 else
-                    content += "<li><a href=\"#\"><span>#{item}</span></a>\n"
+                    content += "<li class=\"dropdown nav-item\"><a href=\"#\" class=\"nav-link dropdown-toggle nav-link\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">#{item}<span class=\"caret\"></span></a>\n"
                     # content += "<li><a href=\"#\"><i class=\"fa #{templateData.icons[item]}\"></i></a>\n"
                 # content += "<div class=\"inner-menu\"><span>#{item}</span>"
                 content += navigation(value, mode, active1, active2, true)
@@ -194,10 +197,16 @@ class Helpers
                 # if item is 'index'
                 #     item = 'home'
                 if isActive
-                    content += "<li class=\"active\"><a href=\"#{link(item, mode)}\"><span>#{value}</span></a></li>\n"
+                    if recursed
+                        content += "<li class=\"active\"><a class=\"dropdown-item\" href=\"#{link(item, mode)}\"><span>#{value}</span></a></li>\n"
+                    else
+                        content += "<li class=\"active nav-item\"><a class=\"nav-link\" href=\"#{link(item, mode)}\"><span>#{value}</span></a></li>\n"
                     # content += "<li class=\"active\"><a href=\"#{link(item, mode)}\"><i class=\"fa #{templateData.icons[item]}\"></i></a>"
                 else
-                    content += "<li><a href=\"#{link(item, mode)}\"><span>#{value}</span></a></li>\n"
+                    if recursed
+                        content += "<li class=\"\"><a class=\"dropdown-item\" href=\"#{link(item, mode)}\"><span>#{value}</span></a></li>\n"
+                    else
+                        content += "<li class=\"nav-item\"><a class=\"nav-link\" href=\"#{link(item, mode)}\"><span>#{value}</span></a></li>\n"
                     # content += "<li><a href=\"#{link(item, mode)}\"><i class=\"fa #{templateData.icons[item]}\"></i></a>"
                 # content += "<span>#{item}</span>"
                 content += "</li>\n"
@@ -206,9 +215,13 @@ class Helpers
         return content
 
     navigationWrapper: (mode, active1, active2) ->
-        content = "<div id=\"navigation\">\n"
+        content = "<nav class=\"navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top\">"
+        content += "<a class=\"navbar-brand\" href=\"http://2017.igem.org/Team:Waterloo\">Waterloo</a>"
+        content += "<button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n<span class=\"navbar-toggler-icon\"></span>\n</button>"
+        content += "<div class=\"collapse navbar-collapse show\" id=\"navbarCollapse\">"
         content += navigation(templateData.navigation, mode, active1, active2)
         content += "</div>"
+        content += "</nav>"
 
         return new hbs.SafeString(content)
 

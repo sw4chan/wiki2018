@@ -190,83 +190,13 @@ body {
 
 // Navigation styles
 // We have a ul of li > a's, some of which may contain another ul of li > a's
-#navigation {
-    float: left;
-    // By setting display to inline-block, the div will expand its width
-    // based on the contents. i.e. we can change the font size and this
-    // will automatically readjust.
-    display: inline-block;
 
-    ul {
-        margin: 0;
-        padding: 0;
-
-        li {
-            position: relative;
-            display: block;
-            width: 100%;
-            list-style: none;
-            text-align: center;
-
-            a {
-                display: block;
-                text-transform: capitalize;
-                text-decoration: none;
-                padding: 10px;
-                padding-left: 20px;
-                padding-right: 20px;
-                color: $navLinkColour;
-                background-color: $navLinkBG;
-                @include transition(all 200ms ease);
-            }
-
-            ul {
-                // Hide inner navs offscreen for now
-                position: absolute;
-                left: -9001px;
-            }
-
-            &:hover {
-                a {
-                    color: $navLinkOuterHoverColor;
-                    background: $navLinkOuterHoverBG;
-                }
-
-                ul {
-                    left: 100%;
-                    top: 0;
-
-                    a:hover {
-                        color: $navLinkInnerHoverColour;
-                    }
-
-                    li:hover a {
-                        background: $navLinkInnerHoverBG;
-                    }
-                }
-            }
-
-            &.active {
-                a {
-                    background-color: $navLinkActiveBG;
-                    color: $navLinkActiveOuterColour;
-                }
-
-                ul li {
-                    a {
-                        background-color: $navLinkOuterHoverBG;
-                        color: $navLinkColour;
-                    }
-
-                    &.active a {
-                        background-color: $navLinkActiveInnerBG;
-                        color: $navLinkActiveInnerColour;
-                    }
-                }
-            }
-        }
-    }
-}
+.navbar {
+          // margin-top:16px;
+         }
+         .navbar ul {
+           margin-top: 0px;
+         }
 
 .image-wrapper {
     text-align: center;
