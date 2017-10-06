@@ -216,7 +216,7 @@ class Helpers
 
     navigationWrapper: (mode, active1, active2) ->
         content = "<nav class=\"navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top\">"
-        content += "<a class=\"navbar-brand\" href=\"http://2017.igem.org/Team:Waterloo\">Waterloo</a>"
+        content += "<a class=\"navbar-brand\" href=\"#{link('index', mode)}\">Waterloo</a>"
         content += "<button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n<span class=\"navbar-toggler-icon\"></span>\n</button>"
         content += "<div class=\"collapse navbar-collapse show\" id=\"navbarCollapse\">"
         content += navigation(templateData.navigation, mode, active1, active2)
