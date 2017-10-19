@@ -15,3 +15,15 @@ Here are a few examples from previous teams:
 *   [ETH Zurich 2014](http://2014.igem.org/Team:ETH_Zurich/modeling/overview)
 *   [Waterloo 2014](http://2014.igem.org/Team:Waterloo/Math_Book)
 
+# MATH!
+
+blah, blah, blah
+
+*hey whoa*
+
+* blah
+* blah
+* blah
+
+$$x = \begin{bmatrix}a & \dots & b\\\ \vdots & \ddots & \vdots\\\c & \dots & d\\end{bmatrix}$$
+
