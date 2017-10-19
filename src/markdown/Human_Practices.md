@@ -33,6 +33,7 @@ You must fill out this page in order to be considered for all [awards](http://20
 On this page, you should write about the Human Practices topics you considered in your project, and document any special activities you did (such as visiting experts, talking to lawmakers, or doing public engagement).
 
 ##### Inspiration
+##### DOUBLE INSPIRATION
 
 Read what other teams have done:
 
