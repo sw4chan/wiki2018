@@ -1,3 +1,6 @@
+Prions\ be\ Lit\ V2.jpg
+<img src="{{image "Prions be Lit V2.jpg" "directlink" mode}}" />
+
 ## Background
 
 Prions are a specific type of protein aggregate, consisting of only one protein, and possessing the interesting characteristic of being “infectious.” Proteins in the aggregate (in an insoluble form) have a different conformation than the same protein outside of the aggregate (in a soluble form), but if the former encounter the latter, the latter will “misfold” and join the aggregate.
@@ -7,6 +10,8 @@ Though prions were first recognized in association with infectious diseases in m
 The proteins that form both disease prions and functional prions have a specific region in their amino acid sequence referred to as the prion domain. If one deletes this sequence, the proteins lose their ability to form prions. If one adds this sequence to a typical protein, then that protein will gain the ability to form prion-like aggregates; in essence, it becomes a prion protein.
 
 Many of these proteins decrease in function when they aggregate. For instance, Sup35 performs its function much less efficiently when aggregated. However, there is at least one functional prion that sees an increase of function upon aggregation. This protein is CPEB, the homologs of which are found in the neurons of several animals. CPEB tags certain mRNAs for translation, but it can only do this when in its aggregated form.
+
+---
 
 ## The Project
 
