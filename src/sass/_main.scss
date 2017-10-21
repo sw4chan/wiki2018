@@ -22,6 +22,7 @@ body {
     // padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    color: white;
 
     .tableofcontents {
         list-style: none;
@@ -174,8 +175,9 @@ body {
     .content-main {
         // float: left;
         // @include box-shadow(0px 2px 4px 2px rgba(0, 0, 0, 0.5));
-        background-color: $white-1;
-        font-family: 'proxima-nova', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
         margin: 0 auto;
         // max-width: 640px;
         padding: 20px;
@@ -188,12 +190,12 @@ body {
     .content-main h2 {
         margin-top: 12px;
         margin-bottom: 18px;
+	color: $headingYellow;
     }
 }
 
 #content-main {
     // @include box-shadow(0px 2px 4px 2px rgba(0, 0, 0, 0.5));
-    background-image: url('http://2015.igem.org/wiki/images/6/67/Toronto_2015_subtle-pattern-10.jpg');
 }
 
 // Navigation styles
@@ -201,6 +203,7 @@ body {
 
 .navbar {
           // margin-top:16px;
+	  background-color: #00b2a7 !important;
          }
          .navbar ul {
            margin-top: 0px;
@@ -219,4 +222,13 @@ body {
         // padding: 5px;
         width: 50%;
 	}
+}
+
+@media only screen and (min-width: 992px) {
+    .content {
+        .content-main {
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+    }
 }

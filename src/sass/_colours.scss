@@ -12,14 +12,15 @@ $igemYellow: #e7e247;
 $igemBlue: #00b5e6;
 $igemDarkBlue: #004389;
 
-
 // ==== Functional Colours ====
 // Define which elements use what colours here
+$dark: #383838;
+$headingYellow: #e7e87e;
 
 // Some main background colours
-$bodyBG: $igemDarkBlue;
+$bodyBG: $dark;
 $sidebarBG: $igemDarkBlue;
-$contentBG: white;
+$contentBG: $dark;
 // see: _igemreset.scss
 $bodyContentBG: $bodyBG;
 
