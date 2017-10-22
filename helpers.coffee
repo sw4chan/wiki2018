@@ -257,13 +257,12 @@ class Helpers
         markdownFile = fs.readFileSync("#{__dirname}/src/markdown/#{file}.md").toString()
         handlebarsedMarkdown = hbs.compile(markdownFile)(templateData)
 
-        content = '<div class="content" id="content-main">'
-        content += '<div class="row">'
+        content = '<div class="row">'
 
         # content += '<div class="col col-lg-8 col-md-12"><div class="content-main">' + marked(handlebarsedMarkdown) + '</div></div>'
         content += '<div class="col"><div class="content-main">' + marked(handlebarsedMarkdown) + '</div></div>'
 
-        content += "</div></div>"
+        content += "</div>"
 
         return new hbs.SafeString(content)
 
