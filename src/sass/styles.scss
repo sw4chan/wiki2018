@@ -2,6 +2,10 @@
 // Files prefixed with '_' will not compile for themselves
 
 // see: https://github.com/krisbulman/normalize-libsass
+// styles elements that contain your wiki
+// removes bounding width, hides h1.firstHeading, styles top bar, ...
+@import 'igemreset';
+
 @import 'normalize';
 
 // see: https://github.com/Igosuki/compass-mixins
@@ -16,10 +20,6 @@
 
 // Our dimensioning definitions
 @import 'dimensions';
-
-// styles elements that contain your wiki
-// removes bounding width, hides h1.firstHeading, styles top bar, ...
-@import 'igemreset';
 
 // Our main styles
 @import 'main';
