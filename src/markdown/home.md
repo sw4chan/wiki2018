@@ -1,5 +1,10 @@
-Prions\ be\ Lit\ V2.jpg
-<img src="{{image "Prions be Lit V2.jpg" "directlink" mode}}" />
+<img class="brand" src="{{image "Prions be Lit V2.png" "directlink" mode}}" />
+
+# Functional Amyloid as a Biological Tool
+
+---
+
+
 
 ## Background
 
