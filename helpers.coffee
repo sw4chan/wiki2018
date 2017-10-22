@@ -153,6 +153,11 @@ class Helpers
                 return 'index.html'
             else
                 return "#{linkName}.html"
+    
+    formatNavItem = (name) ->
+        newName = name.split('_')
+        newName = newName.map (piece) -> piece.charAt(0).toUpperCase() + piece.slice(1);
+        return newName.join(' ')
 
     navigation = (field, mode, active1, active2, recursed) ->
         if recursed
@@ -184,6 +189,7 @@ class Helpers
                 item = newItem
 
             if typeof(value) is 'object'
+                item = formatNavItem item
                 if isActive
                     content += "<li class=\"active dropdown nav-item\"><a href=\"#\" class=\"nav-link dropdown-toggle nav-link\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">#{item}<span class=\"caret\"></span></a>\n"
                     # content += "<li class=\"active\"><a href=\"#\"><i class=\"fa #{templateData.icons[item]}\"></i></a>\n"
@@ -196,6 +202,7 @@ class Helpers
             else
                 # if item is 'index'
                 #     item = 'home'
+                value = formatNavItem value
                 if isActive
                     if recursed
                         content += "<li class=\"active\"><a class=\"dropdown-item\" href=\"#{link(item, mode)}\"><span>#{value}</span></a></li>\n"

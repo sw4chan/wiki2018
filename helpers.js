@@ -20,7 +20,7 @@
   templateData = new Object();
 
   Helpers = (function() {
-    var link, navigation;
+    var formatNavItem, link, navigation;
 
     function Helpers(handlebars, tplateData) {
       hbs = handlebars;
@@ -174,6 +174,15 @@
       }
     };
 
+    formatNavItem = function(name) {
+      var newName;
+      newName = name.split('_');
+      newName = newName.map(function(piece) {
+        return piece.charAt(0).toUpperCase() + piece.slice(1);
+      });
+      return newName.join(' ');
+    };
+
     navigation = function(field, mode, active1, active2, recursed) {
       var active, actives, arg, content, i, isActive, item, j, k, l, len, len1, newItem, ref, value;
       if (recursed) {
@@ -205,6 +214,7 @@
           item = newItem;
         }
         if (typeof value === 'object') {
+          item = formatNavItem(item);
           if (isActive) {
             content += "<li class=\"active dropdown nav-item\"><a href=\"#\" class=\"nav-link dropdown-toggle nav-link\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">" + item + "<span class=\"caret\"></span></a>\n";
           } else {
@@ -212,6 +222,7 @@
           }
           content += navigation(value, mode, active1, active2, true);
         } else {
+          value = formatNavItem(value);
           if (isActive) {
             if (recursed) {
               content += "<li class=\"active\"><a class=\"dropdown-item\" href=\"" + (link(item, mode)) + "\"><span>" + value + "</span></a></li>\n";
