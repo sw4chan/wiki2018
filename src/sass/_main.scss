@@ -298,6 +298,11 @@ body {
 	}
 }
 
+#game {
+    color: black;
+    position: relative;
+}
+
 @media only screen and (min-width: 992px) {
     .titleBox {
         max-height: 400px;

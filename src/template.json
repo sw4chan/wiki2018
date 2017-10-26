@@ -23,6 +23,7 @@
         "gold": "HP-Gold",
         "integrated_practices": "Integrated_Practices",
         "engagement": "Engagement",
+        "snake35": "Snake35",
         "entrepreneurship": "Entrepreneurship",
         "hardware": "Hardware",
         "software": "Software",
@@ -57,7 +58,8 @@
             "silver": "silver",
             "gold": "gold",
             "integrated_practices": "integrated_practices",
-            "engagement": "engagement"
+            "engagement": "engagement",
+            "snake35": "snake35"
         },
         "awards": {
             "entrepreneurship": "entrepreneurship",
