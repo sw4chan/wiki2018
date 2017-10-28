@@ -1,0 +1,11 @@
+templates:
+    - ./build-live/templates/*.html
+stylesheets:
+    - ./build-live/css/*_css
+scripts:
+    - ./build-live/js/*_js
+pages:
+    - ./build-live/*.html
+    - ./build-live/index.html:INDEX
+images:
+    - ./images/*.{png,jpg}
