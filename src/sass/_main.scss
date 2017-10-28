@@ -288,13 +288,16 @@ body {
 // We have a ul of li > a's, some of which may contain another ul of li > a's
 
 .navbar {
-          // margin-top:16px;
-	  background-color: #00b2a7 !important;
-	  font-size: 16px;
-         }
-         .navbar ul {
-           margin-top: 0px;
-         }
+    // margin-top:16px;
+    background-color: #00b2a7 !important;
+    font-size: 16px;
+}
+.navbar ul {
+     margin-top: 0px;
+}
+.navbar .dropdown-item {
+     color: inherit !important;
+}
 
 .image-wrapper {
     text-align: center;

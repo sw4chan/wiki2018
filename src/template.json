@@ -45,12 +45,7 @@
             "results": "results",
             "notebook": "notebook"
         },
-        "_parts": {
-            "parts": "parts",
-            "basic_part": "basic_part",
-            "composite_part": "composite_part",
-            "part_collection": "part_collection"
-        },
+        "parts": "parts",
         "safety": "safety",
         "attributions": "attributions",
         "_human_practices": {
