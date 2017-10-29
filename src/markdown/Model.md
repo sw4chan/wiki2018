@@ -19,6 +19,8 @@ Here are a few examples from previous teams:
 
 blah, blah, blah
 
+This is a CI test *fingers crossed*
+
 *hey whoa*
 
 * blah
