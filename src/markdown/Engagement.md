@@ -2,7 +2,7 @@
 
 Waterloo iGEM had the privilege to be involved in the University of Waterloo’s Annual Science Open House. Children and their families had the chance to get involved in all sorts of hands-on science activities exploring many areas of science.
 
-![Science Open House](images/Science Open House.png)
+![Science Open House]({{image "Science Open House.png" "directlink" mode}})
 
 Waterloo iGEM hoped to accomplish a few things by participating in this year’s open house: 
 1. Foster kids’ interest in science.
@@ -15,7 +15,7 @@ We hoped to accomplish this through our activities centers. Using arts and craft
 
 ![Creative microbes](images/Creative microbes.jpg)
 
-![Ah ha](images/Ah ha.jpg)
+![Ah ha]({{image "Ah ha.jpg" "directlink" mode}})
 
 While each child designed their microbes, our iGEM team members were also answering any questions that kids or their parents and guardians asked about iGEM, synthetic biology, and our project. This included answering questions about applications of our project, safety and ethics, the growth of field of synthetic biology, and where our work will continue the future. 
 
