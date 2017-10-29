@@ -37,4 +37,4 @@ You can also take a look at how other teams have documented their parts in their
 *   [2014 Tokyo Tech](http://2014.igem.org/Team:Tokyo_Tech/Parts)
 
 ##### Part Table
-
+<groupparts></groupparts>
