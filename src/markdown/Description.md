@@ -1,22 +1,39 @@
-## Background
+
+## Prions
 
 Prions are a specific type of protein aggregate, consisting of only one protein, and possessing the interesting characteristic of being “infectious.” Proteins in the aggregate (in an insoluble form) have a different conformation than the same protein outside of the aggregate (in a soluble form), but if the former encounter the latter, the latter will “misfold” and join the aggregate.
 
-Though prions were first recognized in association with infectious diseases in mammals, prion-like proteins have been found in many organisms, with examples in yeast like Sup35 being particularly well studied. These prion-like proteins can form aggregates that share most of the same physical properties as prions in mammals. Importantly, however, the presence of the aggregated form of these proteins does not seem to have a significant negative effect on a cell. This suggests that many prion-like proteins actually serve some important function. These proteins are thus deemed functional prion proteins.
 
-The proteins that form both disease prions and functional prions have a specific region in their amino acid sequence referred to as the prion domain. If one deletes this sequence, the proteins lose their ability to form prions. If one adds this sequence to a typical protein, then that protein will gain the ability to form prion-like aggregates; in essence, it becomes a prion protein.
+Prions are infectious, yet stable, protein aggregates.  They have the unique ability to catalyze the formation of additional prions by acting upon domains with a wild-type configuration, "infecting" them and causing them to misfold.  This induces the newly misfolded protein to aggregate onto a growing chain of prions.  At some point in time, this collection of prion aggregates break apart by either mechanical force or through some other unknown mechanism of action, giving rise to more surface area for further conversion of wild-type conformations to the prion state.  
 
-Many of these proteins decrease in function when they aggregate. For instance, Sup35 performs its function much less efficiently when aggregated. However, there is at least one functional prion that sees an increase of function upon aggregation. This protein is CPEB, the homologs of which are found in the neurons of several animals. CPEB tags certain mRNAs for translation, but it can only do this when in its aggregated form.
+## Modular Prion domain
 
----
+All proteins that confer prion-like characteristics contain a sequence within their polypeptide chain called the prion domain. A prion will lose its ability to form protein aggregates if the prion domain is removed, while the addition of a prion domain to a protein will cause it to demonstrate novel prion-like properties. In our project we biobricked the Sup35 prion domain <a href="http://parts.igem.org/Part:BBa_K2475000"> (BBa_K2475000) </a> for other teams to use to give proteins aggregation ability.
 
-## The Project
+## Disease or Functional?
+
+Prions are the causing factor in some diseases such as mad cow disease in cattle, or the Creutzfeldt-Jakob disease in humans.  Although prions generally lead to negative effects in mammals, this may not always be the case.  In the example of Alypsa spp., the CPEB protein tags specific mRNAs for translation, but can only do so in the  aggregated state.  This preliminary research provides us with the groundwork to build on, and we wish to further capitalize on the specific properties of prions in order to use them to our advantage.
+
+## Why Prions?
+
+As demonstrated by Kushnirov et al., the insertion of a foreign prion domain to Sup35 resulted in the aggregation of the protein.  This aggregated version of Sup35 gave rise to [PSI+]; more simply put, [PSI+] is the prion version of Sup35.  We hypothesize that similar to the Sup35 and CPEB example, certain enzymes may demonstrate an increase in activity in an aggregated prion-like state.  The aggregation of prion tagged enzymes can potentially improve substrate channeling within a cell for metabolic processes or multi-step biochemical reactions, which may speed up reactions.  Prions are very heavily researched since many of its mechanisms are still unknown - this provides us with a large subfield with lots of potential for groundbreaking discoveries.
+
+## What are we trying to do?
 
 It has been theorized, as well as demonstrated, that fusing the prion domain to different proteins can reduce their function when aggregates are present. However, it would be interesting to cause an increase in function upon aggregation. This is the basis for the project this year.
 
-In this project, we will fuse the prion domain of Sup35 to two halves of a fluorescent protein. If these halves come close together in the cell, they will combine and fluoresce. By inducing Sup35 aggregation in yeast, we hope to get our two fluorescent protein fragment-prion domain fusions to join the same aggregate. In the aggregate, the two fusion proteins should be brought in close proximity, giving the fluorescent protein fragments the chance to come together. There is evidence that proteins can join an aggregate while keeping their normal function, and that different proteins can be brought together in the same aggregate.
+This year's project revolves around the central theory that an increase in function or activity of a protein will be observed should a prion domain be attached to the polypeptide chain.  To show that this is possible as a proof of principle we are going to be showing this in two ways:
 
-Bringing proteins close in this way is, in theory, sufficient to increase the interaction between them. If we attach the same prion domain to two proteins that normally interact, there is a good chance that we can increase their interaction by inducing aggregation.
+1. Fusing  the Sup35 prion domain to each half of a split fluorescent protein, then expressing them in yeast.  Once prion induction occurs, we expect the proteins to aggregate, bringing the two halves of the split fluorescent protein into close proximity and recovering fluorescence. If we attach the same prion domain to two proteins that normally interact, there is a good chance that we can increase their interaction by inducing aggregation.
 
-A second possible way to check for the viability of protein-protein interaction in the prion is to use a technique called FRET. Basically this technique is a way to check if two fluorescent proteins are in close proximity. We would attach prion domains to two complete fluorescent proteins and get them both to join the aggregate. To give a simplified explanation, depending on the fluorescence signal we get from exciting one of the protein, we should be able to tell if it’s in close proximity to the other. As mentioned earlier, proximity of two proteins is usually sufficient to increase interaction.
+
+2. Similarly, the Sup35 prion domain is fused to CFP and YFP, both of which confer fluorescence at their respective wavelengths.  However, when brought within close proximity, the fluorescence emitted from CFP excites YFP due to an overlap in excitation and emission spectra.  Therefore, depending the type of fluorescence observed, we are able to determine the relative proximity of the two fluorescent proteins, which translates into how well prion domains will aggregate together. As mentioned earlier, proximity of two proteins is usually sufficient to increase interaction.
+
+
+
+## References
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056934/
+http://www.sciencedirect.com/science/article/pii/S0092867403010201?via%3Dihub
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC305569/
+http://www.jbc.org/content/274/3/1181.full.html
 

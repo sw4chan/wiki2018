@@ -1,51 +1,92 @@
-### ★ ALERT!
 
-This page is used by the judges to evaluate your team for the [Attributions bronze criterion](http://2016.igem.org/Judging/Medals).
+## 2017 Project Design
 
-Delete this box in order to be evaluated for this medal. See more information at [Instructions for Pages for awards](http://2016.igem.org/Judging/Pages_for_Awards/Instructions).
+This year we started our project brainstorming in February after we hired the 2017 team. We allowed anyone on the team to come up with any preliminary ideas and then split into separate groups to research each of the ideas that were brought forth individually. After a bit of research into each of the projects, the projects were then repitched to the whole team and the members were instructed to vote.
 
-Each team must clearly attribute work done by the student team members on this page. The team must distinguish work done by the students from work done by others, including the host labs, advisors, instructors, and individuals not on the team roster.
+After voting was done by the team, we met with the advisors on our team, to discuss the results of the voting and to gain a more expert opinion on the project we should pursue. Ultimately we decided to go with the current project and *"Prions Be Lit"* became our project.
 
-##### Why is this page needed?
+Our team, which consisted of 33 people from different backgrounds and majors was split into three subteams to focus on the wet lab portion of the experiments, the policy and practices, and the modelling and software component. These three subteams continued to develop different components of the project.
 
-The Attribution requirement helps the judges know what you did yourselves and what you had help with. We don't mind if you get help with difficult or complex techniques, but you must report what work your team did and what work was done by others.
+After the projects components were detailed, the team executed the project which consisted of experimental designs, creation of mathematical models, public engagement events, and research into human practices. The project was developed independently by the 2017 Waterloo iGEM team.
 
-For example, you might choose to work with an animal model during your project. Working with animals requires getting a license and applying far in advance to conduct certain experiments in many countries. This is difficult to achieve during the course of a summer, but much easier if you can work with a postdoc or PI who has the right licenses.
+## Advisors
 
-##### What should this page have?
+The Waterloo iGEM team has 6 main advisors from different disciplines. The advisors provided us with immense feedback for the creation and design for our project, administrative help, and knowledge that helped allow us to pursue the 2017 iGEM project.
 
-*   General Support
-*   Project support and advice
-*   Fundraising help and advice
-*   Lab support
-*   Difficult technique support
-*   Project advisor support
-*   Wiki support
-*   Presentation coaching
-*   Human Practices support
-*   Thanks and acknowledgements for all other people involved in helping make a successful iGEM team
+<br>
 
-##### Can we base our project on a previous one?
+**Dr. John McLevey** - Professor Knowledge Integration
 
-Yes! You can have a project based on a previous team, or based on someone else's idea, **as long as you state this fact very clearly and give credit for the original project.**
+**Dr. Brian Ingalls** - Associate Professor Applied Math
 
-##### Inspiration
+**Dr. Trevor Charles** - Professor Biology
 
-Take a look at what other teams have done:
+**Dr. Barb Moffatt** - Professor Biology
 
-*   [2011 Imperial College London](http://2011.igem.org/Team:Imperial_College_London/Team) (scroll to the bottom)
-*   [2014 Exeter](http://2014.igem.org/Team:Exeter/Attributions)
-*   [2014 Melbourne](http://2014.igem.org/Team:Melbourne/Attributions)
-*   [2014 Valencia Biocampus](http://2014.igem.org/Team:Valencia_Biocampus/Attributions)
+**Dr. Forbes Burkowski** - Associate Professor Emeritus Computer Science
 
-##### Team training and Project start
+**Dr. Andrew Doxey** - Assistant Professor - Biology
 
-Tell us if your institution teaches an iGEM or synthetic biology class and when you started your project:
+## Wet Lab Support
 
-*   Does your institution teach an iGEM or synthetic biology course?
-*   When did you start this course?
-*   Are the syllabus and course materials freely available online?
-*   When did you start your brainstorming?
-*   When did you start in the lab?
-*   When did you start working on your project?
+**Alicia Dubinski** - Helped with yeast transformations, troubleshooting, and expertise on our experimental design
+
+**Patrick Diep** - 
+
+**Dr. Moira Glearum** - Provided expertise on yeast and troubleshooting different aspects of the project.
+
+**Dr. Todd Holyoak** - Provided expertise on creating biochemical scaffolds and potential directions of our project.
+
+**Dr. Michael Palmer** - Provided expetise on FRET and further analysis of data.
+
+**Dr. Elizabeth Meiering** - Use of Fluorimeter, expert opinion on the project.
+
+**Dr. Matt Scott** - Trained team members on flow cytometer
+
+**Dr. Brian Ingalls** - Allowed use of Flow Cytometer
+
+**Dr. Bernard Duncker** - Provided expertise on experimental and construct design
+
+## Administrative Help
+
+**Lucy Satora** - Provided help with finances for the iGEM team.
+
+**Jen Lehman** - Provided help with administrative and shipment for the team
+
+## Policy Support
+
+**Dr. John McLevey** - helped set up the IAT survey and obtain ethics approval for that aspect of the project
+
+**Interviews**
+
+* Dr. Todd Holyoak
+* Dr. Michael Palmer 
+* Dr. Moira Glerum
+
+** WiSTEM SYNBIO101 Panel: **
+
+* Jawad Khan, 
+* Bethany Bouchard, 
+* Krishna Patel, 
+* Dr. Elizabeth Meiering 
+
+**Heather Neufeld** - Allowed the iGEM team to participate in the Science Open House 2017.
+
+**Kim Boucher** - Invited Waterloo iGEM to create a workshop for SHAD Valley.
+
+
+## Wiki
+
+**Isaac Elmen** - Primary Member of the team responsible for management and creation of the 2017 Waterloo iGEM wiki.
+
+**Melissa Prickaerts** - Created and Designed the majority of the 2017 Waterloo iGEM graphics.
+
+
+## Conferences
+
+**Dr. Bogumil Karas** - invited the iGEM team to speak at the Western Symposium on Synthetic Biology at the University of Western Ontario
+
+**Dr. Trevor Charles** - invited the iGEM team to speak at the Canadian Society of Microbiology conference at the University of Waterloo
+
+**Dr. Jordan Thomson** - main contact at Ontario Genomics that helped organize the oGEM Meetup at the University of Waterloo
 

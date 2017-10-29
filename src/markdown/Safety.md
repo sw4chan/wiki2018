@@ -1,21 +1,31 @@
-Please visit [the main Safety page](http://2016.igem.org/Safety) to find this year's safety requirements & deadlines, and to learn about safe & responsible research in iGEM.
 
-On this page of your wiki, you should write about how you are addressing any safety issues in your project. The wiki is a place where you can **go beyond the questions on the safety forms**, and write about whatever safety topics are most interesting in your project. (You do not need to copy your safety forms onto this wiki page.)
 
-##### Safe Project Design
 
-Does your project include any safety features? Have you made certain decisions about the design to reduce risks? Write about them here! For example:
+## LABORATORY SAFETY GUIDELINES IN CANADA
+<br>
+In Canada, all practices involving biological materials is strictly regulated by The Public Health Agency of Canada as well as The Canadian Food Inspection Agency. More specifically, there are certain Workplace Health & Safety Regulations and Laboratory Biosafety Guidelines that must be strictly adhered to when conducting research in a laboratory setting.
+<br>
+<br>
 
-*   Choosing a non-pathogenic chassis
-*   Choosing parts that will not harm humans / animals / plants
-*   Substituting safer materials for dangerous materials in a proof-of-concept experiment
-*   Including an "induced lethality" or "kill-switch" device
+## LABORATORY SAFETY GUIDELINES AT THE UNIVERSITY OF WATERLOO
+<br>
+All laboratory practices operated within The University of Waterloo iGEM Team are regulated by The University of Waterloo’s Safety Office. Procedures regarding biological materials are based upon their assessment of risk. 
 
-##### Safe Lab Work
+In our lab, only *Biosafety Level I* microorganisms were ever used for experimentation, thereby posing minimal risk for the Lab & Design team members. Additionally, all laboratory work was carried out within a host laboratory under the direct guidance and supervision of Dr. Trevor Charles and affiliated associates.
 
-What safety procedures do you use every day in the lab? Did you perform any unusual experiments, or face any unusual safety issues? Write about them here!
+To prevent accidents and injuries within the laboratory, all Lab & Design team members were mandated to provide proof of successful completion of specific training modules pertaining to the following safety guidelines:
+* University of Waterloo Laboratory Safety Guidelines
+* University of Waterloo Biological Safety Guidelines
+* University of Waterloo Workplace Hazardous Materials Information System
+* University of Waterloo Material Safety Data Sheets
+* University of Waterloo Workplace Violence and Harassment
 
-##### Safe Shipment
+<br>
 
-Did you face any safety problems in sending your DNA parts to the Registry? How did you solve those problems?
+## PROJECT DESIGN
+
+<br>
+The majority of work performed within our laboratory utilized Biosafety Level I Escherichia coli, given its minimal risk of pathogenicity. Eventually, Saccharomyces cerevisiae was also used in many of our subsequent experiments, in which the completion of standard biosafety training was sufficient for its handling. Despite the absence of *Biosafety Level II pathogens*, all members of the Lab & Design Team successfully completed training modules pertaining to the handling of Level II pathogens, as a necessary precaution.
+     
+
 
