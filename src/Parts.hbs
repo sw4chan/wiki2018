@@ -1,5 +1,6 @@
+{{template templates.head mode}}	
 <html>
-{{template templates.head mode}}
+{{navigation mode "_parts" "parts"}}
 <style>
 h1{
   text-align: center;
@@ -73,9 +74,6 @@ p{color:#EFEFEF}
     height: 20vw;
 }
 </style>
-
-
-{{navigation mode "_parts" "parts"}}
 <div class="content">
 
 <div class="parts">
@@ -128,16 +126,9 @@ p{color:#EFEFEF}
  
   </div>
 </div>
-  
 </div>
-
-
-
-
 </div>
-
-{{template templates.footer mode}}
-
+<script src="https://unpkg.com/vue"></script>
 <script>
 var partsPage = new Vue({
   el: ".parts",
@@ -192,3 +183,4 @@ var partsPage = new Vue({
 
 </script>
 </html>
+{{template templates.footer mode}}
