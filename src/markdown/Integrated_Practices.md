@@ -1,4 +1,5 @@
-![ERROR](link to Waterloo iGEM logo)
+<center> ![ERROR]({{image "PNP Handbook iGEM Logo.png" "directlink" mode}}) </center>
+
 # <center> Introduction to Policy and Practices (PNP) </center>
 # <center> iGEM 2018 </center>
 
