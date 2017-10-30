@@ -77,7 +77,7 @@ PNP and the Lab Team work hand-in-hand. In every step of the project, teams shou
 
 Each subteam has their own aspect of the medal criteria that they focus on throughout the year. PNP focuses on (but is not strictly limited to) the following criteria:
 
-***Collaborations (silver):** Convince the judges you have significantly worked with any other registered iGEM team in a meaningful way. For example, mentor a team, characterize a part, troubleshoot a project, model/simulate a system or validate a software/hardware solution to a synbio problem, or be the recipient of any of these activities.*
+***Collaborations (silver):** Convince the judges you have significantly worked with any other registered iGEM team in a meaningful way. For example, mentor a team, characterize a part, troubleshoot a project, model/simulate a system or validate a software/hardware solution to a SynBio problem, or be the recipient of any of these activities.*
 
 
 ***Human Practices (silver):** Convince the judges you have thought carefully and creatively about whether your work is safe, responsible, and good for the world. You could accomplish this through engaging with your local, national and/or international communities or other approaches. (Exceptional outreach and education work is recognized by the Education & Public Engagement Special Award)*
