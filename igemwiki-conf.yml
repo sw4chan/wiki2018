@@ -7,5 +7,3 @@ scripts:
 pages:
     - ./build-live/*.html
     - ./build-live/index.html:INDEX
-images:
-    - ./images/*.{png,jpg}
