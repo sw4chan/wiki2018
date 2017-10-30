@@ -82,30 +82,6 @@
   </div>
 
 <div class="parts">
-<div class="plasmid-group">
-  <h2>Vectors</h2>
-  <br>
-  <br>
-  <button v-on:click="show=1" class="plasmid plasmid1" >
-    PSB1C3
-  </button>
-  <button v-on:click="show=2" class="plasmid plasmid2">
-    PXP218
-  </button>
-   <button v-on:click="show=3"class="plasmid plasmid3" href="216">
-   PXP216
-  </button>
-  </div>
-
-<div v-for="plasmid in plasmids" v-if="plasmid.id == show">
-<h2>^^plasmid.title$$</h2>
-<div class="col-md-8 col-md-offset-2">
-      <br>
-      <br>
-      <p>^^plasmid.text$$</p>
-    </div>
-
-</div>
 
   <h2>Parts</h2>
   
@@ -135,6 +111,34 @@
  
   </div>
 </div>
+
+
+
+<div class="plasmid-group">
+  <h2>Vectors</h2>
+  <br>
+  <br>
+  <button v-on:click="show=1" class="plasmid plasmid1" >
+    PSB1C3
+  </button>
+  <button v-on:click="show=2" class="plasmid plasmid2">
+    PXP218
+  </button>
+   <button v-on:click="show=3"class="plasmid plasmid3" href="216">
+   PXP216
+  </button>
+  </div>
+
+<div v-for="plasmid in plasmids" v-if="plasmid.id == show">
+<h2>^^plasmid.title$$</h2>
+<div class="col-md-8 col-md-offset-2">
+      <br>
+      <br>
+      <p>^^plasmid.text$$</p>
+    </div>
+
+</div>
+
 </div>
 </div>
 <script src="https://unpkg.com/vue"></script>
@@ -153,12 +157,12 @@ var partsPage = new Vue({
       {
         id: 2,
         title: "pXP218 (6226 bp)",
-        text: "pXP218 is a modified pUC18 plasmid backbone used as a shuttle vector for yeast expression (Fang et al., 2011). It carries pBR322 and 2origins of replication as well as ampicillin resistance and URA3 nutrient-deficiency for both E. coli and S. cerevisiae expression (Fang et al., 2011). For our experiments, it was cut using the SpeI and SphI restriction sites, but it has a varied multiple cloning site."
+        text: "pXP218 is a modified pUC18 plasmid backbone used as a shuttle vector for yeast expression (Fang et al., 2011). It carries pBR322 and 2µ origins of replication as well as ampicillin resistance and URA3 nutrient-deficiency for both E. coli and S. cerevisiae expression (Fang et al., 2011). For our experiments, it was cut using the SpeI and SphI restriction sites, but it has a varied multiple cloning site."
       },
       {
         id: 3,
         title: "pXP216 (6115 bp)",
-        text: "pXP216 is a modified pUC18 plasmid backbone used as a shuttle vector for yeast expression (Fang et al., 2011). It carries pBR322 and 2 origins of replication as well as ampicillin resistance and TRP1 nutrient-deficiency for both E. coli and S. cerevisiae expression (Fang et al., 2011). For our experiments, it was cut using the SpeI and SphI restriction sites, but it has a varied multiple cloning site."
+        text: "pXP216 is a modified pUC18 plasmid backbone used as a shuttle vector for yeast expression (Fang et al., 2011). It carries pBR322 and 2µ origins of replication as well as ampicillin resistance and TRP1 nutrient-deficiency for both E. coli and S. cerevisiae expression (Fang et al., 2011). For our experiments, it was cut using the SpeI and SphI restriction sites, but it has a varied multiple cloning site."
       },
     ],
     psb1c3: {

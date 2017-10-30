@@ -13,6 +13,10 @@ After the projects components were detailed, the team executed the project which
 
 The Waterloo iGEM Lab and Design team was trained by the two lab leads, Max Reed and Cody Receno. Additional lab training was provided for use on special equipment and is listed below.
 
+## Co-op Student
+
+**Jamie Lam** was the Waterloo iGEM 2017 co-op student. He was a full time member in our lab and provided valuable help to the wet lab team.
+
 ## Advisors
 
 The Waterloo iGEM team has 6 main advisors from different disciplines. The advisors provided us with immense feedback for the creation and design for our project, administrative help, and knowledge that helped allow us to pursue the 2017 iGEM project.
@@ -51,6 +55,10 @@ The Waterloo iGEM team has 6 main advisors from different disciplines. The advis
 
 **Dr. Bernard Duncker** - Provided expertise on experimental and construct design
 
+**Dr. Mungo Marsden** - Let us borrow a Restriction Enzyme when we were in dire need.
+
+**Dr. Bruce Reed** - Provided expertise and knowledge for the project.
+
 ## Administrative Help
 
 **Lucy Satora** - Provided help with finances for the iGEM team.
@@ -81,7 +89,7 @@ The Waterloo iGEM team has 6 main advisors from different disciplines. The advis
 
 ## Wiki
 
-**Isaac Elmen** - Primary Member of the team responsible for management and creation of the 2017 Waterloo iGEM wiki.
+**Isaac Ellmen** - Primary Member of the team responsible for management and creation of the 2017 Waterloo iGEM wiki.
 
 **Melissa Prickaerts** - Created and Designed the majority of the 2017 Waterloo iGEM graphics.
 
