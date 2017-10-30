@@ -9,6 +9,10 @@ Our team, which consisted of 33 people from different backgrounds and majors was
 
 After the projects components were detailed, the team executed the project which consisted of experimental designs, creation of mathematical models, public engagement events, and research into human practices. The project was developed independently by the 2017 Waterloo iGEM team.
 
+## Training
+
+The Waterloo iGEM Lab and Design team was trained by the two lab leads, Max Reed and Cody Receno. Additional lab training was provided for use on special equipment and is listed below.
+
 ## Advisors
 
 The Waterloo iGEM team has 6 main advisors from different disciplines. The advisors provided us with immense feedback for the creation and design for our project, administrative help, and knowledge that helped allow us to pursue the 2017 iGEM project.

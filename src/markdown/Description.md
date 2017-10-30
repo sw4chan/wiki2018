@@ -25,15 +25,23 @@ It has been theorized, as well as demonstrated, that fusing the prion domain to 
 This year's project revolves around the central theory that an increase in function or activity of a protein will be observed should a prion domain be attached to the polypeptide chain.  To show that this is possible as a proof of principle we are going to be showing this in two ways:
 
 1. Fusing  the Sup35 prion domain to each half of a split fluorescent protein, then expressing them in yeast.  Once prion induction occurs, we expect the proteins to aggregate, bringing the two halves of the split fluorescent protein into close proximity and recovering fluorescence. If we attach the same prion domain to two proteins that normally interact, there is a good chance that we can increase their interaction by inducing aggregation.
-
-
 2. Similarly, the Sup35 prion domain is fused to CFP and YFP, both of which confer fluorescence at their respective wavelengths.  However, when brought within close proximity, the fluorescence emitted from CFP excites YFP due to an overlap in excitation and emission spectra.  Therefore, depending the type of fluorescence observed, we are able to determine the relative proximity of the two fluorescent proteins, which translates into how well prion domains will aggregate together. As mentioned earlier, proximity of two proteins is usually sufficient to increase interaction.
 
 
 
 ## References
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056934/
-http://www.sciencedirect.com/science/article/pii/S0092867403010201?via%3Dihub
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC305569/
-http://www.jbc.org/content/274/3/1181.full.html
 
+Liebman, S. W., & Derkatch, I. L. (1999). The Yeast [PSI+] Prion: Making Sense of Nonsense. *The Journal of Biological Chemistry,274*(3), 1181-1184. doi:10.1074/jbc.274.3.1181 (edited)
+
+
+[9:30] 
+Kushnirov, V. V., Kochneva-Pervukhova, N. V., Chechenova, M. B., Frolova, N. S., & Ter-Avanesyan, M. D. (2000). Prion properties of the Sup35 protein of yeast Pichia methanolica. *EMBO J,19*(3), 324-331. doi:10.1093/emboj/19.3.324
+
+
+new messages
+[9:31] 
+Si, K., Lindquist, S., & Kandel, E. R. (2003). A Neuronal Isoform of the Aplysia CPEB Has Prion-Like Properties. *Cell,115*(7), 879-891. doi:10.1016/S0092-8674(03)01020-1
+
+
+[9:32] 
+Soto, C. (2011). Prion Hypothesis: The end of the Controversy? *Trends Biochem Sci,36*(3), 151-158. doi:10.1016/j.tibs.2010.11.001
