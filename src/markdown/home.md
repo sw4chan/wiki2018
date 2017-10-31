@@ -1,4 +1,4 @@
-<div class="landing" style="position: relative; height: 100%">
+<div class="landing" style="position: relative; height: 100vh">
   <div class="brand">
   <img class="" src="{{image "Prions be Lit V2.png" "directlink" mode}}"/>
   <h1>Functional Amyloid as a Biological Tool</h1>
