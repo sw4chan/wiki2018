@@ -199,9 +199,9 @@ Welcome to the team, and we look forward to working with you!
 
 
 
-## Applications of Prion Project 
+## Applications of Prion Project
 
-The Waterloo iGEM 2017 project is a proof of concept for a system that has an application in increasing the speed of enzymatic reactions in bulk industrial reactors. This highlighted application is in the spotlight as the most practical, useful and feasible application possible based on this project. 
+The Waterloo iGEM 2017 project is a proof of concept for a system that has an application in increasing the speed of enzymatic reactions in bulk industrial reactors. This highlighted application is in the spotlight as the most practical, useful and feasible application possible based on this project.
 
 In enzymatic pathways, the product of one enzyme must be passed onto the next enzyme in the pathway. In cells, related enzymes are often close to each other and so this is not a concern. However, if performing such a reaction in vitro the proteins would on average be much further apart due to their paths following random walks. This slows the speed of the reaction.
 
@@ -217,7 +217,7 @@ Another potential solution is using an engineered scaffold protein to latch onto
 
 In summary, our solution is feasible, and due to its versatility and the reusability is better than existing solutions. One specific example of a way this system could be used would be in conjunction with Guelph iGEM’s 2017 project; the project is based on a pair of enzymes that can be used to remove calcium oxalate from brewing containers. Because the enzymes work together, bringing them onto the same aggregate may help them work together and speed up the removal process.
 
-There are more secondary applications that have been brainstormed based on consultations and interviews from experts we have contacted as well as other research papers read thoroughly. These have been formated showing each application’s general concept, how the application is used, the benefits and restrictions respectively. 
+There are more secondary applications that have been brainstormed based on consultations and interviews from experts we have contacted as well as other research papers read thoroughly. These have been formated showing each application’s general concept, how the application is used, the benefits and restrictions respectively.
 
 ### Vaccine Preparation
 
@@ -231,7 +231,7 @@ This can allow for a slow release of the vaccine being degraded at a slower and 
 Such a therapeutic could then be licensed off to larger biopharmaceutical firms with enough capital to sustain and develop a large enough commercial market to make a global difference in the innovative studies of vaccine preparation. But why is this therapeutic important? Sustained degradation of vaccines furthermore leads to fewer vaccine administration dosages. This means less cost for pharmaceutical firms to develop, and also gives a lower cost to the patient as well consuming fewer dosages.
 
 #### Restrictions
-Vaccine preparation and administration is already quite established within the biopharmaceutical market with minimal doses already given for many vaccines. Such innovation will be only given in niche vaccine drug deliveries based on the the restrictive properties of each pathogen coated with its respective prion-like proteins. 
+Vaccine preparation and administration is already quite established within the biopharmaceutical market with minimal doses already given for many vaccines. Such innovation will be only given in niche vaccine drug deliveries based on the the restrictive properties of each pathogen coated with its respective prion-like proteins.
 
 #### References
 Fox, C. B. (2009). Squalene emulsions for parenteral vaccine and drug delivery. Molecules, 14(9), 3286-3312.
@@ -246,7 +246,7 @@ With the recent rise of antibiotic superbugs, alternative approaches to eliminat
 With Waterloo 2017 iGEM team’s project, the fusion of prion domain with AMP can be achieved to effectively increase its aggregation in vivo. As a result, the efficiency of AMP activity will be magnified, which would improve its function as a bactericidal agent.  
 
 #### Restrictions
-The mechanism of AMP remains a relative mystery to us, which would hinder our progress in designing this method. Additionally, S. aureus is seemingly resistance against AMP due to possession negatively charged lipid in its membrane. 
+The mechanism of AMP remains a relative mystery to us, which would hinder our progress in designing this method. Additionally, S. aureus is seemingly resistance against AMP due to possession negatively charged lipid in its membrane.
 
 #### References
 Protein aggregation as an antibiotic design strategy. (2015). Molecular Microbiology, 99(5), 849–865. Retrieved from http://onlinelibrary.wiley.com/doi/10.1111/mmi.13269/full
@@ -255,7 +255,7 @@ ____________________________________________________________________________
 ### Nanosensors Application
 
 #### General Concept
-We could take our prion aggregate and use it as a nanoparticle. By equipping the aggregate with antibodies for a specific protein, we can use it to identify the presence of the target protein to various concentrations as well (a separate test done afterwards). 
+We could take our prion aggregate and use it as a nanoparticle. By equipping the aggregate with antibodies for a specific protein, we can use it to identify the presence of the target protein to various concentrations as well (a separate test done afterwards).
 
 #### Application
 The whole concept of nanosensors is fascinating itself because it reduces the amount of time needed to identify the presence of bacteria such as E. Coli. This is also perfect for using in labs to enhance identification speed.
@@ -286,15 +286,15 @@ The potential use of prion domains instead of ELK16 could further reduce the cos
 This could be achieved by inducing the prion domains into their normal state, and using expressed protein ligation to attach new target proteins to the N-termini of the inteins.
 
 #### Restrictions**
-The question that must be asked is whether the reduction of costs gained in the reuse of the intein-aggregation domain will offset the increase in cost associated with protein ligation. It essentially boils down to what would be more expensive, the act of producing new fusion proteins, or the act of de-aggregating and reusing your existing fusion proteins. 
- 
+The question that must be asked is whether the reduction of costs gained in the reuse of the intein-aggregation domain will offset the increase in cost associated with protein ligation. It essentially boils down to what would be more expensive, the act of producing new fusion proteins, or the act of de-aggregating and reusing your existing fusion proteins.
+
 #### References
 [1] Zhao, Q., Xu, W., Xing, L., & Lin, Z. (2016). Recombinant production of medium- to large-sized peptides in Escherichia coli using a cleavable self-aggregating tag. Microbial Cell Factories, 15, 136. http://doi.org/10.1186/s12934-016-0534-3
 ____________________________________________________________________________
 
 ### Targeted Apoptosis Application
 
-#### General Concept 
+#### General Concept
 The misfolding of proteins leads to the formation of prions, aggregates of misfolded proteins that crowd within a cell, up to the point where the cell undergoes apoptosis (cell death) due to overcrowding. While prions do cause diseases in humans and other animals, and are rightly considered dangerous, there are some circumstances for which overcrowding is a desired feature of a treatment system.
 
 The general idea is to take advantage of the “natural apoptotic process of prokaryotes” which was coined as “proapoptosis” by researcher Alaya Hochman in 1997. In summary, the paper claims that the execution of proapoptosis requires the activation of a developmental program that results in massive structural and morphological changes. These changes may include cell shrinkage, chromatin condensation, and proteolysis and DNA degradation, followed by cell fragmentation into apoptotic bodies that are phagocytized, just like eukaryotes in the standard apoptotic process. Bacteria currently exhibit a range of natural developmental programs for survival purposes. For example, *Caulobacter cereus* forms swarmer cells and differentiation in order to adapt to its stressful environment. If we are interested in activating a developmental program instead of using a targeted payload system as described above, we would need to formulate a system that is possible to be activated by the bacterium itself, and this would possibly involve similar chemical pathways. It would be of interest at this point to investigate the possible chemical pathways that our prion-like proteins can take, and this would be a good first step in the design process.
@@ -335,11 +335,27 @@ Mannose’s fermentation process is already slower than glucose’s; will our pr
 #### References
 Lin, Y., Tanaka, S. (December, 2005). Ethanol fermentation from biomass resources: current state and prospects. Applied Microbiology and Biotechnology. (2006) 69: 627. https://doi.org/10.1007/s00253-005-0229-x
 
-Peterson, W.H., Fred, E.B., Anderson, J.A. (April, 1920) The Fermentation of Glucose, Galactose, and Mannose by Lacrobacillus pentoaceticus, N. SP.*. J. Biol. Chem. 1920, 42:273-287. No doi. Retrieved from http://www.jbc.org/content/42/2/273.full.pdf 
+Peterson, W.H., Fred, E.B., Anderson, J.A. (April, 1920) The Fermentation of Glucose, Galactose, and Mannose by Lacrobacillus pentoaceticus, N. SP.*. J. Biol. Chem. 1920, 42:273-287. No doi. Retrieved from http://www.jbc.org/content/42/2/273.full.pdf
 
+<div id = “snake35”>
 
+## Snake35
 
+### What is Snake35?
 
+This year, iGEM Waterloo has chosen a foundational advance project. These types of projects focus on the technology and processes involved in synthetic biology, which are not very well-known to the general public. In contrast to other types of projects, foundational advance projects do not usually focus on a single application, such as curing a disease. Furthermore, they tend to have less popular buzzwords for the general public. As such, it can be difficult to explain the idea and purpose of our foundational advance project to the general public.  
+After consulting iGEM Imperial 2016’s [_Visualization: A Guide for Synthetic Biologists_](http://2016.igem.org/Team:Imperial_College/Integrated_Practices), we decided a great way to convey the information from our project would be to create a visual, interactive game! We’ve called it Snake35.
 
+### Instructions
 
+What makes Snake35 different than classic Snake? Well for starters, your objective is no longer just to make the biggest, baddest snake of all time. Our point-based version requires you to match a CFP block next to a YFP block in order to excite it. For every YFP in the excited, fluorescing state, you receive a point. However, if you have a YFP that isn’t beside CFP, it stays dark (deactivated) and you don’t receive a point. Get the highest score and give yourself a pat on the back!  
+In our game, you must assemble a blue block next to a dim yellow block in order to score points. The result of successfully doing so causes the yellow block to fluoresce which is analogous to our FRET experiment. This game demonstrates how you must organize the proteins in a specific arrangement to observe fluorescence of YFP. However, if you have a Sup35 in between a YFP and a CFP, the YFP will not fluoresce as the arrangement is not correct.
 
+!ERROR[]({{image "Unexcited.png" "directlink" mode}})
+
+![ERROR]({{image "Excited.png" "directlink" mode}})
+
+### Testing Snake35
+
+During the Waterloo Faculty of Science Open House, our booth had a table where we displayed and presented Snake35. Kids got the chance to play the game and learn about the foundational concepts of FRET. Our game received lots of positive feedback from kids and parents alike which proves that our demonstration tool was very effective in conveying the information we wanted!
+</div>
