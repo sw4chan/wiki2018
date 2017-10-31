@@ -1,31 +1,10 @@
-### ★ ALERT!
-
-This page is used by the judges to evaluate your team for the [Best Model award](http://2016.igem.org/Judging/Awards#SpecialPrizes).
-
-Delete this box in order to be evaluated for this medal. See more information at [Instructions for Pages for awards](http://2016.igem.org/Judging/Pages_for_Awards/Instructions).
-
-## Modeling
-
-Mathematical models and computer simulations provide a great way to describe the function and operation of BioBrick Parts and Devices. Synthetic Biology is an engineering discipline, and part of engineering is simulation and modeling to determine the behavior of your design before you build it. Designing and simulating can be iterated many times in a computer before moving to the lab. This award is for teams who build a model of their system and use it to inform system design or simulate expected behavior in conjunction with experiments in the wetlab.
-
-##### Inspiration
-
-Here are a few examples from previous teams:
-
-*   [ETH Zurich 2014](http://2014.igem.org/Team:ETH_Zurich/modeling/overview)
-*   [Waterloo 2014](http://2014.igem.org/Team:Waterloo/Math_Book)
-
-# MATH!
-
-blah, blah, blah
-
-This is a CI test *fingers crossed*
-
-*hey whoa*
-
-* blah
-* blah
-* blah
+# Math
 
 $$x = \begin{bmatrix}a & \dots & b\\\ \vdots & \ddots & \vdots\\\c & \dots & d\\end{bmatrix}$$
+
+An important property to understand in the implementation of our project is the upper bound for the efficiency of a given system.
+
+There are two parts to this problem. First, we look at how aggregates are likely to form in time. Second, we examine how the ordering of proteins within an aggregate affects the overall efficiency of the system, and determine the expected value of this efficiency assuming the proteins join the aggregate at random.
+
+Calculating these values allowed us to prioritize which experiments to devote lab resources to and gave us a better understanding of the systems we were studying. Additionally, similar techniques may be applied to judge the efficiency of new applications of our project. 
 
