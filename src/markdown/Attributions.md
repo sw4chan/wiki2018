@@ -39,7 +39,9 @@ The Waterloo iGEM team has 6 main advisors from different disciplines. The advis
 
 **Alicia Dubinski** - Helped with yeast transformations, troubleshooting, and expertise on our experimental design
 
-**Patrick Diep** - 
+**Patrick Diep** - Helped with project decision, troubleshooting
+
+**Samuel Pop** - Designed the team's logo, helped with project decision, troubleshooting and training.
 
 **Dr. Moira Glearum** - Provided expertise on yeast and troubleshooting different aspects of the project.
 
