@@ -1,8 +1,9 @@
-<img class="brand" src="{{image "Prions be Lit V2.png" "directlink" mode}}" />
-
-# Functional Amyloid as a Biological Tool
-
----
+<div class="landing" style="position: relative; height: 100%">
+  <div class="brand">
+  <img class="" src="{{image "Prions be Lit V2.png" "directlink" mode}}"/>
+  <h1>Functional Amyloid as a Biological Tool</h1>
+  </div>
+</div>
 
 <svg class="infoGraphic" viewBox="0 0 1086 1130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->

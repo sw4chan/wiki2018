@@ -283,6 +283,13 @@ img {
     }
 
     .content-main .brand {
+	position: absolute;
+	height: fit-content;
+	top: 0;
+	bottom: 112px;
+	left: 0;
+	right: 0;
+	margin: auto;
     	width: 80%;
 	max-width: 900px;
     }
