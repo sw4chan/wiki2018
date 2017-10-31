@@ -34,3 +34,21 @@ Finally, we let participants take a crack at our Snake35 game (for more info see
 
 <center>![Every craft for microbes]({{image "Every craft for microbes.png" "directlink" mode}})</center>
 
+### **Social Media: A crucial initiative to drive public recognition for synthetic biology**
+
+**Background**
+
+During the course of summer, the Waterloo iGEM 2017 was represented by Melissa Prickaerts at the Biotech Bootcamp. One key takeaway from the Biotech Bootcamp highlighted social media as an important factor in sparking interest and curiosity for synthetic biology. In 2017, Pew Research Center in Washington D.C. reported that 67% of adults in America uses social media as their main source of news. While the advent of fake news controversies raised skepticism regarding the credibility of social media, this platform is undeniably influential over public’s perception. If used responsibly, social media can be an important tool to move public recognition in synthetic biology forward. 
+
+**Action** 
+
+Throughout the course of this season, the Waterloo iGEM 2017 team has actively involve social media in its activities for policy and practice. The main actions taken were: 
+* Update posts on our Twitter account and Instagram account to increase the number of followers 
+* Present the concept of social media’s role in synthetic biology for SHAD Valley 
+* Distribute our IAT survey through social media to see how people react to synthetic biology online. 
+
+**Result** 
+
+This section will only discuss the results obtained from our operation of our social media account, as the outcomes of SHAD Valley and IAT is performed separately. Through Twitter, we were able to generate thousands of impressions and gained 77 new followers from June 2017 to October 2017. One noticeable trend was that content originally created by us such as photos and videos tend to gain more engagement more than retweets. 
+
+As a result, we brought our attention to our instagram page and achieved phenomenal results. Instagram is the ideal social media website for sharing authentic content, as it does not promote reposting content like Twitter does. Therefore, we use Instagram to share photos of our activities throughout this season. This help us to connect with the community by sharing day-to-day moments we experienced from being in the lab and going outside to interview professors. Over the course of the few months, we achieved over 200 followers, which showed that social media provide a great platform to connect with people. 
