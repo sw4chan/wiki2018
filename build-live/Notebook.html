@@ -100,34 +100,39 @@ Notebook
 <div>
 <br>
 <br>
-        <div id="cal-heatmap"></div>
+  <div id="cal-heatmap"></div>
 
-        <p style="text-align:center;">Click on a day to view the
-        work.</p><script type="text/javascript">
-	var month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-        var cal = new CalHeatMap();
-        cal.init({
-                start: new Date(2016, 4),
-            data:days,
-            dataType: "json",
-            domain : "month",
-            subDomain : "day",
-            range : 6,
-            cellSize: 24,
-                subDomainTextFormat: "%d",
-                displayLegend: false,
-                onClick: function(date, nb) {
-                $("#onClick-placeholder").html(date.toDateString());
-                var message = ""
-                var key = month[date.getMonth()]+(date.getDate())
-                if (key in notes){
-                $.each(notes[key], function( index, value ) {
-                        message += "<li>"+value+"<\/li>";
-                });}
-                $("#notes-table").html(message);
-        }
-        });
-        </script>
+    <p style="text-align:center;">Click on a day to view the work.</p>
+    <script type="text/javascript">
+      var month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      var cal = new CalHeatMap();
+      cal.init({
+              start: new Date(2017, 4),
+          data:days,
+          dataType: "json",
+          domain : "month",
+          subDomain : "day",
+          range : 6,
+          cellSize: 24,
+              subDomainTextFormat: "%d",
+              displayLegend: false,
+              onClick: function(date, nb) {
+              $("#onClick-placeholder").html(date.toDateString());
+              var message = ""
+              var key = month[date.getMonth()]+(date.getDate())
+              if (key in notes){
+              $.each(notes[key], function( index, value ) {
+                      message += "<li>"+value+"<\/li>";
+              });}
+              $("#notes-table").html(message);
+      }
+      });
+    </script>
+</div>
+
+<div class="content-main">
+  <h2 id="onClick-placeholder"></h2>
+  <ul id="notes-table"></ul>
 </div>
 
 </div>
