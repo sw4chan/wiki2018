@@ -128,10 +128,9 @@ The current iGEM rubric contains four aspects for evaluating Education & Public 
 Example Projects:
 * Waterloo iGEM 2015 gave weekly sessions to children at ESQ (Engineering Science Quest), a children’s camp on the Waterloo campus.
 * Waterloo iGEM runs a synthetic biology workshop for top high school students attending SHAD Valley in Waterloo. In this workshop, we introduced concepts within synthetic biology, conducted lab experiments, and discussed social aspects of science in general. Our curriculum is available in the 2017 PNP Google Drive and (hopefully) on the wiki too
+* Waterloo iGEM maintains several social media platforms including Facebook, Instagram, Twitter, Youtube, and a team webpage
 
 <center> ![ERROR]({{image "PNP Handbook iGEM SHAD.png" "directlink" mode}}) </center>
-
-* Waterloo iGEM maintains several social media platforms including Facebook, Instagram, Twitter, Youtube, and a team webpage
 
 <div style="display: flex: max-width: 10px">
 
