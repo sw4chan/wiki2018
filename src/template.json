@@ -96,6 +96,9 @@
         "software": "Software",
         "measurement": "Measurement",
         "model": "Model",
+        "bifc": "BiFC",
+        "des": "DEs",
+        "fret": "FRET",
         "modeling": "Modeling"
     }
 }

@@ -291,6 +291,14 @@ img {
     }
 
     .content-main .brand {
+	position: absolute;
+	height: fit-content;
+	max-height: 400px;
+	top: -56px;
+	bottom: 112px;
+	left: 0;
+	right: 0;
+	margin: auto;
     	width: 80%;
 	max-width: 900px;
     }
@@ -324,6 +332,10 @@ img {
         // padding: 5px;
         width: 50%;
 	}
+}
+
+table {
+    color: white !important;
 }
 
 #game {
