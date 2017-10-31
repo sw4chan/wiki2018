@@ -10,6 +10,9 @@
 {{Waterloo/head}}
 <html>
 
+<script type="text/javascript" src="http://2016.igem.org/Template:Waterloo/d3?action=raw&amp;ctype=text/javascript"></script>
+  <script type="text/javascript" src="http://2016.igem.org/Template:Waterloo/cal-heatmap?action=raw&amp;ctype=text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="http://2016.igem.org/wiki/index.php?title=Template:Waterloo/CSS/cal-heatmap&action=raw&ctype=text/css">
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top"><a class="navbar-brand" href="http://2017.igem.org/Team:Waterloo">Waterloo</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button><div class="collapse navbar-collapse" id="navbarCollapse"><ul class="navbar-nav mr-auto">
@@ -87,23 +90,46 @@ Notebook
 <div class="squiggle squiggleBackward col-xs-4"></div>
 </div>
 </div>
-<div class="row"><div class="col"><div class="content-main"><p>Document the dates you worked on your project.</p>
-<h5 id="what-should-this-page-have-">What should this page have?</h5>
-<ul>
-<li>Chronological notes of what your team is doing.</li>
-<li>Brief descriptions of daily important events.</li>
-<li>Pictures of your progress.</li>
-<li>Mention who participated in what task.</li>
-</ul>
-<h5 id="inspiration">Inspiration</h5>
-<p>You can see what others teams have done to organize their notes:</p>
-<ul>
-<li><a href="http://2014.igem.org/Team:ATOMS-Turkiye/Notebook">2014 ATOMS-Turkiye</a></li>
-<li><a href="http://2014.igem.org/Team:Tec-Monterrey/ITESM14_project.html#tab_notebook">2014 Tec Monterrey</a></li>
-<li><a href="http://2014.igem.org/Team:Kyoto/Notebook/Magnetosome_Formation#title">2014 Kyoto</a></li>
-<li><a href="http://2014.igem.org/Team:Cornell/notebook">2014 Cornell</a></li>
-</ul>
-</div></div></div>
+
+
+<script type="text/javascript" src="http://2017.igem.org/Team:Waterloo/notebook_tasks?action=raw&amp;ctype=text/javascript">
+</script>
+ <script type="text/javascript" src="http://2017.igem.org/Team:Waterloo/days?action=raw&amp;ctype=text/javascript">
+ </script>
+
+<div>
+<br>
+<br>
+        <div id="cal-heatmap"></div>
+
+        <p style="text-align:center;">Click on a day to view the
+        work.</p><script type="text/javascript">
+	var month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var cal = new CalHeatMap();
+        cal.init({
+                start: new Date(2016, 4),
+            data:days,
+            dataType: "json",
+            domain : "month",
+            subDomain : "day",
+            range : 6,
+            cellSize: 24,
+                subDomainTextFormat: "%d",
+                displayLegend: false,
+                onClick: function(date, nb) {
+                $("#onClick-placeholder").html(date.toDateString());
+                var message = ""
+                var key = month[date.getMonth()]+(date.getDate())
+                if (key in notes){
+                $.each(notes[key], function( index, value ) {
+                        message += "<li>"+value+"<\/li>";
+                });}
+                $("#notes-table").html(message);
+        }
+        });
+        </script>
+</div>
+
 </div>
 </html>
 {{Waterloo/footer}}
