@@ -27,7 +27,7 @@ The prion domain, derived from Sup35 of *S.cerevisiae*, was employed in the desi
 
 ## Bimolecular Fluorescence Complementation (BiFC)
 
-BiFC is employed as a means to visualize protein interactions within live yeast cells. The method is based upon the principle that fragments of a fluorescent protein do not have the ability to fluoresce without interacting with one another in the form of a complex (Kerppola, 2008). In applying this principle to our project, the objective was to utilize the prion domain as a tool to give rise to functional proteins. The interaction of the N-terminal of YFP fused with PrD ([PrD-nYFP](http://parts.igem.org/Part:BBa_K2475001)) and the C-terminal of YFP fused with PrD ([PrD-cYFP](http://parts.igem.org/Part:BBa_K2475003) ) is expected to result in the emission of fluorescence when both split proteins come into close proximity in an aggregate.
+BiFC is employed as a means to visualize protein interactions within live yeast cells. The method is based upon the principle that fragments of a fluorescent protein do not have the ability to fluoresce without interacting with one another in the form of a complex (Kerppola, 2008). In applying this principle to our project, the objective was to utilize the prion domain as a tool to give rise to functional proteins. The interaction of the N-terminal of YFP fused with PrD ([BBa_K2475003](http://parts.igem.org/Part:BBa_K2475003)) and the C-terminal of YFP fused with PrD ([BBa_K2475004](http://parts.igem.org/Part:BBa_K2475004) ) is expected to result in the emission of fluorescence when both split proteins come into close proximity in an aggregate.
 
 ![BiFC on the prion domain](https://i.imgur.com/UqSSFAX.jpg)
 
