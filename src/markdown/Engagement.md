@@ -67,7 +67,7 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 
 ## **Additional Resources**
 
-<object width="400" height="400" data="{{image "SHADiGEMBrochure.pdf" "directlink" mode}}"></object>
+<center> <object width="800" height="600" data="{{image "SHADiGEMBrochure.pdf" "directlink" mode}}"></object> </center>
 
 ____________________________________________________________________________
 
@@ -161,9 +161,9 @@ Drawing on the success of the [SHAD Valley](https://www.shad.ca/) workshop, the 
 
 ### Additional Resources
 
-<object width="800" height="600" data="{{image "WiSTEMiGEMBrochure.pdf" "directlink" mode}}"></object>
+<center> <object width="800" height="600" data="{{image "WiSTEMiGEMBrochure.pdf" "directlink" mode}}"></object> </center>c
 
-![ERROR]({{image "Poster.jpg" "directlink" mode}})
+<center> ![ERROR]({{image "Poster.jpg" "directlink" mode}}) </center>
 
 ### References
 
