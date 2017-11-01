@@ -8,8 +8,7 @@ Each team member was asked to score different qualities of the project (novelty,
 
 Below we have included our general guide template with the justification for our choices in criteria, as well as our team’s evaluation of all the projects we pitched. This evaluation resulting in our team’s selection of this year’s project, the functional prion project now called: Prions be Lit - Functional Amyloid as a Biological Tool.
 
-
-
+____________________________________________________________________________
 
 ### **Project Selection Guide** ###
 
