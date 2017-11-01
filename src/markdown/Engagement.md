@@ -128,6 +128,12 @@ Drawing on the success of the [SHAD Valley](https://www.shad.ca/) workshop, the 
 
 > “I loved the experiment that the iGEM team chose to run, I had never imagined I would be editing a bacterial genome within the first few weeks of starting university. I had always wanted to do it and it was surprisingly not too complicated.” - Anonymous student
 
+### Additional Resources
+
+<object width="400" height="400" data="WiSTEMiGEMBrochure.pdf"></object>
+
+![ERROR]({{image "Poster.jpg" "directlink" mode}})
+
 ### References
 
 _Beede et al. (2011)._ U.S. Department of Commerce: Economics and Statistics Administration (ESA). #4-11, 1-4. Retrieved 30 Oct. 2017, from http://www.esa.doc.gov/sites/default/files/womeninstemagaptoinnovation8311.pdf.
