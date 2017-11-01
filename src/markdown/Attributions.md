@@ -71,18 +71,18 @@ The Waterloo iGEM team has 6 main advisors from different disciplines. The advis
 
 **Dr. John McLevey** - helped set up the IAT survey and obtain ethics approval for that aspect of the project
 
-**Interviews**
+### **Interviews**
 
 * Dr. Todd Holyoak
 * Dr. Michael Palmer 
 * Dr. Moira Glerum
 
-** WiSTEM SYNBIO101 Panel: **
+### ** WiSTEM SYNBIO101 Panel: **
 
-* Jawad Khan, 
-* Bethany Bouchard, 
-* Krishna Patel, 
-* Dr. Elizabeth Meiering 
+- Jawad Khan, 
+- Bethany Bouchard, 
+- Krishna Patel, 
+- Dr. Elizabeth Meiering 
 
 **Heather Neufeld** - Allowed the iGEM team to participate in the Science Open House 2017.
 
