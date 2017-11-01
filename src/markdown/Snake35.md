@@ -13,10 +13,10 @@ In our game, you must assemble a blue block next to a dim yellow block in order 
 <div class="row">
 	
 <div class="col-md-6">
-	<center>![ERROR]({{image "Unexcited.png" "directlink" mode}}) </center>
+	![ERROR]({{image "Unexcited.png" "directlink" mode}}) 
 </div>	  
 <div class="col-md-6">
-	<center>![ERROR]({{image "Excited.png" "directlink" mode}})</center>
+	![ERROR]({{image "Excited.png" "directlink" mode}})
 </div>
 </div>
 
