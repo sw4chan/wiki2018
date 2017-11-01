@@ -76,10 +76,24 @@
 </ul>
 </div></nav>
 <div class="content">
-<div class="row"><div class="col"><div class="content-main"><center> <img src="http://2017.igem.org/wiki/images/6/6c/T--Waterloo--2017_PNP_Handbook_iGEM_Logo.png" alt="ERROR"> </center>
+  <div class="integratedPractices">
+    <div class="row"><div class="col"><div class="content-main"></div></div></div>
+    <div id="inserts"> 
+      <center>
+        <div class="ip-group-wrapper">
+          <div class="btn-group btn-group-lg" role="group" aria-label="Integrated Practices">
+            <span class="btn-group btn-group-lg" v-for="item in ip.items">
+              <button class="btn btn-primary" v-on:click="ip.showing=item.title"> ^^item.title$$  </button>
+            </span> 
+          </div>
+        </div>
+      </center>
+      
+      <div class="row" v-if="ip.showing=='Guidebook'">
+        <div class="row"><div class="col"><div class="content-main"><center> <img src="http://2017.igem.org/wiki/images/6/6c/T--Waterloo--2017_PNP_Handbook_iGEM_Logo.png" alt="ERROR"> </center>
 
 <h1 id="-center-introduction-to-policy-and-practices-pnp-center-"><center> Introduction to Policy and Practices(PNP) </center></h1>
-<h1 id="-center-igem-2018-center-"><center> iGEM 2018 </center></h1>
+<h1 id="-center-igem-2017-center-"><center> iGEM 2017 </center></h1>
 <h4 id="-center-university-of-waterloo-igem-2017-center-"><center>  University of Waterloo iGEM,  2017 </center></h4>
 <p><em>Welcome to Waterloo’s iGEM Policy and Practices team! This guide is designed to help members understand what our team is about and the logistics behind our roles for the project. In the next few pages, this guide will focus on the i    GEM competition, responsibilities of PNP, how we work to fulfil those responsibilities, and the selection process of our annual project.</em></p>
 <h4 id="what-is-the-igem-competition-">What is the iGEM Competition?</h4>
@@ -223,7 +237,10 @@ Interest - /2</p>
 
 <p><em>Finally, add to this guide, distribute it to other teams, and make it your own so that teams in the future can benefit from all you learn.</em></p>
 <p>Welcome to the team, and we look forward to working with you!</p>
-<h2 id="applications-of-prion-project">Applications of Prion Project</h2>
+</div></div></div>
+      </div>
+      <div class="row" v-if="ip.showing=='Applications'">
+        <div class="row"><div class="col"><div class="content-main"><h2 id="applications-of-prion-project">Applications of Prion Project</h2>
 <p>The Waterloo iGEM 2017 project is a proof of concept for a system that has an application in increasing the speed of enzymatic reactions in bulk industrial reactors. This highlighted application is in the spotlight as the most practical, useful and feasible application possible based on this project.</p>
 <p>In enzymatic pathways, the product of one enzyme must be passed onto the next enzyme in the pathway. In cells, related enzymes are often close to each other and so this is not a concern. However, if performing such a reaction in vitro the proteins would on average be much further apart due to their paths following random walks. This slows the speed of the reaction.</p>
 <p>Furthermore, it has been demonstrated that decreasing the distance between enzymes is sufficient to increase their interaction and decrease the time taken for intermediates to move between them. Knowing this, a system that brings enzymes close together should be able to speed up a reaction in vitro.</p>
@@ -310,28 +327,54 @@ The C terminus of the protein you want to purify is fused to the N terminus of t
 <h4 id="references">References</h4>
 <p>Lin, Y., Tanaka, S. (December, 2005). Ethanol fermentation from biomass resources: current state and prospects. Applied Microbiology and Biotechnology. (2006) 69: 627. <a href="https://doi.org/10.1007/s00253-005-0229-x">https://doi.org/10.1007/s00253-005-0229-x</a></p>
 <p>Peterson, W.H., Fred, E.B., Anderson, J.A. (April, 1920) The Fermentation of Glucose, Galactose, and Mannose by Lacrobacillus pentoaceticus, N. SP.*. J. Biol. Chem. 1920, 42:273-287. No doi. Retrieved from <a href="http://www.jbc.org/content/42/2/273.full.pdf">http://www.jbc.org/content/42/2/273.full.pdf</a></p>
-<div id = “snake35”>
-
-## Snake35
-
-### What is Snake35?
-
-This year, iGEM Waterloo has chosen a foundational advance project. These types of projects focus on the technology and processes involved in synthetic biology, which are not very well-known to the general public. In contrast to other types of projects, foundational advance projects do not usually focus on a single application, such as curing a disease. Furthermore, they tend to have less popular buzzwords for the general public. As such, it can be difficult to explain the idea and purpose of our foundational advance project to the general public.<br>After consulting iGEM Imperial 2016’s <a href="http://2016.igem.org/Team:Imperial_College/Integrated_Practices"><em>Visualization: A Guide for Synthetic Biologists</em></a>, we decided a great way to convey the information from our project would be to create a visual, interactive game! We’ve called it Snake35.
-
-### Instructions
-
-What makes Snake35 different than classic Snake? Well for starters, your objective is no longer just to make the biggest, baddest snake of all time. Our point-based version requires you to match a CFP block next to a YFP block in order to excite it. For every YFP in the excited, fluorescing state, you receive a point. However, if you have a YFP that isn’t beside CFP, it stays dark (deactivated) and you don’t receive a point. Get the highest score and give yourself a pat on the back!<br>In our game, you must assemble a blue block next to a dim yellow block in order to score points. The result of successfully doing so causes the yellow block to fluoresce which is analogous to our FRET experiment. This game demonstrates how you must organize the proteins in a specific arrangement to observe fluorescence of YFP. However, if you have a Sup35 in between a YFP and a CFP, the YFP will not fluoresce as the arrangement is not correct.
-
-<img src="http://2017.igem.org/wiki/images/d/d3/Unexcited.png" alt="ERROR">
-
-<img src="http://2017.igem.org/wiki/images/5/50/Excited.png" alt="ERROR">
-
-### Testing Snake35
-
-During the Waterloo Faculty of Science Open House, our booth had a table where we displayed and presented Snake35. Kids got the chance to play the game and learn about the foundational concepts of FRET. Our game received lots of positive feedback from kids and parents alike which proves that our demonstration tool was very effective in conveying the information we wanted!
-</div>
 </div></div></div>
+      </div>
+      <div class="row" v-if="ip.showing=='IAT'">
+        <div class="row"><div class="col"><div class="content-main"></div></div></div>
+      </div>
+      <div class="row" v-if="ip.showing=='Snake35'">
+        <div class="row"><div class="col"><div class="content-main"><h2 id="snake35">Snake35</h2>
+<h3 id="what-is-snake35-">What is Snake35?</h3>
+<p>This year, iGEM Waterloo has chosen a foundational advance project. These types of projects focus on the technology and processes involved in synthetic biology, which are not very well-known to the general public. In contrast to other types of projects, foundational advance projects do not usually focus on a single application, such as curing a disease. Furthermore, they tend to have less popular buzzwords for the general public. As such, it can be difficult to explain the idea and purpose of our foundational advance project to the general public.<br>After consulting iGEM Imperial 2016’s <a href="http://2016.igem.org/Team:Imperial_College/Integrated_Practices"><em>Visualization: A Guide for Synthetic Biologists</em></a>, we decided a great way to convey the information from our project would be to create a visual, interactive game! We’ve called it Snake35.</p>
+<h3 id="instructions">Instructions</h3>
+<p>What makes Snake35 different than classic Snake? Well for starters, your objective is no longer just to make the biggest, baddest snake of all time. Our point-based version requires you to match a CFP block next to a YFP block in order to excite it. For every YFP in the excited, fluorescing state, you receive a point. However, if you have a YFP that isn’t beside CFP, it stays dark (deactivated) and you don’t receive a point. Get the highest score and give yourself a pat on the back!<br>In our game, you must assemble a blue block next to a dim yellow block in order to score points. The result of successfully doing so causes the yellow block to fluoresce which is analogous to our FRET experiment. This game demonstrates how you must organize the proteins in a specific arrangement to observe fluorescence of YFP. However, if you have a Sup35 in between a YFP and a CFP, the YFP will not fluoresce as the arrangement is not correct.</p>
+<p><img src="http://2017.igem.org/wiki/images/d/d3/Unexcited.png" alt="ERROR"></p>
+<p><img src="http://2017.igem.org/wiki/images/5/50/Excited.png" alt="ERROR"></p>
+<h3 id="testing-snake35">Testing Snake35</h3>
+<p>During the Waterloo Faculty of Science Open House, our booth had a table where we displayed and presented Snake35. Kids got the chance to play the game and learn about the foundational concepts of FRET. Our game received lots of positive feedback from kids and parents alike which proves that our demonstration tool was very effective in conveying the information we wanted!</p>
+</div></div></div>
+      </div>
+      <div class="row" v-if="ip.showing=='3D Printing'">
+        <div class="row"><div class="col"><div class="content-main"></div></div></div>
+      </div>
+      <div class="row" v-if="ip.showing=='Project Talks'">
+        <div class="row"><div class="col"><div class="content-main"></div></div></div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script src="https://unpkg.com/vue"></script>
+<script>
+var integratedPracticesPage = new Vue({
+  el: ".integratedPractices",
+  delimiters: ['^^', '$$'],
+  data:{
+    show: 0,
+    ip: {
+    parent: "IP",
+    showing:0,
+    items: [
+      { title: "Guidebook" },
+      { title: "Applications" },
+      { title: "IAT" },
+      { title: "Snake35" },
+      { title: "3D printing" },
+      { title: "Project Talks" },
+    ]
+    }}}
+)
+</script>
 
 </html>
 {{Waterloo/footer}}

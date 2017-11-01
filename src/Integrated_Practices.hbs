@@ -3,8 +3,62 @@
 
 {{navigation mode "_human_practices" "integrated_practices"}}
 <div class="content">
-{{markdown markdown.integrated_practices}}
+  <div class="integratedPractices">
+    {{markdown markdown.integrated_practices}}
+    <div id="inserts"> 
+      <center>
+        <div class="ip-group-wrapper">
+          <div class="btn-group btn-group-lg" role="group" aria-label="Integrated Practices">
+            <span class="btn-group btn-group-lg" v-for="item in ip.items">
+              <button class="btn btn-primary" v-on:click="ip.showing=item.title"> ^^item.title$$  </button>
+            </span> 
+          </div>
+        </div>
+      </center>
+      
+      <div class="row" v-if="ip.showing=='Guidebook'">
+        {{markdown markdown.guidebook}}
+      </div>
+      <div class="row" v-if="ip.showing=='Applications'">
+        {{markdown markdown.applications}}
+      </div>
+      <div class="row" v-if="ip.showing=='IAT'">
+        {{markdown markdown.iat}}
+      </div>
+      <div class="row" v-if="ip.showing=='Snake35'">
+        {{markdown markdown.snake35}}
+      </div>
+      <div class="row" v-if="ip.showing=='3D Printing'">
+        {{markdown markdown.3d_printing}}
+      </div>
+      <div class="row" v-if="ip.showing=='Project Talks'">
+        {{markdown markdown.project_talks}}
+      </div>
+    </div>
+  </div>
 </div>
+
+<script src="https://unpkg.com/vue"></script>
+<script>
+var integratedPracticesPage = new Vue({
+  el: ".integratedPractices",
+  delimiters: ['^^', '$$'],
+  data:{
+    show: 0,
+    ip: {
+    parent: "IP",
+    showing:0,
+    items: [
+      { title: "Guidebook" },
+      { title: "Applications" },
+      { title: "IAT" },
+      { title: "Snake35" },
+      { title: "3D printing" },
+      { title: "Project Talks" },
+    ]
+    }}}
+)
+</script>
 
 </html>
 {{template templates.footer mode}}
