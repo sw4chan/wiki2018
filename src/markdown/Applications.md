@@ -17,6 +17,7 @@ Another potential solution is using an engineered scaffold protein to latch onto
 In summary, our solution is feasible, and due to its versatility and the reusability is better than existing solutions. One specific example of a way this system could be used would be in conjunction with Guelph iGEM’s 2017 project; the project is based on a pair of enzymes that can be used to remove calcium oxalate from brewing containers. Because the enzymes work together, bringing them onto the same aggregate may help them work together and speed up the removal process.
 
 There are more secondary applications that have been brainstormed based on consultations and interviews from experts we have contacted as well as other research papers read thoroughly. These have been formated showing each application’s general concept, how the application is used, the benefits and restrictions respectively.
+____________________________________________________________________________
 
 ### Vaccine Preparation
 

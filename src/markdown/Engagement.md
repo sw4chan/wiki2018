@@ -71,6 +71,7 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 
 <center> <object width="800" height="600" data="{{image "SHADiGEMBrochure.pdf" "directlink" mode}}"></object> </center>
 
+<center> <object width="800" height="600" data="FullShadPresentation.pdf"></object> </center>
 ____________________________________________________________________________
 
 # Gender Equity in Synthetic Biology
