@@ -1,4 +1,4 @@
-<center> ![Error]({{image "shadbiggerimage.png" "directlink" mode}}) </center>
+<center> ![Error]({{image "Publicengagementwaterloo.png" "directlink" mode}}) </center>
 
 Education and outreach has always been a core value within  iGEM. This year, we ran a diverse selection of workshops and open houses to  showcase  both our project and synthetic biology as a rapidly developing field. We ran panel discussions to consider gender equity; workshops to teach essential synthetic biology techniques to students; and, events to  increase the interest and awareness of synthetic biology amongst the public.
 
@@ -73,6 +73,8 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 
 <br> 
 
+Click [here](http://2017.igem.org/wiki/images/7/70/Allshadslides2017.pdf) to see the set of slides used for SHAD Valley 2017.
+ 
 <center> <object width="800" height="600" data="FullShadPresentation.pdf"></object> </center>
 
 <br>
