@@ -18,6 +18,12 @@
  .content .row{
   margin: 0 auto;
  }
+ .model img {
+   max-width: 80% !important;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
 </style>
 
 {{navigation mode "awards" "model"}}
@@ -34,9 +40,7 @@
       <div class="squiggle squiggleBackward col-xs-4"></div>
     </div>
   </div>
-{{template templates.head mode}}
 
-<div class="content">
   <div class="model">
     {{markdown markdown.model}}
     <div id="inserts"> 
