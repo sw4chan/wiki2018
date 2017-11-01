@@ -28,15 +28,46 @@ Overall, we believe that the workshop was very successful for both the students 
 3. Students actively engaged in the conversation and demonstrated the ability to think critically about the underlying issues that face the uses of synthetic biology. There was also a focus on the importance of the practice of unbiased and well-communicated science, that is, being transparent and truthful in one’s work while avoiding any personal bias.
 This workshop was a great experience for the members of iGEM, and we hope to continue to work with SHAD Valley in future years to educate future university students about the field of synthetic biology. It is also an effective way to inspire prospective students to get involved with iGEM in their future years.
 In the spirit of iGEM and making science accessible to all, our team has made all our presentations and protocols free-to-use for educational and non-commercial purposes. Our team would be happy to answer any questions that you may have with regards to this documentation. We hope it serves you well!
-## **Gallery**
-|![ERROR]({{image "PDSC0577.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0586.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0463.JPG" "directlink" mode}})|
-|:----:|:----:|:----:|
-|![ERROR]({{image "PDSC0462.JPG" "directlink" mode}})|![ERROR]({{image "20170727141430.jpg" "directlink" mode}})|![ERROR]({{image "PDSC0889.JPG" "directlink" mode}})|
-|![ERROR]({{image "PDSC383.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0804.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0670.JPG" "directlink" mode}})|
-|![ERROR]({{image "PDSC0667.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0653.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0642.JPG" "directlink" mode}})|
-![ERROR]({{image "PDSC0639.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0596.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0500.JPG" "directlink" mode}})|
-![ERROR]({{image "PDSC0489.JPG" "directlink" mode}})|![ERROR]({{image "PDSC0398.JPG" "directlink" mode}})||
 
+## **Gallery**
+
+![ERROR]({{image "PDSC0577.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0586.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0463.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0462.JPG" "directlink" mode}})
+
+![ERROR]({{image "20170727141430.jpg" "directlink" mode}})
+
+![ERROR]({{image "PDSC0889.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0383.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0804.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0670.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0667.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0653.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0642.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0639.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0596.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0500.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0489.JPG" "directlink" mode}})
+
+![ERROR]({{image "PDSC0398.JPG" "directlink" mode}})
+
+## **Additional Resources**
+
+<object width="400" height="400" data="{{image "SHADiGEMBrochure.pdf" "directlink" mode}}"></object>
 
 ____________________________________________________________________________
 
@@ -127,6 +158,12 @@ Drawing on the success of the [SHAD Valley](https://www.shad.ca/) workshop, the 
 > “As a first year I am glad I was able to learn so much, not only preparing for my biology labs before they started, but also getting real advice on what to expect over the next few years of university.” - Anonymous student
 
 > “I loved the experiment that the iGEM team chose to run, I had never imagined I would be editing a bacterial genome within the first few weeks of starting university. I had always wanted to do it and it was surprisingly not too complicated.” - Anonymous student
+
+### Additional Resources
+
+<object width="800" height="600" data="{{image "WiSTEMiGEMBrochure.pdf" "directlink" mode}}"></object>
+
+![ERROR]({{image "Poster.jpg" "directlink" mode}})
 
 ### References
 
