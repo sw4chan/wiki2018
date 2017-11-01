@@ -350,7 +350,7 @@ After consulting iGEM Imperial 2016’s [_Visualization: A Guide for Synthetic B
 What makes Snake35 different than classic Snake? Well for starters, your objective is no longer just to make the biggest, baddest snake of all time. Our point-based version requires you to match a CFP block next to a YFP block in order to excite it. For every YFP in the excited, fluorescing state, you receive a point. However, if you have a YFP that isn’t beside CFP, it stays dark (deactivated) and you don’t receive a point. Get the highest score and give yourself a pat on the back!  
 In our game, you must assemble a blue block next to a dim yellow block in order to score points. The result of successfully doing so causes the yellow block to fluoresce which is analogous to our FRET experiment. This game demonstrates how you must organize the proteins in a specific arrangement to observe fluorescence of YFP. However, if you have a Sup35 in between a YFP and a CFP, the YFP will not fluoresce as the arrangement is not correct.
 
-!ERROR[]({{image "Unexcited.png" "directlink" mode}})
+![ERROR({{image "Unexcited.png" "directlink" mode}})
 
 ![ERROR]({{image "Excited.png" "directlink" mode}})
 
