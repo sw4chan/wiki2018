@@ -355,9 +355,9 @@ Peterson, W.H., Fred, E.B., Anderson, J.A. (April, 1920) The Fermentation of Glu
 
 <div id = “snake35”>
 
-## Snake35
+## Snake35 ##
 
-### What is Snake35?
+### What is Snake35? ###
 
 This year, iGEM Waterloo entered into the foundational advance project track. These types of projects focus on novel solution to technical problems within the field of synthetic biology, which are not very well-known to the general public. In contrast to other types of projects, foundational advance projects do not usually focus on a single application, such as curing a disease, and they tend to have less popular buzzwords that resonate with the general public. As such, it can be difficult to explain the idea and purpose of our foundational advance project to the general public.  
 After consulting iGEM Imperial 2016’s [_Visualization: A Guide for Synthetic Biologists_](http://2016.igem.org/Team:Imperial_College/Integrated_Practices), we decided a great way to convey the information from our project would be to create a visual, interactive game! We’ve called it Snake35 (like Sup35, which is the protein we sourced our aggregation domain from....get it?).
@@ -367,6 +367,7 @@ After consulting iGEM Imperial 2016’s [_Visualization: A Guide for Synthetic B
 	What makes Snake35 different than classic Snake? Well for starters, the objective is no longer just to make the biggest, baddest snake of all time. Our point-based version requires you to match a Cyan Fluorescent Protein (CFP) block next to a Yellow Fluorescent Protein (YFP) block so that the light emitted from the CFP will   excite the YFP. For every YFP in the excited,fluorescing state, you receive a point. However, if you have a YFP that isn’t beside CFP, it stays dark (deactivated) and you don’t receive a point. Get the highest score and give yourself a pat on the back!  
 	In our game, you must assemble a blue block next to a dim yellow block in order to score points. The result of successfully doing so causes the yellow block to fluoresce which is analogous to our FRET experiment. This game demonstrates how you must organize the proteins in a specific arrangement to observe fluorescence of YFP. To make things even more challenging there are also grey blocks that represent  Sup35, a non-fluorescing protein that can get caught in the aggregate and interrupt CFP exciting YFP. If you get a Sup35 block between a YFP and a CFP, the YFP will not fluoresce as the arrangement would not allow fluorescence of YFP.
 
+<br>
 
 ![ERROR]({{image "Unexcited.png" "directlink" mode}})
 
