@@ -1,6 +1,6 @@
 # **Policy & Practices**
 
-![Error]({{image "ProjHexes.png" "directlink" mode}})
+<center> ![Error]({{image "ProjHexes.png" "directlink" mode}}) </center>
 
 Human practices work was central in so many aspects of our project. The work we completed in human practices was integral to the direction of the wet lab portion of the project Our work was also  constantly influenced by the data and information we collected when interacting with stakeholders, the public, and experts.
 
