@@ -25,6 +25,7 @@ img {
     max-height: 200px;
     .layer {
 	width: 100%;
+	display: -webkit-flex;
         display: flex;
         align-items: center;
         justify-content: space-between;
