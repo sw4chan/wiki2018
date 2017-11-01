@@ -1,3 +1,5 @@
+![Error]({{image "3Dpage.png" "directlink" mode}})
+
 # Networks
 
 At some point, every lab faces limitations when it comes to resources for experiments. For some, this limit is much lower than others, to the extent where even basic experiments become difficult to complete. To address this problem, iGEM Waterloo has begun creating a catalogue of 3D-printable lab equipment for teams to download and print for their own use.
