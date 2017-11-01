@@ -1,4 +1,4 @@
-![Error]({{image "shadbiggerimage.png" "directlink" mode}})
+<center> ![Error]({{image "shadbiggerimage.png" "directlink" mode}}) </center>
 
 Education and outreach has always been a core value within  iGEM. This year, we ran a diverse selection of workshops and open houses to  showcase  both our project and synthetic biology as a rapidly developing field. We ran panel discussions to consider gender equity; workshops to teach essential synthetic biology techniques to students; and, events to  increase the interest and awareness of synthetic biology amongst the public.
 

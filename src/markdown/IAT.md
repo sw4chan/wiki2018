@@ -1,4 +1,4 @@
-![Error]({{image "IATpage.png" "directlink" mode}})
+<center> ![Error]({{image "IATpage.png" "directlink" mode}}) </center>
 
 ### **What is an IAT?** ###
 

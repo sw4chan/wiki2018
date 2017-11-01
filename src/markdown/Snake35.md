@@ -11,9 +11,9 @@ What makes Snake35 different than classic Snake? Well for starters, your objecti
 In our game, you must assemble a blue block next to a dim yellow block in order to score points. The result of successfully doing so causes the yellow block to fluoresce which is analogous to our FRET experiment. This game demonstrates how you must organize the proteins in a specific arrangement to observe fluorescence of YFP. However, if you have a Sup35 in between a YFP and a CFP, the YFP will not fluoresce as the arrangement is not correct.
 
 <div class="row">
-	
+
 <div class="col-md-6">
-	![ERROR]({{image "Unexcited.png" "directlink" mode}}) 
+	![ERROR]({{image "Unexcited.png" "directlink" mode}})
 </div>	  
 <div class="col-md-6">
 	![ERROR]({{image "Excited.png" "directlink" mode}})
