@@ -17,18 +17,18 @@ We also created an Implicit Association Task (IAT) to detect implicit (unconscio
 
 To gather an insightful perspective on how we might execute our project and understand the impact and future application of what our project, we knew that we needed to consult experts in the field. We have summarized the results of these conversations below.
 
-![ERROR]({{image "HP-Gold Holyoak" "directlink" mode}})
+<center> ![ERROR]({{image "HP-Gold Holyoak" "directlink" mode}}) </center>
 
 **Dr. Todd Holyoak**
 Professor Holyoak's group’s interests lie in the areas of enzyme structure, mechanism, inhibition, and allostery. Our project this year focused on the role that conformational plasticity affects enzymatic function and how these dynamic aspects of enzyme structure can be exploited in the regulation of enzymes. Dr. Holyoak introduced our team to the idea of macromolecular crowding; the localization or increased concentration allows for an increase in enzymatic flux. He also introduced the concept of substrate channeling to us which allows for enzymes to pass chemicals to each other and work together to achieve each other's proper function.
 Dr. Holyoak stressed that these concepts are well studied and have a high chance of a positive execution. This gave us the confidence early on into our project that we have a good chance to create something important and impactful to the world.
 
-![ERROR]({{image "HP-Gold Glerum.png" "directlink" mode}})
+<center>![ERROR]({{image "HP-Gold Glerum.png" "directlink" mode}}) </center>
 
 **Dr. Moira Glerum**
 Dr. Glerum.is fascinated about  understanding the molecular bases for inherited diseases of mitochondria. Both her lab and our team uses yeast as a model organism.. Her studies have identified previously unknown proteins required to generate functional mitochondria and allowed us to improve our understanding of the roles of these proteins in human disease. Dr. Glerum gave us pivotal and essential information when troubleshooting our fluorimetry and FRET experiments. Also, Dr. Glerum and her research expertise, helped us brainstorm potential applications of our foundation advance project including use as a research or diagnostic tool, as well as using our project as a scaffold for protein inside a bioreactor. More information on these applications can be found in the [Integrated Human Practices](http://2017.igem.org/Team:Waterloo/Integrated_Practices/ “Integrated Practices”) page.
 
-![ERROR]({{image "HP-Gold Palmer.png" "directlink" mode}})
+<center> ![ERROR]({{image "HP-Gold Palmer.png" "directlink" mode}}) </center>
 
 **Dr. Michael Palmer**
 Dr. Palmer’s research focuses on the interaction of peptides and proteins within biological membranes. Dr. Palmer was integral in explaining how to work a fluorimeter and how to interpret our fluorimetry data. Another potential application Dr. Palmer suggested to us was use in the preparation of vaccines. This application can be found in more detail on the [Integrated Human Practices](http://2017.igem.org/Team:Waterloo/Integrated_Practices/ “Integrated Practices”) page. Dr. Palmer also warned us about potential in vivo applications of our project as macrophages and other immune cells may target aggregates. This advice was crucial in redirecting where our project needed to go and how to get back on track in terms of the design of our experiment and potential future applications.
