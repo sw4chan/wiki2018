@@ -14,10 +14,10 @@ img {
 }
 
 a {
-    color: $headingYellow;
-}
-a:hover, a:active{
     color: $igemBlue;
+}
+a:hover, a:active, a:visited{
+    color: $headingYellow;
 }
 .center * {
     text-align: center !important;
