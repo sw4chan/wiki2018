@@ -85,26 +85,39 @@
     </div>
   </div>
 
-<div class="row"><div class="col"><div class="content-main"><p>Here you can describe the results of your project and your future plans.</p>
-<h5 id="what-should-this-page-contain-">What should this page contain?</h5>
-<ul>
-<li>Clearly and objectively describe the results of your work.</li>
-<li>Future plans for the project</li>
-<li>Considerations for replicating the experiments</li>
-</ul>
-<h5 id="project-achievements">Project Achievements</h5>
-<p>You can also include a list of bullet points (and links) of the successes and failures you have had over your summer. It is a quick reference page for the judges to see what you achieved during your summer.</p>
-<ul>
-<li>A list of linked bullet points of the successful results during your project</li>
-<li>A list of linked bullet points of the unsuccessful results during your project. This is about being scientifically honest. If you worked on an area for a long time with no success, tell us so we know where you put your effort.</li>
-</ul>
-<h5 id="inspiration">Inspiration</h5>
-<p>See how other teams presented their results.</p>
-<ul>
-<li><a href="http://2014.igem.org/Team:TU_Darmstadt/Results/Pathway">2014 TU Darmstadt</a></li>
-<li><a href="http://2014.igem.org/Team:Imperial/Results">2014 Imperial</a></li>
-<li><a href="http://2014.igem.org/Team:Paris_Bettencourt/Results">2014 Paris Bettencourt</a></li>
-</ul>
+<div class="row"><div class="col"><div class="content-main"><h2 id="fret">FRET</h2>
+<p>The team successfully transformed yeast cells with the plasmids required to perform the FRET experiments. Thus we had stocks of both [psi-] and [PSI+] W303 yeast containing our parts PrD-YFP, PrD-CFP, and both parts simultaneously.</p>
+<p><br>
+Ideally, the FRET experiment would have been performed on a flow cytometer. We would have excited the CFP on PrD-CFP and looked for YFP fluorescence, which we hypothesized would be greater in [PSI+]. This would theoretically be due to the fluorescent proteins coming close together in the aggregate, and thus allowing non-emissive energy transfer from CFP to YFP that would not be possible if the proteins were further than 10 nm apart [1].</p>
+<p><br></p>
+<p>However, the Waterloo iGEM team did not have access to a flow cytometer with a laser with an appropriate wavelength; a ~430 nm light source is required to excite CFP. Subsequently, the team searched for a plate reader, which could also be used to perform the experiment. Unfortunately, no plate reader with an appropriate light source could be located on-campus. Therefore, the team decided to utilize a fluorometer with an adjustable light source to perform the excitation.</p>
+<p><br></p>
+<p>The drawback of this method of going about the experiments was that fluorometers are not typically used with live cells, as cells scatter light at ~500 nm and in a variable fashion depending on cell size. Nonetheless, so long as the presence of a fluorescent protein results in a distinct emission peak, the fluorometer is still useful as a tool.</p>
+<p><br></p>
+<p>We first confirmed, using yeast cells with a plasmid containing our Cup1-GFP part, that fluorometry can be used to confirm the presence of a fluorescent protein (see graph below); our samples containing GFP had a clear peak at 512 nm not present in any of our empty cell controls when excitation was performed at 488 nm. The sudden peak at the left side of the graph seen in all samples is from the light source, which bled over into the measured signal.</p>
+<p><br></p>
+<p>The data above had the signal from the blank subtracted from it, but the data were not normalized for the precise number of cells. Samples were approximately normalized to 10^6 cells per mL, but this could not be done exactly, which resulted in visible variation in the signal. An additional study performed by the team found that the signal after subtraction of the blank signal was approximately proportional to cell concentration, both in the case of signal from GFP and the signal from cell scattering (data not shown).</p>
+<p><br></p>
+<p>The samples containing our constructs were not normalized as strictly due to the fact that we were simply checking for the existence of a peak, not the peak’s magnitude, but cell concentration still should have fallen between 10^5 and 10^6 cells per mL. The data for excitation at 488 nm are given below:</p>
+<p><br></p>
+<p>Though this was not the precise desired excitation for YFP (which would be ~510 nm), this allowed direct comparison to our flow cytometry work (elaborated on in our proof of functionality for our parts).</p>
+<p><br></p>
+<p>On the fluorometer, a distinct peak at 527 nm was observed in only the three [psi-] samples that contained YFP. This is in agreement with our flow cytometry data, which was only able to detect a high level of fluorescence in those same samples. Unsurprisingly, the fluorometer is less sensitive than the flow cytometer and thus even if other samples fluoresce at a low level, we would probably not be able to detect them here.</p>
+<p><br></p>
+<p>Upon excitation with of our samples at 430 nm on the fluorometer, we unfortunately were not able to tell whether or not our cells were fluorescing. This is because signal from cell scattering overlapped with the estimated emission spectrum for CFP. In one sample, however, we did see possible evidence that our system was functional:</p>
+<p><br></p>
+<p>Given our knowledge that signal is approximately proportional to cell concentration, we scaled our [PSI+] CFP sample to have the same average signal as our [PSI+] CFP and YFP sample from 605 to 615 nm. At this wavelength, there should be no or next to no YFP signal, meaning the two samples should be identical. The excitation used to obtain the above data was performed at a higher source light intensity than previously used in the hope of seeing a fluorescence signal where previously the signal was too small compared to noise.</p>
+<p><br></p>
+<p>Since excitation at 430 nm should have no effect on YFP, and the presence of our constructs was confirmed in all cells, any difference in the signal of these two samples should be due to transfer of energy from CFP to YFP. Since the [PSI+] CFP and YFP sample is simultaneously lower at ~480 nm and higher at ~510 nm, this seems to be what the data indicated. However, given that this experiment comes from a simple comparison of two samples, we cannot assign a high degree of certainty to this conclusion. Additionally, a the emission spectrum for [psi-] CFP and YFP was quite similar to that of [PSI+] CFP and YFP, which should not have been the case.</p>
+<p><br></p>
+<p>It is possible that had we included the M domain of Sup35 in our prion tag on the fluorescent proteins, we would have seen higher fluorescence in aggregate. This would allow us to make a more definitive conclusion. We had anticipated that the lack of the M domain may cause issues, and we had it synthesized in anticipation, with appropriate restriction sites to add it into our constructs.</p>
+<p><br></p>
+<p>We began work on adding the M domain, but as of the Wiki Freeze had not yet completed adding it to our construct PrD-YFP.</p>
+<h2 id="split-yfp">Split YFP</h2>
+<p>The team created all necessary parts to perform these experiments. However, given the concern over the lack of the M-domain, we wanted to first confirm that fluorescence can be observed by making a translational fusion described in the FRET experiments. </p>
+<p><br></p>
+<h2 id="references">References</h2>
+<p>[1] Piston, D. W., &amp; Kremers, G.-J. (2007). Fluorescent protein FRET: the good, the bad and the ugly. Trends in Biochemical Sciences, 32(9), 407–414. <a href="https://doi.org/10.1016/j.tibs.2007.08.003">https://doi.org/10.1016/j.tibs.2007.08.003</a></p>
 </div></div></div>
 </div>
 </html>
