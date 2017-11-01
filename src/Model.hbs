@@ -57,11 +57,11 @@
       <div class="row" v-if="ip.showing=='DEs'">
         {{markdown markdown.des}}
       </div>
-      <div class="row" v-if="ip.showing=='BiFC'">
-        {{markdown markdown.bifc}}
+      <div class="row" v-if="ip.showing=='Combinatorial Model'">
+        {{markdown markdown.combinatorics}}
       </div>
-      <div class="row" v-if="ip.showing=='FRET'">
-        {{markdown markdown.fret}}
+      <div class="row" v-if="ip.showing=='Markov Model'">
+        {{markdown markdown.markov}}
       </div>
     </div>
     <center>
@@ -87,9 +87,9 @@ var modelPage = new Vue({
     parent: "IP",
     showing:"DEs",
     items: [
-      { title: "DEs" },
-      { title: "BiFC" },
-      { title: "FRET" },
+      { title: "Aggregation DEs" },
+      { title: "Combinatorial Model" },
+      { title: "Markov Model" },
     ]
     }}}
 )
@@ -113,7 +113,6 @@ $(document).ready(function() {
 			})
 		});
   </script>
-</div>
 
 </html>
 {{template templates.footer mode}}
