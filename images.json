@@ -103,6 +103,7 @@
   "Publicengagementwaterloo.png":"http://2017.igem.org/wiki/images/f/fe/Publicengagementwaterloo.png",
   "Wiki freeze2.jpeg": "http://2017.igem.org/wiki/images/7/75/Wiki_freeze2.jpeg",
   "sponsors" : "http://2017.igem.org/wiki/images/1/12/Waterloo_sponsors.png",
+<<<<<<< HEAD
   "pXP216.png":"http://2017.igem.org/wiki/images/3/32/PXP216.png",
   "pSB1C3waterloo.png":"http://2017.igem.org/wiki/images/b/b7/PSB1C3waterloo.png",
   "pXP218.png":"http://2017.igem.org/wiki/images/b/be/PXP218.png",
@@ -113,4 +114,7 @@
   "Fluorescenceday2.png":"http://2017.igem.org/wiki/images/2/26/Fluorescenceday2.png",
   "Fluorescenceday3.png":"http://2017.igem.org/wiki/images/4/42/Fluorescenceday3.png",
   "":"",
+=======
+  "Comb Comparison.jpg": "http://2017.igem.org/wiki/images/e/ea/Comb_Comparison.jpg"
+>>>>>>> b32008077f74e153a3d27665d263c1a0c82b042a
 }
