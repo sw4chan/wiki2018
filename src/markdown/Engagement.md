@@ -130,7 +130,7 @@ Drawing on the success of the [SHAD Valley](https://www.shad.ca/) workshop, the 
 
 ### Additional Resources
 
-<object width="400" height="400" data="WiSTEMiGEMBrochure.pdf"></object>
+<object width="400" height="400" data="{{image "WiSTEMiGEMBrochure.pdf" "directlink" mode}}"></object>
 
 ![ERROR]({{image "Poster.jpg" "directlink" mode}})
 
