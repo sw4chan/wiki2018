@@ -1,7 +1,7 @@
 # Collaborations
 
 ## Toronto 
-The Waterloo team is carpooling with the Toronto team in order to save costs. We also have developed a continuous integration survey in collaboration with the Toronto team that allows teams to push to the Wiki using solely github.
+The Waterloo team is carpooling with the Toronto team in order to save costs. We also developed a continuous integration server in collaboration with the Toronto team that allows teams to push to the Wiki using solely GitHub. For more information, check out our [Software Page](http://2017.igem.org/Team:Waterloo/Software)
 
 
 ## Dalhousie 
