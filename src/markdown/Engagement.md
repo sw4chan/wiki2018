@@ -74,8 +74,6 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 <br> 
 
 Click [here](http://2017.igem.org/wiki/images/7/70/Allshadslides2017.pdf) to see the set of slides used for SHAD Valley 2017.
- 
-<center> <object width="800" height="600" data="FullShadPresentation.pdf"></object> </center>
 
 <br>
 ____________________________________________________________________________
