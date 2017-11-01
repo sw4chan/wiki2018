@@ -1,6 +1,6 @@
 ### **Project Determination** ###
 
-At the beginning our team season, every member gets to present possible project ideas. Follow this initial meeting, we spend the next couple of weeks flushing out the ideas in groups in more detail, looking into primary literature, designing possible experiments, sourcing required materials. We then present these ideas again before selecting the project. To select our team project this year, we wanted to conduct a quantitative analysis, so that we could come to a consensus in an efficient and fair manner.
+At the beginning our team season, every member gets to present possible project ideas. Follow this initial meeting, we spend the next couple of weeks flushing out the ideas in groups in more detail, looking into primary literature, designing possible experiments, and sourcing required materials. We then present these ideas again before selecting the project. To select our team project this year, we wanted to conduct  quantitative and qualitative analysis, so that we could come to a consensus in an efficient and fair manner.
 
 To achieve this, we created a template for project selection that we used to evaluate all of our potential projects. The assessments were based on the criteria described in the iGEM judging guide, project assessment documentation from previous iGEM teams’ wikis, and anything else we felt is was import to evaluate.
 
@@ -17,9 +17,9 @@ Below we have included our general guide template with the justification for our
 
 ### **Primary Criteria: evaluates the viability of a project** ###
 #### **Novelty** ####
-If the proposed project was likely to fall under the Foundational Advance track, we added an additional primary criteria. The basis of this track is to develop novel solutions to technical problems, thus the novelty of the project was one of the priorities
+If the proposed project was likely to fall under the Foundational Advance track, we added an additional primary criteria. The basis of this track is to develop novel solutions to technical problems, thus the novelty of the project was one of the priorities.
 #### **Feasibility** ####
-When developing project ideas, teams must also consider the amount of resources available to them. It is important to be able to achieve their goals with the resources, time, and technical abilities they have to ensure the project is completed and finished on time
+When developing project ideas, teams must also consider the amount of resources available to them. It is important to be able to achieve their goals with the resources, time, and technical abilities they have to ensure the project is completed and finished on time.
 
 ### **Secondary Criteria: evaluates benefits of selecting a particular idea as an iGEM project.** ###
 #### **Interest** ####
@@ -29,7 +29,7 @@ It is important to select a project that will enable all subteams to contribute 
 #### **Usefulness** ####
 How useful the project is and how it may impact society (the degree of stakeholder benefit and how many stakeholders would gain this benefit).
 
-Following the team analysis, the project proposals were presented to advisors from the University of Waterloo’s Faculties of Biology and Math. Advisors from the University of Waterloo Faculty of Biology: Brian Ingalls, Trevor Charles, Barbara Moffatt, Andrew Doxey, and Forbes Burkowski.
+Following the team analysis, the project proposals were presented to advisors from the University of Waterloo’s Faculties of Biology and Math. Advisors from the University of Waterloo Faculty of Biology: Brian Ingalls, Trevor Charles, Barbara Moffatt, Andrew Doxey, and Forbes Burkowski. Their feedback and expertise was acknowledged and factored into our project decision as well.
 
 ### **Criteria Weighting (out of 5)** ###
 
@@ -49,7 +49,7 @@ Criteria | Functional Prion Project
 <b> Impact/Usefulness/Why are we doing it? </b> <br> <ul> <li> Economic </li> <li> Societal </li> <li> Environmental </li> <li> Ethical </li> <li> Material </li> <li> Emotional </li> </ul> <br> Consider both positive and negative impacts | <ul> <li> Understanding the aggregation mechanisms of prion could contribute in the discovery of new treatment against it </li> <li> The aggregation of enzyme with prion domain could help increasing the speed and efficiency of biochemical reactions </li> <li> The aggregate structure could be used to construct new biomaterial with additional durability, etc. </li> </ul>
 <b> Alternative </b> <br> <ul> <li> Is there another more efficient/better way to go about solving the problem? </li> </ul> | <ul> <li> No viable alternatives discussed </li> </ul>
 
- Criteria | Oscillational Fluorescence for Measurement
+ Criteria | Oscillatory Fluorescence for Measurement
 --- | ---
 <b> Description of Project </b> <br> <ul> <li> What kind of problem are we solving? </li> <li>How are we doing it? </li> </ul> | <ul> <li> Fusing Green Fluorescent Protein (GFP) to a protein of interest is a common way to detect the expression of that protein </li> <li> The idea is that when you shine a certain frequency of light on your sample, if you see that it’s glowing green, you know that the GFP is being expressed and so the protein it’s fused to is also being expressed </li> <li> Problem: The problem is that if you want to measure how much a given protein is being expressed, you have to measure how much it is fluorescing, which is appreciably harder to do </li> <li> Solution: Fluorescence is hard to measure whereas time is easy to measure. </li> <li> If we can create a system where we see fluctuations in time rather than fluorescence, we can make a much easier technique for continuously collecting data on the level of expression of a protein over time </li> </ul>
 <b>Feasibility </b> <br> <ul> <li> Do we have the resources? </li> <li> Do we have the experience? </li> </ul> | <ul> <li> 86.6% feasibility 7/10 or higher </li> <li> System involves many parts, chance that lab will have troubles with manipulating concentrations of components </li> <li> Only working with E.Coli, no other organisms </li> <li> Flow cytometry is widely used </li> <li> General agreement that it’s feasible </li> </ul>
@@ -175,7 +175,7 @@ Description of Project
 What problem are we solving?
 How are we doing it?
 
-Oscillational Fluorescence for Measurement
+Oscillatory Fluorescence for Measurement
 
 Fusing Green Fluorescent Protein (GFP) to a protein of interest is a common way to detect the expression of that protein. The idea is that when you shine a certain frequency of light on your sample, if you see that it’s glowing green, you know that the GFP is being expressed and so the protein it’s fused to is also being expressed.
 

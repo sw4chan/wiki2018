@@ -1,6 +1,6 @@
 
 # Waterloo iGEM SHAD Valley Synthetic Biology Workshop
-As an emerging field, synthetic biology is not always well-understood by today’s high school student. We believe that as the future of synthetic biology continues to grow brighter, it is important to introduce students, especially those reaching the postsecondary level, to this field and its potential. To address this, we partnered with [SHAD Waterloo](<https://uwaterloo.ca/shad-waterloo/>) (a summer program that gives exceptional high school students chance to experience 4 weeks at several Canadian Universities) to host a three-day workshop to educate students about the foundations of synthetic biology, lab techniques/protocols, and the social and ethical aspects of science in the modern day. 
+As an emerging field, synthetic biology is not always well-understood by today’s high school student. We believe that as the future of synthetic biology continues to grow brighter, it is important to introduce students, especially those reaching the postsecondary level, to this field and its potential. To address this, we partnered with [SHAD Waterloo](<https://uwaterloo.ca/shad-waterloo/>) (a summer program that gives exceptional high school students chance to experience 4 weeks at several Canadian Universities) to host a three-day workshop to educate students about the foundations of synthetic biology, lab techniques/protocols, and the social and ethical aspects of science in the modern day.
 Specifically, our goals in hosting the SHAD workshop were three-fold: (1) to teach eager secondary school students about the field of synthetic biology and how it may be used in the world of today; (2) laboratory techniques that are used by the Waterloo iGEM team to manipulate the genomes of bacteria to exhibit particular properties; and (3) ethics surrounding synthetic biology, its impact on society, possible benefits, and possible misuses of the technology. Overall, the SHAD workshop organized by Waterloo iGEM was directed towards an interactive and interdisciplinary approach to synthetic biology education.
 ## **Day 1: Introduction to Synthetic Biology and the Fundamentals of Genetics**
 To begin, students received introductory surveys to describe their previous experience with different laboratory techniques and their current thoughts on synthetic biology. Following this, the students were given an introduction on what synthetic biology is and how it is perceived differently by scientists, engineers, and the public. We also explained some molecular biology techniques that are important to synthetic biology. These techniques include the importance of the aseptic technique in the laboratory, plating cells onto an agar plate,  and preparing and running an agarose gel for gel electrophoresis. The SHADs then joined in a discussion about potential applications of synthetic biology and how these applications could be achieved through molecular biology techniques and principles.
@@ -13,8 +13,8 @@ We began the final day of our workshop by going over the process of gel electrop
 The workshop then shifted the focus from the lab to exploring what makes good science, the impact of good communication in science, and the ethics regarding synthetic biology. It was emphasized that good science extends beyond producing results in the lab – it stems from thorough analyses of the feasibility, ethics, and impact on society on both small and large scales. When it comes to opening up the new science to the world, students were made aware of how something with many benefits like GMOs could still be receiving such controversial responses. We then explained one way to minimize these negative results is through good communication. In our final discussion, we invited students to share what they believe contributes to ethical scientific practices. Key topics brought up by students included: safety, responsibility, and the overall benefit to the world.
 
 ## **Conclusion**
-Overall, we believe that the workshop was very successful for both the students and the iGEM members who were working with them. Students showed continuous enthusiasm in learning about synthetic biology, and had a very positive experience overall. We were able to achieve all of our goals, and received positive feedback from the students. 
-1. Based on surveys results, all students felt that they had a significantly better understanding of synthetic biology related terminology and a better grasps its current and potential uses. Following the discussion on GMOs, it was found that more students felt comfortable using GMOs and products made with GM technology since the workshop began. 
+Overall, we believe that the workshop was very successful for both the students and the iGEM members who were working with them. Students showed continuous enthusiasm in learning about synthetic biology, and had a very positive experience overall. We were able to achieve all of our goals, and received positive feedback from the students.
+1. Based on surveys results, all students felt that they had a significantly better understanding of synthetic biology related terminology and a better grasps its current and potential uses. Following the discussion on GMOs, it was found that more students felt comfortable using GMOs and products made with GM technology since the workshop began.
 2. We received very positive feedback on the lab portion of the workshop. Students enjoyed getting to use new lab equipment, and the opportunity to conduct molecular biology experiments. One particular piece of feedback that was received from the students is that having microscopes available in the lab for attendees to view their microbes would be really fun and educational.
 3. Students actively engaged in the conversation and demonstrated the ability to think critically about the underlying issues that face the uses of synthetic biology. There was also a focus on the importance of the practice of unbiased and well-communicated science, that is, being transparent and truthful in one’s work while avoiding any personal bias.
 This workshop was a great experience for the members of iGEM, and we hope to continue to work with SHAD Valley in future years to educate future university students about the field of synthetic biology. It is also an effective way to inspire prospective students to get involved with iGEM in their future years.
@@ -31,27 +31,128 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 
 
 Waterloo iGEM SHAD Valley Synthetic Biology Workshop
- 
+
 As a relatively new and emerging field, synthetic biology is a term not commonly well-understood by modern day high school students. We believe that as the future of synthetic biology continues to grow brighter, it is becoming more important to introduce students, especially those reaching the postsecondary level, to this field and educate them about its potential. To address this, we partnered with SHAD Waterloo (a summer program that hosts exceptional high school students around Canada) to host a three-day workshop to educate students about the foundations of synthetic biology, lab techniques/protocols, and the social and ethical aspects of science in the modern day.
- 
+
 Day 1: Introduction to Synthetic Biology and the Fundamentals of Genetics
 On the first day of the workshop, students were given an introduction on what synthetic biology is and how it can be perceived differently by scientists, engineers, and the public. Following that discussion, we explained some genetic concepts that are important to synthetic biology.  We concluded this section with an open brainstorming of how gene manipulation relates to synthetic biology, getting students to think about potential applications of synthetic biology and applying concepts that were discussed just before.
 After the introductory discussion, students had the opportunity to practice performing basic tasks and aseptic techniques. They learned how to use a micropipette while maintaining an uncontaminated workspace. Once comfortable, the students learned how to streak plate using E. Coli with reporter proteins. They each created a design, and got to bring their ideas to life.
- 
+
 Day 2: Miniprep and GMO’s
             	The students began with a quick discussion on mobile genetic elements as an introduction to the miniprep. Working with members of Waterloo iGEM, the students were guided through the pelleting of cells from a culture, lysing the cells to make the DNA accessible, then isolating the DNA from other components.
-            	After the miniprep was complete, we proceeded with a discussion on a highly debated topic – genetically modified organisms(GMO). With all of the controversy in the world about the uses of GMO, it was important to identify the views of people on either side of the matter. Students then had the opportunity to provide their own thoughts and opinions on whether the world should continue to use GMO to address their needs or if it should be avoided altogether. 
- 
+            	After the miniprep was complete, we proceeded with a discussion on a highly debated topic – genetically modified organisms(GMO). With all of the controversy in the world about the uses of GMO, it was important to identify the views of people on either side of the matter. Students then had the opportunity to provide their own thoughts and opinions on whether the world should continue to use GMO to address their needs or if it should be avoided altogether.
+
 Day 3: Gel Electrophoresis, Ethics, and Science Communication
 We began the final day of our workshop by going over the process of gel electrophoresis and the significance of the results. Students then practiced loading they samples into the gel before fully running the gels, and they were imaged and showed to the students.
 The workshop then shifted the focus from the lab to exploring what makes good science, the impact of good communication in science, and the ethical regarding synthetic biology. It was emphasized that good science extends beyond producing results in the lab – it is stems from thorough analyses of the feasibility, ethics, and impact on society on both small and large scales. When it comes to opening up the new science to the world, students were made aware of how something with as many benefits as GMO’s could still be receiving such controversial responses and methods to avoid such results through good communication. In our final discussion, we invited students to share what they believe made science ethical. Key topics brought up by students included: safety, responsibility, and the overall benefit to the world.
- 
+
 Conclusion
-Overall, we believe that the workshop was very successful for both the students and the iGEM members who were working with them. Students showed continuous enthusiasm in learning about synthetic biology, and had a very positive experience overall. We were able to achieve all of our goals, and received positive feedback from the students. 
+Overall, we believe that the workshop was very successful for both the students and the iGEM members who were working with them. Students showed continuous enthusiasm in learning about synthetic biology, and had a very positive experience overall. We were able to achieve all of our goals, and received positive feedback from the students.
 1.       Based on surveys students filled out at the very beginning and at the end, all students felt that they had a significantly better understanding of terms such as synthetic biology, aseptic techniques, DNA, proteins, chromosomes, bacteria, plasmid, miniprep, and gel electrophoresis. They were able to enhance their knowledge on these terms, or got a head-start on concepts they likely will learn in the future.
 2.       We received very positive feedback on the lab portion of the workshop. Students enjoyed getting to use lab equipment not normally available at their own schools, and had the opportunity to conduct experiments from beginning to end. Many of the attendees felt that learning about aseptic techniques helped improve their overall lab skills as they became more aware of the importance of preventing contamination. We hope that students continue to practice aseptic lab techniques and apply what they learned in future experiments.
 3.       The third and final goal that we achieved was to inform students about the ethical and social concerns on the use and applications of synthetic biology. Students actively engaged in the conversation and demonstrated the ability to think critically about the underlying issues that face the uses of synthetic biology.
 This workshop was a great experience for the members of iGEM, and we hope to continue to work SHAD Valley in future years to educate future university students about the field of synthetic biology. It is also an effective way to inspire prospective students to get involved with iGEM in their future years.
+
+____________________________________________________________________________
+
+# Gender Equity in Synthetic Biology
+
+![ERROR]({{image "labtrio.jpg" "directlink" mode}})
+
+Waterloo iGEM and Waterloo WiSTEM (Women in STEM) teamed up to host a two-part event to address issues concerning gender equity in synthetic biology. Part one consisted of a panel discussion on how gender equity impacts synthetic biology and related fields. Part two was an accompanying laboratory component with two overarching goals: one, to provide a synthetic biology-centered environment in which individuals of all genders could feel welcome and two, to use a hands-on approach to familiarize students with synthetic biology.
+
+**_Why talk about gender equity?_**  
+Gender inequity has long been an issue in the STEM fields. According to the U.S. Department of Commerce (Beede et al., 2011), women make up less than 25% of individuals working in STEM fields. Why is this the case? What can we do to resolve this glaring imbalance in STEM?  
+When women and non-binary individuals are left out of the picture, everyone loses. We lose half of humanity’s brightest ideas, we lose diversity of thought and opinion, we lose valuable and relevant experience. So why is there still such an enormous disproportion between men and women in STEM?  
+The Waterloo iGEM strongly believes these questions must be asked and discussed in order to start solving the overarching issue. To do this, we decided to team up with the University of Waterloo Women in STEM club (WiSTEM) to host a panel discussion on gender equality.
+
+**_Why a Synthetic Biology Laboratory workshop?_**  
+In addition to a discussion panel regarding gender equity, we included a hands-on synthetic biology aspect to this event. We wanted to set an example by opening a workshop for students, and by students to provide an open and comfortable environment for everyone to learn more about synthetic biology.  
+During the [SHAD Valley](https://www.shad.ca/) workshop, students were seen to be actively engaged in conversation with supervising iGEM members during the process of experiments. We felt that this type of interaction encourages dialogue and is beneficial to both participants and the iGEM team; we thus kept the same format for our WiSTEM workshop.
+
+### Gender Equity Panel Discussion with WiSTEM
+ **_A little bit about WiSTEM..._**  
+Although they focus on the issue of gender imbalance, WiSTEM encourage both males and females, and anyone with a connection to STEM, to participate. Their activities are a mix of skills workshops, topical discussions, social events, speakers, and special trips. They connect young women and men in STEM by building a community to share ideas and learn new skills. They empower young minds with the skills to become forward-thinking and driven leaders. They advocate for women in STEM fields, educate, and raise awareness about the growing community. iGEM Waterloo has partnered with WiSTEM in the past with excellent results; this established a great relationship, so we decided to team up once more!
+For more information, visit their [Facebook page](https://www.facebook.com/UWWiSTEM/?fref=ts) or their [website](http://uwwistem.ca/).
+
+**_So what did we do?_**
+
+![ERROR]({{image "Audience.JPG" "directlink" mode}})
+
+The event was intended to provide a relaxed, comfortable atmosphere to foster productive discussions on the subject of gender inequality in STEM fields. To help steer and fuel this discussion, we invited four STEM field panelists who are passionate about gender equality to answer a few thought-provoking questions. Members of the audience were encouraged to chime in at any time with their own thoughts, experiences, and questions. The moderator of the event had previous experience hosting gender equality and STEM field related panel discussions.
+
+**_Who were our panelists?_**
+
+![ERROR]({{image "Panelists.JPG" "directlink" mode}})
+
+**Colin Pierce** -  Lead of iGEM’s Policy and Practice team. Sweetest person you’ll ever meet; exemplary ally to women and non-binary individuals.  
+**Dr. Elizabeth Meiering** - Chemistry professor and researcher at the University of Waterloo. She has expertise with protein folding, dynamics, function, engineering, and design.
+**Jawad Khan** -  University of Waterloo Biochemistry student, founder of Cultured - Synthesizes environmentally friendly, chemical-free, and affordable meat with in vitro meat production technology.
+**Krishna Patel** - University of Waterloo Chemistry student, working on co-op for Grand River Foods. Passionate gender equity activist with Women in STEM (WiSTEM).
+
+**_What did we discuss?_**
+
+![ERROR]({{image "Panelistsmoderator.JPG" "directlink" mode}})
+
+* Could you give a little introduction of yourself? What are you studying/areas of research?
+* Have you had any experiences concerning gender inequality in the STEM fields? If so, how has this affect you/your work?
+* What do you wish your male counterparts knew about being a woman/non-binary person in STEM? For males on the panel, what advice do you have for other male advocates?
+* What do you do to cope with/deal with gender inequality, do you have any tips for women in the field?
+* What tips do you have for moving the field of synthetic biology and related biological fields forward?
+
+**_Feedback_**
+
+> “I found it beneficial to think about what I would do in a situation such as where I felt like my ideas were ignored in a male dominated work group. I feel that it is the responsibility of the individual with the problem to come forward as much as it is the employer’s responsibility to be aware of these issues and try to prevent them from occurring.” - Anonymous student
+
+> “Before attending the panel I had not thought about the issue of equity in much detail so my views haven’t changed so much as I simply learned enough in the discussion to form an opinion.” - Anonymous student
+
+### Synthetic Biology Workshop
+The follow-up laboratory component of the workshop aimed to build upon the panel discussion and progress towards equality in synthetic biology by providing members of all genders an opportunity to develop their technical laboratory skills.
+We hoped the two experiments helped facilitate interest and engage participants in some of the fundamental aspects of synthetic biology. Students were assisted by iGEM members to conduct cell transformation and streak plating experiments.
+
+**_Introduction and Lab Safety_**
+
+![ERROR]({{image "PLZZ5704.JPG" "directlink" mode}})
+
+Recapitulating on the topics of the panel discussion, the lab opened with an overview of the underlying gender equity issues in STEM fields before moving on to a discussion of the sciences and potentials of synthetic biology.
+As well, a section of the presentation was devoted to lab safety to emphasize the importance of following laboratory safety procedures. All University of Waterloo students are required to take WHMIS.
+
+**_Part 1: Transformation Protocol_**
+
+![ERROR]({{image "PLZZ5729.JPG" "directlink" mode}})
+
+![ERROR]({{image "PLZZ5737.JPG" "directlink" mode}})
+
+Cell transformation is ubiquitous in areas of biotechnology, genetic engineering, and molecular biology. Particularly in synthetic biology, transformation of synthesized DNA sequences that have been ligated into cloning vectors into bacterial organisms is essential to study the synthetic gene or system. We felt that the difficulty and relevance of the technique made it a good entry point to garner interests and spur curiosity in the area of synthetic biology. Not to mention that it is also a key technique employed in our team's (and many other iGEM teams’) experiments.
+
+Members were informed on the necessary background information regarding transformation including plasmids design, cell competency, and standard transformation protocol. Members then performed their own transformation experiments using in the common cloning _E.coli_ strain DH5-alpha.
+
+**_Part 2: Streak Plating_**
+
+![ERROR]({{image "labtrio2.jpg" "directlink" mode}})
+
+![ERROR]({{image "labduo.jpg" "directlink" mode}})
+
+Drawing on the success of the [SHAD Valley](https://www.shad.ca/) workshop, the team felt it was important to also include a streak plating experiment in the synthetic biology workshop. Members were instructed to streak plate their own design and were encouraged to check back on their results afterwards at the iGEM office. The chromoprotein-modified ([Bba-K592012 biobrick](http://parts.igem.org/Part:BBa_K592009)) _E.coli_ adds a more visual element to further engage participants.
+
+**_Feedback_**
+
+> “I enjoyed the lab portion of this workshop immensely, the experiments were a blast and I particularly enjoyed being able to talk to the upper years running the workshop.” - Anonymous student
+
+> “As a first year I am glad I was able to learn so much, not only preparing for my biology labs before they started, but also getting real advice on what to expect over the next few years of university.” - Anonymous student
+
+> “I loved the experiment that the iGEM team chose to run, I had never imagined I would be editing a bacterial genome within the first few weeks of starting university. I had always wanted to do it and it was surprisingly not too complicated.” - Anonymous student
+
+### References
+
+_Beede et al. (2011)._ U.S. Department of Commerce: Economics and Statistics Administration (ESA). #4-11, 1-4. Retrieved 30 Oct. 2017, from http://www.esa.doc.gov/sites/default/files/womeninstemagaptoinnovation8311.pdf.
+
+_Elizabeth Meiering Profile_ (n.d.). Retrieved 19 Oct. 2017, from University of Waterloo, academic institution site, https://uwaterloo.ca/chemistry/people-profiles/elizabeth-meiering
+
+_University of Waterloo Women in STEM_ (n.d.). Retrieved 19 Oct. 2017, from Facebook, social media site, https://www.facebook.com/pg/UWWiSTEM/about/?ref=page_internal
+
+_University of Waterloo Women in STEM_ (n.d.). Retrieved 19 Oct. 2017, from University of Waterloo Women in STEM, student organization site, http://uwwistem.ca/
+
 ____________________________________________________________________________
 
 ## Science Open House
@@ -60,20 +161,20 @@ Waterloo iGEM had the privilege to be involved in the University of Waterloo’s
 
 <center>![Science Open House]({{image "Science Open House.png" "directlink" mode}})</center>
 
-Waterloo iGEM hoped to accomplish a few things by participating in this year’s open house: 
+Waterloo iGEM hoped to accomplish a few things by participating in this year’s open house:
 1. Foster kids’ interest in science.
 2. Introduce children and families to the idea of synthetic biology.
 3. Inform attendees about our project using our Snake35 game.
 
 <center>![Colin & Melissa Represents]({{image "Colin & Melissa Represents.png" "directlink" mode}})</center>
 
-We hoped to accomplish this through our activities centers. Using arts and crafts material, children got to design their own microorganism. They were introduced to the concept of using synthetic biology to modify existing microbes to perform awesome tasks. Each child created their own unique microbe with a cool new function it was able to accomplish through synthetic biology. We think one of the strengths of this activity was its accessibility for the wide age range of kids that attended the open house. Some of the ideas sounded like incredible future iGEM projects such as “curing the common cold”, “microbes that grow to a larger size”, “microbes with extra appendages to grab food”, “microbes that clean wounds” and our favourite “microbes that can do absolutely everything”. 
+We hoped to accomplish this through our activities centers. Using arts and crafts material, children got to design their own microorganism. They were introduced to the concept of using synthetic biology to modify existing microbes to perform awesome tasks. Each child created their own unique microbe with a cool new function it was able to accomplish through synthetic biology. We think one of the strengths of this activity was its accessibility for the wide age range of kids that attended the open house. Some of the ideas sounded like incredible future iGEM projects such as “curing the common cold”, “microbes that grow to a larger size”, “microbes with extra appendages to grab food”, “microbes that clean wounds” and our favourite “microbes that can do absolutely everything”.
 
 <center> ![Creative microbes]({{image "Creative microbes.jpg" "directlink" mode}}) </center>
 
 <center> ![Ah ha]({{image "Ah ha.jpg" "directlink" mode}}) </center>
 
-While each child designed their microbes, our iGEM team members were also answering any questions that kids or their parents and guardians asked about iGEM, synthetic biology, and our project. This included answering questions about applications of our project, safety and ethics, the growth of field of synthetic biology, and where our work will continue the future. 
+While each child designed their microbes, our iGEM team members were also answering any questions that kids or their parents and guardians asked about iGEM, synthetic biology, and our project. This included answering questions about applications of our project, safety and ethics, the growth of field of synthetic biology, and where our work will continue the future.
 
 We also ran a pipetting activity we called ‘Liquid Rainbows’. Our team explained how scientists (including synthetic biologists) use special lab equipment to measure liquid when performing experiments, just like using measuring spoons and cups for cooking. Using coloured water we helped each child mix different colours of water into microfuge tubes to form different colours. These kids appeared to get the hang of it quite quickly and really enjoyed using real equipment just like scientists!
 
@@ -81,7 +182,7 @@ We also ran a pipetting activity we called ‘Liquid Rainbows’. Our team expla
 
 <center> ![Kids are pipetting]({{image "Kids are pipetting.jpg" "directlink" mode}}) </center>
 
-Finally, we let participants take a crack at our Snake35 game (for more info see our [Snake35 page](http://2017.igem.org/Team:Waterloo/Snake35)). Our iGEM team members explained how we have been studying how proteins interact or stick to each other, and although we cannot see the protein with our eyes we can tell if they have stuck together using light. This was a really valuable experience for us because we were able to take feedback from this event and improve the final version of our game. 
+Finally, we let participants take a crack at our Snake35 game (for more info see our [Snake35 page](http://2017.igem.org/Team:Waterloo/Snake35)). Our iGEM team members explained how we have been studying how proteins interact or stick to each other, and although we cannot see the protein with our eyes we can tell if they have stuck together using light. This was a really valuable experience for us because we were able to take feedback from this event and improve the final version of our game.
 
 <center>![Every craft for microbes]({{image "Every craft for microbes.png" "directlink" mode}})</center>
 
@@ -91,17 +192,17 @@ ____________________________________________________________________________
 
 **Background**
 
-During the course of summer, the Waterloo iGEM 2017 was represented by Melissa Prickaerts at the Biotech Bootcamp. One key takeaway from the Biotech Bootcamp highlighted social media as an important factor in sparking interest and curiosity for synthetic biology. In 2017, Pew Research Center in Washington D.C. reported that 67% of adults in America uses social media as their main source of news. While the advent of fake news controversies raised skepticism regarding the credibility of social media, this platform is undeniably influential over public’s perception. If used responsibly, social media can be an important tool to move public recognition in synthetic biology forward. 
+During the course of summer, the Waterloo iGEM 2017 was represented by Melissa Prickaerts at the Biotech Bootcamp. One key takeaway from the Biotech Bootcamp highlighted social media as an important factor in sparking interest and curiosity for synthetic biology. In 2017, Pew Research Center in Washington D.C. reported that 67% of adults in America uses social media as their main source of news. While the advent of fake news controversies raised skepticism regarding the credibility of social media, this platform is undeniably influential over public’s perception. If used responsibly, social media can be an important tool to move public recognition in synthetic biology forward.
 
-**Action** 
+**Action**
 
-Throughout the course of this season, the Waterloo iGEM 2017 team has actively involve social media in its activities for policy and practice. The main actions taken were: 
-* Update posts on our Twitter account and Instagram account to increase the number of followers 
-* Present the concept of social media’s role in synthetic biology for SHAD Valley 
-* Distribute our IAT survey through social media to see how people react to synthetic biology online. 
+Throughout the course of this season, the Waterloo iGEM 2017 team has actively involve social media in its activities for policy and practice. The main actions taken were:
+* Update posts on our Twitter account and Instagram account to increase the number of followers
+* Present the concept of social media’s role in synthetic biology for SHAD Valley
+* Distribute our IAT survey through social media to see how people react to synthetic biology online.
 
-**Result** 
+**Result**
 
-This section will only discuss the results obtained from our operation of our social media account, as the outcomes of SHAD Valley and IAT is performed separately. Through Twitter, we were able to generate thousands of impressions and gained 77 new followers from June 2017 to October 2017. One noticeable trend was that content originally created by us such as photos and videos tend to gain more engagement more than retweets. 
+This section will only discuss the results obtained from our operation of our social media account, as the outcomes of SHAD Valley and IAT is performed separately. Through Twitter, we were able to generate thousands of impressions and gained 77 new followers from June 2017 to October 2017. One noticeable trend was that content originally created by us such as photos and videos tend to gain more engagement more than retweets.
 
-As a result, we brought our attention to our instagram page and achieved phenomenal results. Instagram is the ideal social media website for sharing authentic content, as it does not promote reposting content like Twitter does. Therefore, we use Instagram to share photos of our activities throughout this season. This help us to connect with the community by sharing day-to-day moments we experienced from being in the lab and going outside to interview professors. Over the course of the few months, we achieved over 200 followers, which showed that social media provide a great platform to connect with people. 
+As a result, we brought our attention to our instagram page and achieved phenomenal results. Instagram is the ideal social media website for sharing authentic content, as it does not promote reposting content like Twitter does. Therefore, we use Instagram to share photos of our activities throughout this season. This help us to connect with the community by sharing day-to-day moments we experienced from being in the lab and going outside to interview professors. Over the course of the few months, we achieved over 200 followers, which showed that social media provide a great platform to connect with people.
