@@ -29,6 +29,7 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 ![ERROR]({{image "DSC0489.JPG" "directlink" mode}})|![ERROR]({{image "DSC0398.JPG" "directlink" mode}})|![ERROR]({{image "DSC383.JPG" "directlink" mode}})|
 
 
+<<<<<<< HEAD
 
 Waterloo iGEM SHAD Valley Synthetic Biology Workshop
 
@@ -153,6 +154,8 @@ _University of Waterloo Women in STEM_ (n.d.). Retrieved 19 Oct. 2017, from Face
 
 _University of Waterloo Women in STEM_ (n.d.). Retrieved 19 Oct. 2017, from University of Waterloo Women in STEM, student organization site, http://uwwistem.ca/
 
+=======
+>>>>>>> 8a3de2c3026da135f6820c0a52a6866182442836
 ____________________________________________________________________________
 
 ## Science Open House
