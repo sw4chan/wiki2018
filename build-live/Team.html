@@ -10,6 +10,16 @@
 {{Waterloo/head}}
 <html>
 
+<style>
+.teamMember {
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 12px;
+}
+</style>
+
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top"><a class="navbar-brand" href="http://2017.igem.org/Team:Waterloo">Waterloo</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button><div class="collapse navbar-collapse" id="navbarCollapse"><ul class="navbar-nav mr-auto">
@@ -71,7 +81,7 @@
 </ul>
 </ul>
 </div></nav>
-<div class="content">
+<div class="content team">
   <div class="titleBox row" style="background: url(http://2017.igem.org/wiki/images/4/4c/T--Waterloo--2017_teamphoto.jpg)">
     <div class="layer shade">
       <div class="squiggle squiggleForward col-xs-4"></div>
@@ -87,17 +97,61 @@
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-4">
-        <div class="lightbulb" style="background-image: url(http://2017.igem.org/wiki/images/4/4c/T--Waterloo--2017_teamphoto.jpg)"></div>
+        <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + member.photo + ')' }"></div>
       </div>
       <div class="col-sm-4">
         <div class="teamMemberInfo">
-          <h2>Name</h2>
-          <p>Blah, blah, blah</p>
+          <h2>^^member.name$$</h2>
+          <p>^^member.bio$$</p>
         </div>
       </div>
       <div class="col-sm-2"></div>
     </div>
   </div>
+	<div id="inserts"> 
+    <center>
+      <div class="ip-group-wrapper">
+        <div class="memberList">
+          <img class="teamMember" v-on:click="member=me" v-for="me in ip.members" src="me.photo">
+          </img>
+        </div>
+      </div>
+    </center>
+  </div>
 </div>
+
+<script src="https://unpkg.com/vue"></script>
+<script>
+var teamPage = new Vue({
+  el: ".team",
+  delimiters: ['^^', '$$'],
+  data:{
+    member: {
+			name: 'Click a team member to view their information',
+		  bio: '',
+			photo: '',
+		},
+    ip: {
+    parent: "IP",
+    members: [
+      {
+        name: 'blah1',
+        bio: 'blah blah blah',
+        photo: 'blaaaah',
+      },
+      {
+        name: 'blah2',
+        bio: 'blah blah blah',
+        photo: 'blaaaah',
+      },
+      {
+        name: 'blah3',
+        bio: 'blah blah blah',
+        photo: 'blaaaah',
+      },
+    ]
+    }}}
+)
+</script>
 </html>
 {{Waterloo/footer}}
