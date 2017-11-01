@@ -1,8 +1,8 @@
 <div id = “talks”>
 
-### Talks
+### Talks ###
 
-#### Biotech Bootcamp:
+#### Biotech Bootcamp: ####
 
 One of our policy team members, along with two of our advisors, attended the Biotech Bootcamp at University of Guelph this past May.
 
@@ -12,7 +12,7 @@ At this event, presentations and panel discussions focused on science policy and
 
 <center> ![ERROR]({{image "Biotech Boot Camp.png" "directlink" mode}}) </center>
 
-<br>
+</br>
 
 It was really an eye opening experience because the overwhelming message about the importance science communication and how important it is to tell the story of your work before someone else spins it in an undesirable or misconstrued way. This experience drove us to prioritize social media and outreach as one of our main human practices goals for our project.
 
