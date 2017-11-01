@@ -77,4 +77,4 @@ Criteria | Zika
 
 ### **Conclusion:** ###
 
-In conclusion, the Waterloo iGEM 2017 team has decided to select the engineered prion project for this year.
+**In conclusion, the Waterloo iGEM 2017 team has decided to select the engineered prion project for this year.**
