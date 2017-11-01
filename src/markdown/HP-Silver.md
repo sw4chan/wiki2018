@@ -39,6 +39,8 @@ Usefulness - /2
 Impact - /2
 Feasibility - / 5
 
+____________________________________________________________________________
+
 Criteria | Functional Prion Project
 --- | ---
 <b> Description of Project </b> <br> <ul> <li> What kind of problem are we solving? </li> <li>How are we doing it? </li> </ul> | <ul> <li> It is observed that fusing proteins together typically reduces function, although it is possible to engineer the prions such that the function increases </li> <li> Reconstruct DNA such that it creates a prion domain in a new protein, allowing it to aggregate with other prion proteins </li> </ul>

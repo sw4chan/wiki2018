@@ -5,8 +5,8 @@ There are near countless ways an iGEM team can approach human practices, however
 <center>![ERROR]({{image "Guide.svg" "directlink" mode}}) </center>
 
 ## Project Development
-To help our team select our project for both this year and future years, we created a guide on how to choose an iGEM project. The guide uses quantitative and qualitative measures to accurately and thoroughly process each idea brought forth for us to pursue as a project Read more about our guide and selection process on our [Silver Medal Criteria Page](http://2017.igem.org/Team:Waterloo/HP-Silver).
-	Throughout the development of our project we spoke with  experts about improving our project and potential applications of our versatile project idea. We also developed an Implicit Association Task (IAT) and an online game to better communicate our project with stakeholders and the public [Gold Medal]. Read expert opinions and to try your hand at our game on our [Gold Medal Criteria Page](http://2017.igem.org/Team:Waterloo/HP-Gold).
+To help our team select our project for both this year and future years, we created a guide on how to choose an iGEM project. The guide uses quantitative and qualitative measures to accurately and thoroughly process each idea brought forth for us to pursue as a project Read more about our guide and selection process on our [Silver Medal Criteria Page](http://2017.igem.org/Team:Waterloo/HP/Silver).
+	Throughout the development of our project we spoke with  experts about improving our project and potential applications of our versatile project idea. We also developed an Implicit Association Task (IAT) and an online game to better communicate our project with stakeholders and the public [Gold Medal]. Read expert opinions and to try your hand at our game on our [Gold Medal Criteria Page](http://2017.igem.org/Team:Waterloo/HP/Gold_Integrated).
 
 <center>![ERROR]({{image "Toolkit.svg" "directlink" mode}}) </center>
 
