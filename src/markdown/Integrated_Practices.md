@@ -284,7 +284,7 @@ The potential use of prion domains instead of ELK16 could further reduce the cos
 #### Application
 This could be achieved by inducing the prion domains into their normal state, and using expressed protein ligation to attach new target proteins to the N-termini of the inteins.
 
-#### Restrictions**
+#### Restrictions
 The question that must be asked is whether the reduction of costs gained in the reuse of the intein-aggregation domain will offset the increase in cost associated with protein ligation. It essentially boils down to what would be more expensive, the act of producing new fusion proteins, or the act of de-aggregating and reusing your existing fusion proteins.
 
 #### References
