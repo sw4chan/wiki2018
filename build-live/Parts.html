@@ -128,11 +128,15 @@
 }
 
 .item-text{
-  margin: 0 10vw 0 10vw;
+  margin: 0 15vw 0 15vw;
 }
 
 .part-img{
-  margin: 0 auto;
+  text-align: center;
+  margin: 5vh auto 1vh auto
+}
+.part-img img{
+  width: 50vw;
 }
 a{
   color: white;
@@ -178,7 +182,7 @@ a:visited{
   <div v-for="item in psb1c3.items" v-if="psb1c3.showing==item.id">
       
       <div class="part-img">
-        <img v-bind:src="item.image" alt="">          
+        <img v-bind:src="item.image" alt="????">          
       </div>
       
     <div class="item-text">
@@ -266,18 +270,18 @@ var partsPage = new Vue({
       {id:3,
        title: "PrD-CFP",
        image: "http://2017.igem.org/wiki/images/9/9e/CUP1_CFP.svg",
-       text: "This composite part consists of the Sup35 aggregation domain fused with CFP (cyan fluorescent protein), which is a fluorescent tag with a theoretical excitation peak at 430 nm and emission peak at 485 nm. This was used, in conjunction with PrD-YFP, in Förster resonance energy transfer (FRET)  experiments  to  test if/how the aggregation domain affects the energy transfer from CFP to YFP in PSI+ (aggregate state) and psi- (soluble state). This part is under control of the Cup1 promoter and CYC1 terminator. Its expression can be modulated by the amount of copper added to the system.  ",
+       text: "This composite part consists of the Sup35 aggregation domain fused with CFP (cyan fluorescent protein), which is a fluorescent tag with a theoreticgual excitation peak at 430 nm and emission peak at 485 nm. This was used, in conjunction with PrD-YFP, in Förster resonance energy transfer (FRET)  experiments  to  test if/how the aggregation domain affects the energy transfer from CFP to YFP in PSI+ (aggregate state) and psi- (soluble state). This part is under control of the Cup1 promoter and CYC1 terminator. Its expression can be modulated by the amount of copper added to the system.  ",
        biobrick:"BBa_K2475002"
       },
       {id:4,
        title: "PrD-nYFP",
-       image: "http://2017.igem.org/File:CUP1_YFP-N.svg",
+       image: "http://2017.igem.org/wiki/images/f/fd/CUP1_YFP-N.svg",
        text: "This composite part consists of the Sup35 prion domain fused with the n-terminal fragment of the YFP complex. It does not exhibit fluorescence by itself, and must associate with the c-terminal fragment in order for fluorescence to be expressed. This was used, in conjunction with PrD-cYFP, in flow cytometry experiments to test if the aggregation domains encourage joining of the two protein halves and increases YFP expression.This part is under control of the Cup1 promoter and CYC1 terminator. Its expression can be modulated by the amount of copper added to the system.  (Include link to other part for the registry)",
        biobrick:"BBa_K2475003"
       },
       {id:5,
        title: "PrD-cYFP",
-       image: "http://2017.igem.org/File:CUP1_YFP-C.svg",
+       image: "http://2017.igem.org/wiki/images/e/e0/CUP1_YFP-C.svg",
        text: "This composite part consists of the Sup35 prion domain fused with the c-terminal fragment of the YFP complex. It does not exhibit fluorescence by itself, and must associate with the n-terminal fragment in order for fluorescence to be expressed. This was used, in conjunction with PrD-nYFP, in flow cytometry experiments to test if the aggregation domains encourage joining of the two protein halves and increases YFP expression. This part is under control of the Cup1 promoter and CYC1 terminator. Its expression can be modulated by the amount of copper added to the system.  ",
        biobrick:"BBa_K2475004"
       },
