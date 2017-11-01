@@ -102,9 +102,9 @@
         "software": "Software",
         "measurement": "Measurement",
         "model": "Model",
-        "bifc": "BiFC",
+        "markov": "Markov",
         "des": "DEs",
-        "fret": "FRET",
+        "combinatorics": "Combinatorics",
         "modeling": "Modeling"
     }
 }
