@@ -14,9 +14,11 @@ We began the final day of our workshop by going over the process of gel electrop
 The workshop then shifted the focus from the lab to exploring what makes good science, the impact of good communication in science, and the ethics regarding synthetic biology. It was emphasized that good science extends beyond producing results in the lab – it stems from thorough analyses of the feasibility, ethics, and impact on society on both small and large scales. When it comes to opening up the new science to the world, students were made aware of how something with many benefits like GMOs could still be receiving such controversial responses. We then explained one way to minimize these negative results is through good communication. In our final discussion, we invited students to share what they believe contributes to ethical scientific practices. Key topics brought up by students included: safety, responsibility, and the overall benefit to the world.
 
 ![]({{image "SHADSynbio.png" "directlink" mode}})
+
 Figure 1. SHADs’ familiarity with Synthetic Biology processes pre- and post-workshop.
 
-![]({{image "	SHADWords.png" "directlink" mode}})
+![]({{image "SHADWords.png" "directlink" mode}})
+
 Figure 2. SHADs’ familiarity with Synthetic Biology vocabulary pre- and post-workshop.
 
 ## **Conclusion**
