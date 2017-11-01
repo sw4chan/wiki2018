@@ -1,3 +1,5 @@
+Waterloo iGEM created a handbook about Human Practices and our Policy and Practices (PNP) subteam in hopes to help future iGEM teams understand the role of Human Practices in science. In this guide, we discuss the iGEM Competition, what makes a great project, PNP medal criteria, and other side projects we work on. Come the beginning of the competition year, this guide will be given to our future team members as a tool to help them get a better understanding of our their roles as part of the team. Continue reading and check out what we’ve written.
+
 <center> ![ERROR]({{image "PNP Handbook iGEM Logo.png" "directlink" mode}}) </center>
 
 # <center> Introduction to Policy and Practices(PNP) </center>

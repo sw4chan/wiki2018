@@ -118,7 +118,7 @@ ____________________________________________________________________________
 #### General Concept
 One application of our project is that it could help speed up fermentation processes in the production of ethanol. To create ethanol, we start off with complex sugars and yeast; the yeast then breaks the complex sugars down into glucose, and eventually into ethanol and carbon dioxide (Lin et. al, 2005).
 
- ![fermentation pathway]({{image "fermentation.png" "directlink" mode}})
+ ![fermentation pathway]({{image "fermentation2.png" "directlink" mode}})
 
 With the help of our project, we could use aggregation to speed up the fermentation pathway. To do this, however, we use monomeric enzymes, as it has not yet been proven that we can form homodimers in the prion state. Most of the enzymes in the fermentation pathway for glucose are not monomeric. Instead of using glucose as a starting sugar, we can use mannose. The first two enzymes in mannose’s fermentation pathway are monomeric. We could therefore test whether we can apply our project idea to mannose’s fermentation pathway to help speed up its process.
 
@@ -135,4 +135,3 @@ Mannose’s fermentation process is already slower than glucose’s; will our pr
 Lin, Y., Tanaka, S. (December, 2005). Ethanol fermentation from biomass resources: current state and prospects. Applied Microbiology and Biotechnology. (2006) 69: 627. https://doi.org/10.1007/s00253-005-0229-x
 
 Peterson, W.H., Fred, E.B., Anderson, J.A. (April, 1920) The Fermentation of Glucose, Galactose, and Mannose by Lacrobacillus pentoaceticus, N. SP.*. J. Biol. Chem. 1920, 42:273-287. No doi. Retrieved from http://www.jbc.org/content/42/2/273.full.pdf
-
