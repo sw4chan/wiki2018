@@ -71,9 +71,14 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 
 <center> <object width="800" height="600" data="{{image "SHADiGEMBrochure.pdf" "directlink" mode}}"></object> </center>
 
+<br> 
+
 <center> <object width="800" height="600" data="FullShadPresentation.pdf"></object> </center>
 
+<br>
 ____________________________________________________________________________
+
+<br> 
 
 # Gender Equity in Synthetic Biology
 
@@ -81,11 +86,13 @@ ____________________________________________________________________________
 
 Waterloo iGEM and Waterloo WiSTEM (Women in STEM) teamed up to host a two-part event to address issues concerning gender equity in synthetic biology. Part one consisted of a panel discussion on how gender equity impacts synthetic biology and related fields. Part two was an accompanying laboratory component with two overarching goals: one, to provide a synthetic biology-centered environment in which individuals of all genders could feel welcome and two, to use a hands-on approach to familiarize students with synthetic biology.
 
+<br> 
 **_Why talk about gender equity?_**  
 Gender inequity has long been an issue in the STEM fields. According to the U.S. Department of Commerce (Beede et al., 2011), women make up less than 25% of individuals working in STEM fields. Why is this the case? What can we do to resolve this glaring imbalance in STEM?  
 When women and non-binary individuals are left out of the picture, everyone loses. We lose half of humanity’s brightest ideas, we lose diversity of thought and opinion, we lose valuable and relevant experience. So why is there still such an enormous disproportion between men and women in STEM?  
 The Waterloo iGEM strongly believes these questions must be asked and discussed in order to start solving the overarching issue. To do this, we decided to team up with the University of Waterloo Women in STEM club (WiSTEM) to host a panel discussion on gender equality.
 
+<br>
 **_Why a Synthetic Biology Laboratory workshop?_**  
 In addition to a discussion panel regarding gender equity, we included a hands-on synthetic biology aspect to this event. We wanted to set an example by opening a workshop for students, and by students to provide an open and comfortable environment for everyone to learn more about synthetic biology.  
 During the [SHAD Valley](https://www.shad.ca/) workshop, students were seen to be actively engaged in conversation with supervising iGEM members during the process of experiments. We felt that this type of interaction encourages dialogue and is beneficial to both participants and the iGEM team; we thus kept the same format for our WiSTEM workshop.
