@@ -3,7 +3,7 @@
 
 We know that science is not in its own separate realm, but takes place within the global community. Human practices aims to evaluate how the world affects our project and how we affect the work with our work. We accomplished this in two ways. By talking to experts we ensured that we were doing valuable, sound, and novel work that could meaningfully contribute to the field of synthetic biology. We also looked into the ways in which we communicate our project. We evaluated any potential bias towards synthetic biology in general and the specific terminology used in our project through our Implicit Association Task (IAT). We also created a online game Snake35 as a fun interactive tool to help stakeholders of all ages to understand our project.
 
-![ERROR]({{image "HP-Gold Snake35.png" "directlink" mode}})
+<center> ![ERROR]({{image "HP-Gold Snake35.png" "directlink" mode}}) </center>
 
 #### Snake35
 
