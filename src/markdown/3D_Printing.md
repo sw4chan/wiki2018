@@ -1,5 +1,3 @@
-<div id = “3d” >
-
 # Networks
 
 At some point, every lab faces limitations when it comes to resources for experiments. For some, this limit is much lower than others, to the extent where even basic experiments become difficult to complete. To address this problem, iGEM Waterloo has begun creating a catalogue of 3D-printable lab equipment for teams to download and print for their own use.
@@ -29,5 +27,3 @@ After a couple hours of work together, the ability to perform basic operations a
 To determine quality, we ran performance testing on the plastics. We tested the gel combs under the criteria of: well quality, well consistency, and comb deterioration. In comparison to commercial grade gel combs, our 3D printed versions performed equally as well, and have been used over a dozen times without and signs of wear and tear. In terms of strength, PLA plastic has a tensile strength of ~65 MPa and ABS has a tensile strength of ~38 MPa. **Both values are subject to printer settings such as infill, shell thickness, layer height, and print speed.** It was determined that the type of plastic we were using could not withstand the heat from an autoclave or from a bunsen burner.
 
 Please visit our official Waterloo iGEM page to view our catalogue seen [here](hyperlink goes between these brackets and you will click on the word here) to print your own labwear.
-
-</div>
