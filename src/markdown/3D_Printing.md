@@ -18,6 +18,8 @@ To start, we needed ideas on what we could 3D print. Ideally what we made would 
 
 <center> ![ERROR]({{image "Gel Comb 2.png" "directlink" mode}}) </center>
 
+Above is the schematic for a test tube rack we designed and printed. We designed many different combs for different sized gel rigs and with different numbers of teeth to create gels with different numbers of well. 
+
 The main limitation with using 3D printing plastics, such as acrylonitrile butadiene styrene (ABS) and polyactic acid (PLA), include sterility, porousness, and strength. The plastics must be able to withstand the heat from an autoclave in order to be sterilized, they cannot be used to hold liquids, and they must be able to withstand certain amounts of force. With these guidelines, we wanted to start by creating equipment that would not be subject to these risks. Before attempting to design and print everything on our list, we started off by designing a gel comb. Using PLA plastic, we created our first piece of lab equipment for trial. After successful results, we continued to pursue other designs such as different sized gel combs, test tube racks, and microcentrifuge tube holders.
 
 One of our team members with 3D modelling experience ran a quick workshop on how to use CAD software for other team members to attend. As the Student version of AutoCAD was free to download, it fits really well with our goal of accessibility.  Learning how to use AutoCAD under the tutelage of a peer was a fun activity and helped the team grow together, while also learning a new skill. While working in a spatial simulated environment poses its challenges, it becomes relatively easy to use after some practice. Even without an in-house expert, there are many free tutorials available online.
