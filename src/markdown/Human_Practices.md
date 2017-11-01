@@ -1,12 +1,12 @@
 There are near countless ways an iGEM team can approach human practices, however this year Waterloo iGEM chose to take a four-prong approach to our project:
 
-<center>![ERROR]({{image "PnP Icon 1.svg" "directlink" mode}})</center>
+<center>![ERROR]({{image "Guide.svg" "directlink" mode}})</center>
 
 ## Project Development
 To help our team select our project for both this year and future years, we created a guide on how to choose an iGEM project. The guide uses quantitative and qualitative measures to accurately and thoroughly process each idea brought forth for us to pursue as a project Read more about our guide and selection process on our [Silver Medal Criteria Page](http://2017.igem.org/Team:Waterloo/HP-Silver/ “Silver Medal”). 
 	Throughout the development of our project we spoke with  experts about improving our project and potential applications of our versatile project idea. We also developed an Implicit Association Task (IAT) and an online game to better communicate our project with stakeholders and the public [Gold Medal]. Read expert opinions and to try your hand at our game on our [Gold Medal Criteria Page] (http://2017.igem.org/Team:Waterloo/HP-Gold/ “Gold Medal”) . 
 
-<center>![ERROR]({{image "PnP Icon 2.svg" "directlink" mode}})</center>
+<center>![ERROR]({{image "Toolkit.svg" "directlink" mode}})</center>
 
 ## iGEM Toolkit
 Waterloo iGEM created a diverse set of tools to help current and future iGEM  teams with their annual projects.  Firstly. we created a policy guidebook as a primer to Human Practices (HP) work on an iGEM team, which thoroughly discusses what projects our subteam works on and how we manage our HP on Waterloo iGEM. From this guide, we hope to provide a reference for future iGEM teams and members as an example of how a HP subteam can operate. In addition. we also made a collection of 3D printable lab materials as a way to quickly produce cost effective lab equipment. Our 3D printed equipment proved to function at high performances, and we believe that iGEM teams outside of Waterloo can benefit from downloading and producing basic lab equipment for a fraction of its commercial cost. Take a peak at our toolkit on our [Integrated Human Practices Page](http://2017.igem.org/Team:Waterloo/Integrated_Practices/ “Integrated Practices”)
