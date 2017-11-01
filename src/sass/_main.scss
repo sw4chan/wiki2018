@@ -330,7 +330,29 @@ img {
 .integratedPractices {
     padding-bottom: 24px;
 }
+.footer {
+    padding: 20px;
+    background: #efefef;
+    text-align: center !important;
+    color: #00b2a7;
+    h2 {
+	font-family: 'Lato', sans-serif !important;
+	font-size: 30px !important;
+	padding: 0 !important;
+	text-align: center;
+    }
+    p {
+	text-align: center !important;
+    }
+}
 
+.icons {
+    display: inline-flex;
+    padding: 24px 0 !important;
+    h2 {
+    	padding: 0 18px !important;
+    }
+}
 table {
     color: white !important;
 }
