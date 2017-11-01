@@ -72,6 +72,7 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 <center> <object width="800" height="600" data="{{image "SHADiGEMBrochure.pdf" "directlink" mode}}"></object> </center>
 
 <center> <object width="800" height="600" data="FullShadPresentation.pdf"></object> </center>
+
 ____________________________________________________________________________
 
 # Gender Equity in Synthetic Biology
@@ -136,6 +137,8 @@ We hoped the two experiments helped facilitate interest and engage participants 
 Recapitulating on the topics of the panel discussion, the lab opened with an overview of the underlying gender equity issues in STEM fields before moving on to a discussion of the sciences and potentials of synthetic biology.
 As well, a section of the presentation was devoted to lab safety to emphasize the importance of following laboratory safety procedures. All University of Waterloo students are required to take WHMIS.
 
+<br>
+
 **_Part 1: Transformation Protocol_**
 
 ![ERROR]({{image "PLZZ5729.JPG" "directlink" mode}})
@@ -145,6 +148,8 @@ As well, a section of the presentation was devoted to lab safety to emphasize th
 Cell transformation is ubiquitous in areas of biotechnology, genetic engineering, and molecular biology. Particularly in synthetic biology, transformation of synthesized DNA sequences that have been ligated into cloning vectors into bacterial organisms is essential to study the synthetic gene or system. We felt that the difficulty and relevance of the technique made it a good entry point to garner interests and spur curiosity in the area of synthetic biology. Not to mention that it is also a key technique employed in our team's (and many other iGEM teams’) experiments.
 
 Members were informed on the necessary background information regarding transformation including plasmids design, cell competency, and standard transformation protocol. Members then performed their own transformation experiments using in the common cloning _E.coli_ strain DH5-alpha.
+
+<br>
 
 **_Part 2: Streak Plating_**
 
@@ -162,9 +167,11 @@ Drawing on the success of the [SHAD Valley](https://www.shad.ca/) workshop, the 
 
 > “I loved the experiment that the iGEM team chose to run, I had never imagined I would be editing a bacterial genome within the first few weeks of starting university. I had always wanted to do it and it was surprisingly not too complicated.” - Anonymous student
 
+<br>
+
 ### Additional Resources
 
-<center> <object width="800" height="600" data="{{image "WiSTEMiGEMBrochure.pdf" "directlink" mode}}"></object> </center>c
+<center> <object width="800" height="600" data="{{image "WiSTEMiGEMBrochure.pdf" "directlink" mode}}"></object> </center>
 
 <center> ![ERROR]({{image "Poster.jpg" "directlink" mode}}) </center>
 
