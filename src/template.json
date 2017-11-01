@@ -9,6 +9,7 @@
         "design": "Design",
         "experiments": "Experiments",
         "proof": "Proof",
+	"contribution": "Contribution",
         "demonstrate": "Demonstrate",
         "results": "Results",
         "notebook": "Notebook",
@@ -24,10 +25,7 @@
         "integrated_practices": "Integrated_Practices",
         "engagement": "Engagement",
         "snake35": "Snake35",
-        "entrepreneurship": "Entrepreneurship",
-        "hardware": "Hardware",
         "software": "Software",
-        "measurement": "Measurement",
         "model": "Model"
    },
     "navigation": {
@@ -37,6 +35,7 @@
             "collaborations": "collaborations"
         },
         "project": {
+	    "contribution": "contribution",
             "description": "description",
             "design": "design",
             "experiments": "experiments",
@@ -57,10 +56,7 @@
             "snake35": "snake35"
         },
         "awards": {
-            "entrepreneurship": "entrepreneurship",
-            "hardware": "hardware",
             "software": "software",
-            "measurement": "measurement",
             "model": "model"
         }
     },
@@ -76,6 +72,7 @@
         "design": "Design",
         "experiments": "Experiments",
         "proof": "Proof",
+	"contribution": "Contribution",
         "demonstrate": "Demonstrate",
         "results": "Results",
         "notebook": "Notebook",
@@ -97,10 +94,7 @@
         "project_talks": "Project_Talks",
         "practices": "Practices",
         "engagement": "Engagement",
-        "entrepreneurship": "Entrepreneurship",
-        "hardware": "Hardware",
         "software": "Software",
-        "measurement": "Measurement",
         "model": "Model",
         "markov": "Markov",
         "des": "DEs",
