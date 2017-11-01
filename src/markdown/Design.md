@@ -6,7 +6,9 @@
 Prions are self-perpetuating proteins that have a soluble, normally functional form and an additional insoluble form known as aggregates or amyloids (Tyedmers et.al, 2010). They are self-propagating conformations that have the ability to transmit phenotypes that are not caused by changes in nucleic acid formations (Tyedmers et.al, 2010). The first prions that were discovered were disease-prions, notably in mammalian diseases including sheep scrapie and human Creutzfeldt- Jacob (Liebman & Chernoff, 2012). These diseases were transmitted by infectious conformational isoforms of proteins, which in turn convert other proteins into the isoform (Liebman & Chernoff, 2012). To date, there are over thirty human diseases associated with the formation of prions (Liebman & Chernoff, 2012).
 
 Currently, there are seven-known prions in Saccharomyces cerevisiae, each with a different function and phenotype (Tyedmers et.al, 2010). Although there are no general sequence similarity among all the seven prions, there is a heightened expressed level of asparagine and glutamine residues in all the prions (Tyedmers et.al, 2010).
+
 ![Error]({{image "Wiki freeze2.jpeg" "directlink" mode}})
+
 <br>
 <br>
 #### *Modularity of Prions*
