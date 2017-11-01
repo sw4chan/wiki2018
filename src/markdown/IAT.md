@@ -49,7 +49,7 @@ There is insufficient evidence to reject the null hypothesis at alpha = 0.05, th
 There is sufficient evidence to reject the null hypothesis at alpha = 0.05, the mean response time differs significantly at alpha = 0.05 between the control blocks and the mix incompatible block (paired-samples t-test; p < 0.03, d.f = 14). Even though there was a violation of the normality assumption, the departure from normality is of little concern.
 
 
-
+![]({{image "IATgraph.png" "directlink" mode}})
 Boxplots comparing the distribution of mean response time (ms) each presented word of participants (n = 15) for the the mixed compatible and mixed incompatible blocks. Sampled in 2017.
 
 
