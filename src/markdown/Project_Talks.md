@@ -8,10 +8,11 @@ One of our policy team members, along with two of our advisors, attended the Bio
 
 At this event, presentations and panel discussions focused on science policy and communication. There was many valuable discussions about the use of genetically modified (GM) technology, science advocacy, laws and regulations, biotechnology in the developing world, and environmental sustainability. As well, one of our advisors Dr. Trevor Charles spoke about iGEM highlighting the emphasis that the competition puts on human practices as a fundamental aspect of scientific work along with showing [Our Video](https://www.youtube.com/watch?v=SnZx5P7sn9A&feature=youtu.be&a=) we made during our recruitment process. There also was a public event including the Canadian premier of documentary [Food Evolution](https://www.foodevolutionmovie.com/) which was followed by a public discussion on GMOs.
 
+<br>
 
-![ERROR]({{image "Biotech Boot Camp.png" "directlink" mode}})
+<center> ![ERROR]({{image "Biotech Boot Camp.png" "directlink" mode}}) </center>
 
-
+<br>
 
 It was really an eye opening experience because the overwhelming message about the importance science communication and how important it is to tell the story of your work before someone else spins it in an undesirable or misconstrued way. This experience drove us to prioritize social media and outreach as one of our main human practices goals for our project.
 
@@ -23,9 +24,11 @@ This year, the University of Waterloo hosted the 67th annual Canadian Society of
 
 Our talk was actually so well received that we got an invitation to also speak a the Synthetic Biology Symposium at the Western University later that summer. We were able to bring several members of our team, and we all had a great time hearing about academic and industrial research in synthetic biology, talking to experts in the field, and getting advice on some of the technical issues we were facing in our project. It was also exciting presenting our talk again, and being able to demonstrate the progress we had made since our previous talk at CSM.
 
+<br>
 
-![ERROR]({{image "Western.png" "directlink" mode}})
+<center> ![ERROR]({{image "Western.png" "directlink" mode}}) </center>
 
+<br>
 
 A Gem in the Rough
 

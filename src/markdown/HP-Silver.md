@@ -76,3 +76,5 @@ Criteria | Zika
 <b> Alternative </b> <br> <ul> <li> Is there another more efficient/better way to go about solving the problem? </li> </ul> | <ul> <li> Wolbachia bacteria have been used similar studies, but have not implemented CRISPR, nor would this experiment work to use a human AXL receptor inside a prokaryote cell </li> </ul>
 
 ### **Conclusion:** ###
+
+In conclusion, the Waterloo iGEM 2017 team has decided to select the engineered prion project for this year.
