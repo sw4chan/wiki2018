@@ -31,7 +31,3 @@ Our talk was actually so well received that we got an invitation to also speak a
 *A Gem in the Rough*
 
 Although we spend a lot of time showing others our final project, we also thought that it might be interesting to show what we do in and out of the lab on a daily basis during our build season: the elusive life of an iGEMer. One of our lab leads Max made a documentary of one 24 hour day during the summer interspersed with interviews from members of all our sub-teams. Check out [A Gem in the Rough](https://www.youtube.com/watch?v=MX8XX0fGqEY).
-
-Below are the presentation slides we used in our presentation at the CSM Talk.
-
-<object width="600" height="800" data="{{image ”iGEM CSM 2017.pdf” "directlink" mode}}"></object>
