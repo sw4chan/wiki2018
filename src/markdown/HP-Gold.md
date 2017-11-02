@@ -1,3 +1,5 @@
+<center> ![ERROR]({{image "Goldwaterloo.png" "directlink" mode}}) </center>
+
 ### **Gold Medal** ###
 
 
@@ -5,15 +7,15 @@ We know that science is not in its own separate realm, but takes place within th
 
 <center> ![ERROR]({{image "HP-Gold Snake35.png" "directlink" mode}}) </center>
 
-#### Snake35
+## Snake35
 
 Unlike many other tracks in iGEM, foundational advance projects do not have specific, tangible applications which can make communication our ideas to the public and stakeholders more challenging. We quickly realized  that the development of communication tools was essential when discussing our project with any stakeholders. That’s why we developed the game Snake35 as a fun interactive way for stakeholders of all ages to understand our project. A more detailed description of Snake35 can be found on our [Integrated Human Practices Page](http://2017.igem.org/Team:Waterloo/Integrated_Practices) and also played  [Here](http://2017.igem.org/Team:Waterloo/Snake35).
 
-#### Implicit Association Task
+## Implicit Association Task
 
 We also created an Implicit Association Task (IAT) to detect implicit (unconscious) biases towards synthetic biology and our project. Based on these results, we could sometimes described our project using different words that still convey our ideas but elicited less bias. In other cases where had to use a specific technical term, we ensured we carefully explained these ideas to hopefully reduce bias and improve the reception of our work. Results and analysis of the IAT experiment are shown in the [Integrated Human Practices](http://2017.igem.org/Team:Waterloo/Integrated_Practices) page.
 
-#### Expert Interviews
+## Expert Interviews
 
 To gather an insightful perspective on how we might execute our project and understand the impact and future application of what our project, we knew that we needed to consult experts in the field. We have summarized the results of these conversations below.
 

@@ -5,16 +5,16 @@ Waterloo iGEM created a handbook about Human Practices and our Policy and Practi
 # <center> Introduction to Policy and Practices(PNP) </center>
 # <center> iGEM 2017 </center>
 
-#### <center>  University of Waterloo iGEM,  2017 </center>
+## <center>  University of Waterloo iGEM,  2017 </center>
 
 *Welcome to Waterloo’s iGEM Policy and Practices team! This guide is designed to help members understand what our team is about and the logistics behind our roles for the project. In the next few pages, this guide will focus on the i	GEM competition, responsibilities of PNP, how we work to fulfil those responsibilities, and the selection process of our annual project.*
 
 
-#### What is the iGEM Competition?
+## What is the iGEM Competition?
 
 The International Genetically Engineered Machines (iGEM) Foundation is a non-profit organization dedicated to the education and advancement of synthetic biology, as well as promoting an open science community and collaboration.
 
-<center> ![ERROR]({{image "PNP Handbook iGEM Cycle.png" "directlink" mode}}) </center>
+<center> ![ERROR]({{image "Policycycle.png" "directlink" mode}}) </center>
 
 One of their three main programs is the annual iGEM Competition, also known as the Jamboree, which is hosted in Boston every year. Student teams around the world build genetically engineered systems using standard biological parts called BioBricks and showcase their parts at the Jamboree, competing for various awards and prizes.
 
@@ -57,13 +57,13 @@ track. The final two aspects are distinct for standard(parts-based) tracks and s
 10. Are the functions and behaviors of the parts well-documented in the Registry?
 
 
-#### What is PNP?
+## What is PNP?
 
 While the Lab and Math Teams are in charge of conducting experiments in the development of the project, the role of PNP is to support them by assessing the non-technical aspects that are just as important as purely getting results. In addition, we are responsible for connecting with the public to generate more interest and awareness in the field of synthetic biology.
 
 <center> ![ERROR]({{image "PNP Handbook iGEM Gears.png" "directlink" mode}}) </center>
 
-##### Why is PNP important?
+### Why is PNP important?
 
 PNP is responsible for bridging the world of science to the rest of the global community. Science does not exist in isolation, rather it is a player within the larger local, national, and global communities. Within the science community, we are responsible for informing stakeholders (those who are directly affected by our project) about the work being done and evaluate the logistical executions of how to implement the project commercially. Together, this is what it means to go “beyond the bench” (this phrase has been used to describe PNP in the past, however without a further explanation it can be an unhelpful and confusing description).
 
@@ -76,7 +76,7 @@ PNP and the Lab Team work hand-in-hand. In every step of the project, teams shou
 
 <center> ![ERROR]({{image "PNP Handbook iGEM Lab.png" "directlink" mode}}) </center>
 
-#### PNP Medal Criteria
+## PNP Medal Criteria
 
 Each subteam has their own aspect of the medal criteria that they focus on throughout the year. PNP focuses on (but is not strictly limited to) the following criteria:
 
@@ -94,7 +94,7 @@ Each subteam has their own aspect of the medal criteria that they focus on throu
 4. *Was it thoughtfully implemented (i.e., did they explain the context, rationale, prior work)?*
 
 
-#### What Projects Need to be Accomplished in PNP?
+## What Projects Need to be Accomplished in PNP?
 
 **Project Assessment:**
 
@@ -141,14 +141,14 @@ Example Projects:
 
 </div>
 
-#### Collaborations
+## Collaborations
 
 In iGEM, the idea of significance plays a vital role in determining the validity of contributions for medal criteria. As outlined by iGEM HQ, we believe that a collaboration or contribution is significant if it betters a project or a team, ultimately contributing towards its advancement. That being said, significance is also largely subjective because what one judge may see as beneficial, another may believe it to be too passive of an effort to qualify.
 
 Collaboration is not specific to PNP. All subteams should collaborate with other teams to improve different aspects of projects. Examples of how Waterloo iGEM has helped out new teams entering iGEM providing web construction technical support, providing a guide to accelerate new development, and assisting with the development of their wiki pages. In addition, Waterloo participates in an annual oGEM conference for iGEM teams in Ontario. At the conference, teams all share their ongoing projects, critique the projects of others, and allow them to network with each other and develop ideas for collaborations.
 
 
-#### Project Determination
+## Project Determination
 
 The 2016 Imperial College team inspired us to create a structured method to select the annual project for the team. The typical selection process for the project begins with some of our members coming up with ideas and presenting them to the whole team. From there, members across the entire team conduct individual assessments, which get compiled to produce a quantitative analysis of which project the team believed was the best to pursue. The assessments were based on the set of criteria described as follows:
 
@@ -177,7 +177,7 @@ Interest - /2
 
 The projects with highest scores are taken to our iGEM advisors from the Faculty of Biology. The advisors offer technical advice, as well as suggestions based on their experience advising previous iGEM teams. The final decision is made after consideration of all of these evaluations.
 
-##### Team Wiki
+## Team Wiki
 
 As part of the iGEM Competition Requirements, each team is responsible for constructing a wiki site to demonstrate their projects. In the later half of the year, our team puts together a Wiki Taskforce, who are members across the whole team who are responsible for creating the layout, content and the code for the wiki page. Each subteam focuses on writing about their own aspects of the project. For PNP, this means we create the pages for Human Practices, Public Engagement, Project Assessment, and other notable projects that we work on throughout the year. We also contribute to pages that are general to the whole project including project design, online notebook, and safety assessment; wherever we can contribute.
 
@@ -187,7 +187,7 @@ Wiki development is a stressful process with a very strict time constraint as iG
 
 <center> ![ERROR]({{image "PNP Handbook iGEM Wiki.png" "directlink" mode}}) </center>
 
-##### Conclusion - What’s Next?
+## Conclusion - What’s Next?
 
 So what’s next? Well, for the remainder of the Winter Term, Waterloo iGEM will be coming up with this year’s project idea. Anyone can make a project proposal, so if you have an idea that you want to pitch forward, go for it! On the PNP side of things to do, we’ll start thinking about how we want to tackle our medal criteria, whether it’s building off of tasks from last year or coming up with new ideas altogether. The Spring Term is when all subteams really start working on their respective tasks until the Jamboree in October/November.
 
