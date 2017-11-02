@@ -77,8 +77,8 @@
   "prd-nyfp": "http://2017.igem.org/File:CUP1_YFP-N.svg" ,
   "prd-cyfp": "http://2017.igem.org/File:CUP1_YFP-C.svg",
   "safety_goggles": "http://2017.igem.org/File:CUP1_YFP.svg",
-  "bifc": "http://2017.igem.org/File:BiFC.png",
-  "fret": "http://2017.igem.org/File:FRET.png",
+  "bifc": "http://2017.igem.org/wiki/images/d/d6/BiFC.png",
+  "fret": "http://2017.igem.org/wiki/images/f/f5/FRET.png",
   "Globe.svg": "http://2017.igem.org/wiki/images/1/15/Big_Globe.png",
   "Audience.JPG":"http://2017.igem.org/wiki/images/8/8c/Audience1.jpeg",
   "Poster.jpg":"http://2017.igem.org/wiki/images/e/e7/Poster_WiSTEM.jpeg",
@@ -103,7 +103,6 @@
   "Publicengagementwaterloo.png":"http://2017.igem.org/wiki/images/f/fe/Publicengagementwaterloo.png",
   "Wiki freeze2.jpeg": "http://2017.igem.org/wiki/images/7/75/Wiki_freeze2.jpeg",
   "sponsors" : "http://2017.igem.org/wiki/images/1/12/Waterloo_sponsors.png",
-<<<<<<< HEAD
   "pXP216.png":"http://2017.igem.org/wiki/images/3/32/PXP216.png",
   "pSB1C3waterloo.png":"http://2017.igem.org/wiki/images/b/b7/PSB1C3waterloo.png",
   "pXP218.png":"http://2017.igem.org/wiki/images/b/be/PXP218.png",
@@ -116,9 +115,5 @@
   "GFPcontgraph.png":"http://2017.igem.org/wiki/images/5/5a/GFPcontgraph.png",
   "Excitationat488.png":"http://2017.igem.org/wiki/images/f/ff/Excitationat488.png",
   "Excitationat430.png":"http://2017.igem.org/wiki/images/0/0a/Excitationat430.png",
-  "":"",
-
-=======
   "Comb Comparison.jpg": "http://2017.igem.org/wiki/images/e/ea/Comb_Comparison.jpg"
->>>>>>> b32008077f74e153a3d27665d263c1a0c82b042a
 }
