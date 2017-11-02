@@ -4,10 +4,13 @@
 <style>
 .teamMember {
   height: 120px;
+  display: inline-table;
   width: 120px;
   cursor: pointer;
   border-radius: 3px;
-  padding: 12px;
+  border: white;
+  border-style: solid;
+  margin: 12px;
 }
 </style>
 
@@ -28,11 +31,12 @@
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-4">
-        <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + member.photo + ')' }"></div>
+        <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + member.picture + ')' }"></div>
       </div>
       <div class="col-sm-4">
         <div class="teamMemberInfo">
-          <h2>^^member.name$$</h2>
+          <h2>^^member.name + (member.nickname ? ' (' + member.nickname + ')' : '')$$</h2>
+          <p>^^(member.year || '') + (member.year || '' && ', ') + (member.subteam || '')$$</p>
           <p>^^member.bio$$</p>
         </div>
       </div>
@@ -43,8 +47,12 @@
     <center>
       <div class="ip-group-wrapper">
         <div class="memberList">
-          <img class="teamMember" v-on:click="member=me" v-for="me in ip.members" src="me.photo">
-          </img>
+          <div style="border-radius:3px; overflow:hidden">
+	  
+          <div class="teamMember" v-on:click="member=me" v-for="me in ip.members">
+	    ^^me.name + (me.nickname ? ' (' + me.nickname + ')' : '')$$
+          </div>
+          </div>
         </div>
       </div>
     </center>
@@ -65,21 +73,7 @@ var teamPage = new Vue({
     ip: {
     parent: "IP",
     members: [
-      {
-        name: 'blah1',
-        bio: 'blah blah blah',
-        photo: 'blaaaah',
-      },
-      {
-        name: 'blah2',
-        bio: 'blah blah blah',
-        photo: 'blaaaah',
-      },
-      {
-        name: 'blah3',
-        bio: 'blah blah blah',
-        photo: 'blaaaah',
-      },
+      {'name': 'Cody Receno', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B CS', 'nickname': 'Cooooody', 'subteam': 'Lab and Design\n', 'bio': '1/2 Lead of the Lab and Design team. I like bioinformatics. I hope pursuing syn-bio will one day make me go to (the) Church (Lab)'}, {'name': 'Leah Fulton', 'picture': 'http://2017.igem.org/wiki/images/1/14/Leah-waterloo.jpeg', 'year': '2A Biology ', 'nickname': 'Meme Queen', 'subteam': 'Lab and Design\n', 'bio': "When I started I didn't know things. Now I know some things. Living the dream. (http://bit.ly/2indYLK)"}, {'name': 'Clara Fikry', 'picture': 'http://2017.igem.org/wiki/images/f/f0/Clara.jpeg', 'year': '2B Health Studies ', 'nickname': 'Clarafication ', 'subteam': 'Lab and Design\n', 'bio': 'Shameless plug for my science youtube channel: Clarafication  (https://www.youtube.com/channel/UCLEq_cCCcJogkgoWE8zAbfg) '}, {'name': 'Monica Chung ', 'picture': 'http://2017.igem.org/wiki/images/3/38/Monica-waterloo.jpeg', 'year': '3A Honour Science ', 'nickname': 'Hunger ', 'subteam': 'Lab and Design\n', 'bio': 'Amateur filmmaker '}, {'name': 'Nicholas Hon', 'picture': '', 'year': '4A Biology', 'nickname': 'The last resort ', 'subteam': 'Lab and Design\n', 'bio': 'Currently dancing naked in a mine field'}, {'name': 'Shwetha Suresh', 'picture': 'http://2017.igem.org/wiki/images/7/70/Shwatha-waterloo.jpeg', 'year': '4A Biomedical Sciences', 'nickname': 'Sweater', 'subteam': 'Lab and Design\n', 'bio': 'Sassy is my middle name. 😏😎 (Serious bio: Shwetha joined the lab and design team in 2017 and plans to pursue a research-based masters in medical science after her final year at Waterloo.)'}, {'name': 'Steven Choi', 'picture': 'http://2017.igem.org/wiki/images/2/2f/Steven_waterloo.jpeg', 'year': 'Biomedical Sciences Alumnus', 'nickname': "Sw'old man", 'subteam': 'Lab and Design\n', 'bio': 'Steven believes that iGEM has been one of the most rewarding experiences during his entire undergrad, and hopes that it will one day foster his future MMA career'}, {'name': 'Jamie Lam', 'picture': 'http://2017.igem.org/wiki/images/e/ea/Jamie-waterloo-good.jpeg', 'year': '3B Biochemistry', 'nickname': 'The Co-op Carry', 'subteam': 'Lab and Design\n', 'bio': 'Sleep is temporary, friends are forever'}, {'name': 'Max Reed', 'picture': 'http://2017.igem.org/wiki/images/b/b4/Maxwaterloo.jpeg', 'year': '3B Nanotechnology Engineering', 'nickname': 'm3m3 l0rd', 'subteam': 'Lab and Design\n', 'bio': "i'm a nanotechnology engineer. having once been a real human being, i previously had a variety of interests and different facets to my personality. however, igem has consumed them all and left only biobricks in their place. please help."}, {'name': 'Vincent Halim', 'picture': 'http://2017.igem.org/wiki/images/b/b5/Vincent.jpg', 'year': '3B Biochemistry', 'nickname': 'Goose Buster ', 'subteam': 'Lab and Design\n', 'bio': "My digest enzyme didn't work, I guess it just didn't cut it."}, {'name': 'Colin Pierce', 'picture': 'http://2017.igem.org/wiki/images/c/c5/Colin-waterloo.jpeg', 'year': '4A Science and Business', 'nickname': 'Colinoscopy, Colleen, Sepsis, Taylor Swift, Mr. Christmas', 'subteam': 'Policy and Practices\n', 'bio': "Colin had the privilege in leading the Policy & Practices team to success. He followed the light our prions gave by going beyond the lab to interview experts in the field, lead outreach events, steered our integrated human practices in the right direction, and encouraged his Policy memebers to work their little hearts out. Colin couldn't be more proud to work with the Waterloo iGEM team. Colin's special skill is the ability to memorize an unfathomable amount of digits of pi and Taylor Swift lyrics."}, {'name': 'Christine Johnston', 'picture': 'http://2017.igem.org/wiki/images/3/3f/Christine_waterloo.jpeg', 'year': '2A Biomedical Sciences ', 'nickname': 'High School Musical Backup Dancer #17', 'subteam': 'Policy and Practices\n', 'bio': "This is Christine's first year with Waterloo's iGEM. As part of the Policy and Practices subteam, she was involved in producing and analyzing the IAT, and was also a part of the SYNBIO 101 workshop on gender equity in STEM. She is so excited to present Waterloo's findings and can't wait to see what the future of synthetic biology holds.There’s so much to learn!"}, {'name': 'Kingsley Wong', 'picture': 'http://2017.igem.org/wiki/images/6/6f/Kingsley.jpeg', 'year': '2A Nanotechnology Engineering', 'nickname': 'Mr. 3D', 'subteam': 'Policy and Practices\n', 'bio': 'Once upon a time there was a Nano named Kingsley. Kingsley made 3D things out of (less) 3D things. Kingsley also wrote  words. Maybe one day Kingsley will move on from Nano and become a Micro. The End. '}, {'name': 'Max Vu', 'picture': 'http://2017.igem.org/wiki/images/5/59/Maxv-waterloo.jpeg', 'year': '2A Biotechnology and Economics', 'nickname': 'Maxwell', 'subteam': 'Policy and Practices\n', 'bio': 'Max is like a Swiss knife; he\'s a jack-of-all trades. He has lived in 3 different countries, speaks 4 different languages, and chose Biotechnology/ Economics at Waterloo because he couldn\'t settle for just one thing. Ask Max what he has been trying to learn in the last week. Most common quote :"SEBBBBIEEEE!!!"'}, {'name': 'Alex Li', 'picture': 'http://2017.igem.org/wiki/images/0/02/Alexheadshot.jpeg', 'year': '4A Science and Business', 'nickname': '', 'subteam': 'Policy and Practices\n', 'bio': "Alex's insight on project ideas, his professional picture taking, and master of computer skills helped Waterloo iGEM succeed. Eat. Work. Sleep. That's the motto."}, {'name': 'Anya Forstell', 'picture': 'http://2017.igem.org/wiki/images/e/ea/Anya.jpeg', 'year': '3A Physics and Astronomy', 'nickname': 'Onion/Anya Haseo', 'subteam': 'Policy and Practices\n', 'bio': 'Anya, a 3rd year Astrophysics student, still doesn’t know how she ended up in a synthetic biology competition. Being on the Policy & Practice team, she has organized outreach events such as workshops and panel discussions with SHAD Valley and WiSTEM. In her spare time, she likes to remind herself that she has no spare time and that she should get back to work. She often thinks about Harry Potter, Emma Watson, and gender equality.'}, {'name': 'Austin Boucinha', 'picture': 'http://2017.igem.org/wiki/images/6/6d/Austin-waterloo.jpeg', 'year': '4A Nanotecnology Engineering', 'nickname': '', 'subteam': 'Policy and Practices\n', 'bio': "This is Austin's 2nd year with iGEM and his fifth year at UW. He has helped with getting the team's IAT survey set up, running the SHAD workshop, and taking meeting minutes for the sub-team's weekly meetings. How many more days till I get my iron ring again? Less than 100 days, but still more than 50? K, I'll be cryogenically freezing myself till then. In the meantime, don't make fun of Christine's blue leggings, she won't be happy about that! 😨"}, {'name': 'Melissa', 'picture': '', 'year': 'Biochemistry Survivor', 'nickname': 'iGEM Grandma', 'subteam': 'Policy and Practices\n', 'bio': "Melissa is the OG Waterloo iGEM member (that will never graduate from Waterloo, but fortunately they're giving her a personal parking spot). She uses her wisdom for good to support both the Policy and Lab team together. Her love for chicken nuggets is only rivaled by her love for animals. Her favourite adjectives? Lit and Dope. "}, {'name': 'Sebastien Carman', 'picture': 'http://2017.igem.org/wiki/images/6/66/Seb.jpeg', 'year': '2A Biotechnology and Economics', 'nickname': 'Sebbie', 'subteam': 'Policy and Practices\n', 'bio': 'Sebastien was new to the team this year. He chose his program to pursue biological sciences and learn to market it too. He spends an amount of time listening to music that is probably unhealthy for his academics. Hit him up to gently geek out over Star Wars, Casey Neistat, or to chat about whatever. Most common quote: "Yes, Maxwell?"'}, {'name': 'Isaac Ellmen', 'picture': 'http://2017.igem.org/wiki/images/1/17/Issaac-waterloo.jpeg', 'year': '3B Combinatorics and Optimization', 'nickname': 'MATH GOD', 'subteam': 'Math and Modelling\n', 'bio': "Isaac is this year's mathematical modelling lead. This is his third year on the team and has been a difficult but very rewarding journey."}, {'name': 'Shreya', 'picture': 'http://2017.igem.org/wiki/images/e/ef/Shreya-waterloo.png', 'year': '2A Math', 'nickname': '', 'subteam': 'Math and Modelling\n', 'bio': "This is Shreya's first year on the team. Her focus was on researching protein structure and assiting the lab team in interpreting data."}, {'name': 'Ankil', 'picture': '', 'year': 'ECE', 'nickname': '', 'subteam': 'Math and Modelling\n', 'bio': "This is Ankil's first year on the team. His focus was on investigating modelling techniques for aggregation and the relationship between FRET and substrate channelling."}, {'name': 'Hamza', 'picture': 'http://2017.igem.org/wiki/images/3/36/Hazma-waterloo.jpeg', 'year': 'Physics', 'nickname': '', 'subteam': 'Math and Modelling\n', 'bio': 'I am interested in the intersection of the fields of physics, biology and medicine. This has lead me to be interested in the mathematical modelling of biological systems. '}, {'name': 'Daniel', 'picture': 'http://2017.igem.org/wiki/images/d/d3/Daniel-waterloo.jpeg', 'year': 'Math', 'nickname': '', 'subteam': 'Math and Modelling\n', 'bio': 'I am a Computer Science and Applied Mathematics student. My interests are in enumeration, mathematical physics, and embedded systems.'}, {'name': 'Caroline Illmann', 'picture': 'http://2017.igem.org/wiki/images/a/a5/Caroline-waterloo.jpeg', 'year': '4A Biology, Chemistry Minor', 'nickname': 'Caro/ CareBear/ Sunny C', 'subteam': 'Business and Administration\n', 'bio': 'Caroline loves science, Vancouver and swimming. She spends her free time studying, loooking at memes and petting her dogs Abby and Bella.'}, {'name': 'Andres Escobar', 'picture': '', 'year': '3B Biochemistry, Biotech Minor', 'nickname': 'Pablo ', 'subteam': '', 'bio': 'I love to play tennis, play video games and to explore the endless reaches of Biochemistry. He aims to end up in an industry job that deals with molecular biology and and biotechnology.'}
     ]
     }}}
 )
