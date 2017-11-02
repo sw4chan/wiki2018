@@ -1,4 +1,4 @@
-## Snake35
+<center> <img src="http://2017.igem.org/wiki/images/5/5a/HP-Gold_Snake35.png" alt="ERROR" style="width:350px;height:350px;"> </center>
 
 ### What is Snake35?
 

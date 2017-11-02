@@ -14,7 +14,7 @@ At this event, presentations and panel discussions focused on science policy and
 
 It was really an eye opening experience because the overwhelming message about the importance science communication and how important it is to tell the story of your work before someone else spins it in an undesirable or misconstrued way. This experience drove us to prioritize social media and outreach as one of our main human practices goals for our project.
 
-<br> 
+<br>
 
 #### CSM and Western Conferences:
 
@@ -34,5 +34,4 @@ Although we spend a lot of time showing others our final project, we also though
 
 Below are the presentation slides we used in our presentation at the CSM Talk.
 
-<object width="600" height="800" data="{{image ”iGEM CSM 2017.pdf” "directlink" mode}}"> </object>
-
+<object width="600" height="800" data="{{image ”iGEM CSM 2017.pdf” "directlink" mode}}"></object>
