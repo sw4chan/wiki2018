@@ -1,3 +1,5 @@
+<center> ![ERROR]({{image "Goldwaterloo.png" "directlink" mode}}) </center>
+
 ### **Gold Medal** ###
 
 
