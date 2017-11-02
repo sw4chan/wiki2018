@@ -1,4 +1,4 @@
-### **Project Determination** ###
+## **Project Determination** ##
 
 At the beginning our team season, every member gets to present possible project ideas. Follow this initial meeting, we spend the next couple of weeks flushing out the ideas in groups in more detail, looking into primary literature, designing possible experiments, and sourcing required materials. We then present these ideas again before selecting the project. To select our team project this year, we wanted to conduct  quantitative and qualitative analysis, so that we could come to a consensus in an efficient and fair manner.
 
@@ -10,7 +10,7 @@ Below we have included our general guide template with the justification for our
 
 ____________________________________________________________________________
 
-### **Project Selection Guide** ###
+## **Project Selection Guide** ##
 
 
 
@@ -77,6 +77,6 @@ Criteria | Zika
 <b> Impact/Usefulness/Why are we doing it? </b> <br> <ul> <li> Economic </li> <li> Societal </li> <li> Environmental </li> <li> Ethical </li> <li> Material </li> <li> Emotional </li> </ul> <br> Consider both positive and negative impacts | <ul> <li> Protect people in Latin American countries from being infected with zika virus without harming the mosquito population and surrounding ecosystem </li> <li> Deployment is intuitive and fast to implement with closed off bodies of water and pellets of yeast thrown into </li> </ul>
 <b> Alternative </b> <br> <ul> <li> Is there another more efficient/better way to go about solving the problem? </li> </ul> | <ul> <li> Wolbachia bacteria have been used similar studies, but have not implemented CRISPR, nor would this experiment work to use a human AXL receptor inside a prokaryote cell </li> </ul>
 
-### **Conclusion:** ###
+## **Conclusion:** ##
 
 **In conclusion, the Waterloo iGEM 2017 team has decided to select the engineered prion project for this year.**
