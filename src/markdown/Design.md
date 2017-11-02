@@ -8,18 +8,20 @@ Prions are self-perpetuating proteins that have a soluble, normally functional f
 Currently, there are seven-known prions in Saccharomyces cerevisiae, each with a different function and phenotype (Tyedmers et.al, 2010). Although there are no general sequence similarity among all the seven prions, there is a heightened expressed level of asparagine and glutamine residues in all the prions (Tyedmers et.al, 2010).
 
 
-
 <br>
-<br>
+<center>
 #### *Modularity of Prions*
-<br>
+</center>
+
 
 New prion domains and functions and reporters found to make synthetic prions- leading to new natural prions (Wickner et.al, 2000). A hybrid prion protein can be formed by fusing different prion domains into the corresponding protein filaments (Wickner et.al, 2000). However, this hybridization is very selective - as it will not combine with all protein filaments (Wickner et.al, 2000).
 
+
 <br>
-<br>
+<center>
 #### *Reasoning for Usage*
-<br>
+</center>
+
 
 By using the self-perpetuating qualities of the prion domain as a tool, alternative forms of various proteins can be induced. This can occur through the enhancement of an existing function, or transferring a new one. Through this mechanism, in future research and applications, isoforms of proteins can be produced and manipulated for the desired effect or product. Applications of this project can be found here.
 
