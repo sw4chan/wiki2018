@@ -108,10 +108,6 @@ As previously mentioned, this system requires activation by the strain of bacter
 #### References
 Bratkovik, Hafner. (2017). Prions, prionoid complexes and amyloids: the bad, the good and the something in between. Swiss Medical Weekly, 147 doi: 10.4414/smw.2017.14424
 
-#### Diagnostics
--test blood urine from patient for mad cow exposure
--level of prion setup, capitalize on set up
--check weights being added
 ____________________________________________________________________________
 
 ### Ethanol Fermentation Pathway using Aggregation
