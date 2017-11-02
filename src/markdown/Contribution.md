@@ -28,7 +28,7 @@ Three trials were performed, on three different days. The data are provided belo
 
 Day 1:
 FLUORESCENT POPULATION (% of total)
-![ERROR]({{image " Populationday1.png" "directlink" mode}})
+![ERROR]({{image "Populationday1.png" "directlink" mode}})
 
 Day 2:
 FLUORESCENT POPULATION (% of total)
