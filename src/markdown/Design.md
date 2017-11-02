@@ -7,17 +7,21 @@ Prions are self-perpetuating proteins that have a soluble, normally functional f
 
 Currently, there are seven-known prions in Saccharomyces cerevisiae, each with a different function and phenotype (Tyedmers et.al, 2010). Although there are no general sequence similarity among all the seven prions, there is a heightened expressed level of asparagine and glutamine residues in all the prions (Tyedmers et.al, 2010).
 
+
 <br>
-<br>
-#### *Modularity of Prions*
-<br>
+
+## Modularity of Prions
+
+
 
 New prion domains and functions and reporters found to make synthetic prions- leading to new natural prions (Wickner et.al, 2000). A hybrid prion protein can be formed by fusing different prion domains into the corresponding protein filaments (Wickner et.al, 2000). However, this hybridization is very selective - as it will not combine with all protein filaments (Wickner et.al, 2000).
 
+
 <br>
-<br>
-#### *Reasoning for Usage*
-<br>
+
+## Reasoning for Usage
+
+
 
 By using the self-perpetuating qualities of the prion domain as a tool, alternative forms of various proteins can be induced. This can occur through the enhancement of an existing function, or transferring a new one. Through this mechanism, in future research and applications, isoforms of proteins can be produced and manipulated for the desired effect or product. Applications of this project can be found here.
 
@@ -29,14 +33,17 @@ The prion domain, derived from Sup35 of *S.cerevisiae*, was employed in the desi
 
 BiFC is employed as a means to visualize protein interactions within live yeast cells. The method is based upon the principle that fragments of a fluorescent protein do not have the ability to fluoresce without interacting with one another in the form of a complex (Kerppola, 2008). In applying this principle to our project, the objective was to utilize the prion domain as a tool to give rise to functional proteins. The interaction of the N-terminal of YFP fused with PrD ([BBa_K2475003](http://parts.igem.org/Part:BBa_K2475003)) and the C-terminal of YFP fused with PrD ([BBa_K2475004](http://parts.igem.org/Part:BBa_K2475004) ) is expected to result in the emission of fluorescence when both split proteins come into close proximity in an aggregate.
 
-![BiFC on the prion domain](https://i.imgur.com/UqSSFAX.jpg)
+<center>
+![BiFC]({{image "bifc" "directlink" mode}})
+</center>
 
 ## Fluorescence Resonance Energy Transfer (FRET)
-	
+
 FRET represents another method to visualize intracellular interactions. The premise underlying this technique is that the transfer of energy from excited fluorophores to non-excited fluorophores can occur when the two fluorophores are within a distance of 5 nm (Alberts et al., 2015). Labelling molecules of interest with different fluorophores enables the recognition of instances when they are at such close proximity, which typically only occurs when the molecules are interacting (Alberts et al., 2015). In order for the energy transfer to occur, the excitation spectrum of one fluorophore must overlap with the emission spectrum of another (Alberts et al., 2015). In this project, the excitation of cyan fluorescent protein (CFP) at approximately 430 nm will result in emission from yellow fluorescent protein (YFP) at approximately 535 nm if the associated prion domain is successful in increasing the interactive potential of the fluorophores (Alberts et al., 2015). FRET, as a part of this project design, is expected to demonstrate the ability of prion domains to bring together different proteins in an attempt to manipulate cellular processes. [PrD CFP](http://parts.igem.org/Part:BBa_K2475001) and [PrD YFP]( http://parts.igem.org/Part:BBa_K2475002 ) have been biobricked and placed in the registry.
-![alt text](https://i.imgur.com/NLJQa2c.png)
 
-
+<center>
+![FRET]({{image "fret" "directlink" mode}})
+</center>
 
 ## Experimental Plan
 
@@ -71,4 +78,3 @@ Alberts, B., Johnson, A., Lewis, J., Morgan, D., Raff, M., Roberts, K., & Walter
 6. Tyedmers, J., Treusch, S., Dong, J., Mccaffery, J. M., Bevis, B., & Lindquist, S. (2010). Prion induction involves an ancient system for the sequestration of aggregated proteins and heritable changes in prion fragmentation. Proceedings of the National Academy of Sciences, 107(19), 8633-8638. doi:10.1073/pnas.1003895107.
 
 7. Wickner, R., Taylor, K., Edskes, H., & Maddelein, M. (2000). Prions: Portable prion domains. Current Biology,10(9). doi:10.1016/s0960-9822(00)00460-7.
-

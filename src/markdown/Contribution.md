@@ -1,13 +1,14 @@
 # Contribution
 
-## Further Characterization of [BBa_K2137001](http://parts.igem.org/Part:BBa_K2137001) 
+## Further Characterization of [BBa_K2137001] (http://parts.igem.org/Part:BBa_K2137001) 
 
-This year, Waterloo iGEM further characterized the Cup1 promoter. This is an inducible promoter that can be used in yeast. It can be triggered by adding copper sulfate to the media used to grow the yeast. The team used the part *BBa_K2137001* for this characterization, and performed the characterization in the yeast strain *W303*. The part contains the Cup1 promoter in front of GFP. In all characterization experiments performed this year, yeast was grown in YPD for ~12 hours, then diluted to an OD of 0.1 to a total volume 25 mL of YPD media. Upon dilution to an OD of 0.1, all samples were split in two, with copper added to one and not the other. The time of copper addition was deemed time 0.
+This year, Waterloo iGEM further characterized the Cup1 promoter. This is an inducible promoter that can be used in yeast. It can be triggered by adding copper sulfate to the media used to grow the yeast. The team used the part *BBa_K2137001* for this characterization, and performed the characterization in the yeast strain *W303*. The part contains the Cup1 promoter in front of GFP.
 
+In all characterization experiments performed this year, yeast was grown in YPD for ~12 hours, then diluted to an OD of 0.1 to a total volume 25 mL of YPD media. Upon dilution to an OD of 0.1, all samples were split in two, with copper added to one and not the other. The time of copper addition was deemed time 0, though there was some waiting time typically (30 mins to 1 hour) before our samples got put in the flow cytometer. As another note, samples of empty cells with copper were run to determine that the copper by itself was not responsible for the increased fluorescence we observed after adding copper sulfate.
 
 ## Previous Work
 
-Last year, the Waterloo iGEM team created the part BBa_K2137001 and performed preliminary characterization. This year, the team furthered the characterization by examining the effect of varying copper concentration used to induce the promoter and observing the fluorescent cells with a flow cytometer instead of a plate reader (which was used in 2016). The flow cytometer allowed for a more in-depth analysis of the cell population rather than just a net fluorescence reading.
+Last year, the Waterloo iGEM team created the part BBa_K2137001 and performed preliminary characterization. This year, the team furthered the characterization by examining the effect of varying copper concentration used to induce the promoter and observing the fluorescent cells with a flow cytometer instead of a plate reader (which was used in 2016). The flow cytometer used was an ImageStream Mark II Imaging Flow Cytometer from EMD Millipore. The flow cytometer allowed for a more in-depth analysis of the cell population rather than just a net fluorescence reading.
 
 ## Dual Populations
 
@@ -15,18 +16,55 @@ The first finding of this characterization study was that yeast cells fall into 
 
 ## Fluorescent Population
 
-For the purposes of the remainder of this study, the term “fluorescent population” will be used to refer to cells with a fluorescence of over 1000 fluorescence units as identified by the flow cytometer when operating a 488 nm laser at a power of 2 mW. The team ran a total of 12 samples of empty yeast cells as controls, and found that these samples never had more than 0.2% of their population above the 1000 fluorescence units threshold.
+For the purposes of the remainder of this study, the term “fluorescent population” refers to cells with a fluorescence of over 1000 fluorescence units as identified by the flow cytometer when operating a 488 nm laser at a power of 2 mW. The team ran a total of 12 samples of empty yeast cells as controls, and found that these samples never had more than 0.2% of their population above the 1000 fluorescence units threshold.
 
-## Results
+## [psi-] and [PSI+]
 
-In order to ease analysis, the data was normalized as follows. The fluorescence of cells with no added copper at time 0 was scaled to 1 for each copper / no copper pair of trials. After this, all other fluorescence values in that trial were scaled by the same factor. The experiment outlined above, performed by adding copper sulfate to YPD until reaching a concentration of **250 um**, was performed in triplicate, giving results as follows:
+Characterization was performed on both [psi-] and [PSI+] yeast, that is to say, yeast with soluble and aggregated Sup35 respectively. The reason for this was because this project will be using the Cup1 promoter in both varieties of yeast, and the team wishes to know if the behaviour of the promoter is affected by the aggregation of Sup35.
 
+## Results: Fluorescent Population Evolution
 
+Three trials were performed, on three different days. The data are provided below. First, the data for fluorescence population over time are displayed.
 
-As one can see, at all data points but one the cells induced with copper have higher fluorescence than those in the non-induced sample.
+Day 1:
+FLUORESCENT POPULATION (% of total)
+![ERROR]({{image "Populationday1.png" "directlink" mode}})
 
-Our additional finding was that when growing yeast in YPD, the increase in the **induction of Cup1 plateaus after a copper concentration of about 125 uM.**
+Day 2:
+FLUORESCENT POPULATION (% of total)
+![ERROR]({{image "Populationday2.png" "directlink" mode}})
 
-Samples of empty cells with copper were run to determine that the copper by itself was not responsible for the increased fluorescence.
+Day 3:
+FLUORESCENT POPULATION (% of total)
+![ERROR]({{image "Populationday3.png" "directlink" mode}})
+
+It is difficult to tell whether or not there is a significant difference between [psi-] and [PSI+] here, since the starting fluorescence values are different. As we found when working with our constructs, different transformations can have different starting fluorescent populations. However, it seems to be clear that adding copper sulphate does cause a more rapid decrease in the fluorescent population percent. This is most likely because cells with the induced promoter have a higher metabolic load and thus a slower growth rate.
+
+## Results: Average Fluorescence
+
+In this section, the average fluorescence of the different samples is displayed and discussed. Note that here the fluorescence is averaged ONLY over the cells in the fluorescent population.
+
+Day 1:
+AVERAGE FLUORESCENCE
+![ERROR]({{image "Fluorescenceday1.png" "directlink" mode}})
+
+Day 2:
+AVERAGE FLUORESCENCE
+![ERROR]({{image "Fluorescenceday2.png" "directlink" mode}})
+
+Day 3:
+AVERAGE FLUORESCENCE
+![ERROR]({{image "Fluorescenceday3.png" "directlink" mode}})
+
+*Very far from the expected value.
+
+As one can see, at all data points but one the fluorescent population induced with copper have higher fluorescence than those in the non-induced sample.The rate of increase varies from near 0% to 250%. The specific amount of variance observed here may be due to slightly varying growth conditions having an unknown large consequence on our results.
+
+## Results: Different Copper Concentrations
+
+Our additional finding (data not shown) was that when growing yeast in YPD, the increase in the **induction of Cup1 plateaus after a copper concentration of about 125 uM.** This experiment was performed once on [psi-] cells grown in 0 uM, 62.5 uM, 125 uM, 250 uM, and 500 uM copper sulfate, and once on [PSI+]. Both experiments yielded the result that no substantial change in fluorescence occurred after copper concentration exceeded 125 uM.
+
+Notably, it did look like the fluorescence went down somewhat for the copper sulfate concentration of 500 uM. This is expected, due to the harmful effects of copper in large quantities in media.
+
 
 

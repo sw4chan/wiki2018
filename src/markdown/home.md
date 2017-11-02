@@ -180,3 +180,10 @@
         </g>
     </g>
 </svg>
+<center>
+<div style="max-width: 600px; display:inline-block;">
+<img src="http://2017.igem.org/wiki/images/e/e5/Waterloo_splash_footer.png"></img>
+<h2>We aim to enhance the function and better understand engineered proteins in aggregates</h2>
+<a href="http://2017.igem.org/Team:Waterloo/Description"><button class="btn btn-secondary btn-large">Read more!</button></a>
+</div>
+</center>

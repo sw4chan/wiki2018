@@ -1,6 +1,6 @@
 <center> <img src="http://2017.igem.org/wiki/images/3/36/3Dpage.png" alt="ERROR" style="width:258px;height:258px;"> </center>
 
-# Networks
+# 3D Printing
 
 At some point, every lab faces limitations when it comes to resources for experiments. For some, this limit is much lower than others, to the extent where even basic experiments become difficult to complete. To address this problem, iGEM Waterloo has begun creating a catalogue of 3D-printable lab equipment for teams to download and print for their own use.
 
@@ -18,7 +18,7 @@ To start, we needed ideas on what we could 3D print. Ideally what we made would 
 
 <center> ![ERROR]({{image "Gel Comb 2.png" "directlink" mode}}) </center>
 
-Above is the schematic for a test tube rack we designed and printed. We designed many different combs for different sized gel rigs and with different numbers of teeth to create gels with different numbers of well. 
+Above is the schematic for a test tube rack we designed and printed. We designed many different combs for different sized gel rigs and with different numbers of teeth to create gels with different numbers of well.
 
 The main limitation with using 3D printing plastics, such as acrylonitrile butadiene styrene (ABS) and polyactic acid (PLA), include sterility, porousness, and strength. The plastics must be able to withstand the heat from an autoclave in order to be sterilized, they cannot be used to hold liquids, and they must be able to withstand certain amounts of force. With these guidelines, we wanted to start by creating equipment that would not be subject to these risks. Before attempting to design and print everything on our list, we started off by designing a gel comb. Using PLA plastic, we created our first piece of lab equipment for trial. After successful results, we continued to pursue other designs such as different sized gel combs, test tube racks, and microcentrifuge tube holders.
 

@@ -1,5 +1,3 @@
-<div id = “talks”>
-
 ### Talks
 
 #### Biotech Bootcamp:
@@ -16,7 +14,7 @@ At this event, presentations and panel discussions focused on science policy and
 
 It was really an eye opening experience because the overwhelming message about the importance science communication and how important it is to tell the story of your work before someone else spins it in an undesirable or misconstrued way. This experience drove us to prioritize social media and outreach as one of our main human practices goals for our project.
 
-
+<br>
 
 #### CSM and Western Conferences:
 
@@ -30,12 +28,10 @@ Our talk was actually so well received that we got an invitation to also speak a
 
 <br>
 
-A Gem in the Rough
+*A Gem in the Rough*
 
 Although we spend a lot of time showing others our final project, we also thought that it might be interesting to show what we do in and out of the lab on a daily basis during our build season: the elusive life of an iGEMer. One of our lab leads Max made a documentary of one 24 hour day during the summer interspersed with interviews from members of all our sub-teams. Check out [A Gem in the Rough](https://www.youtube.com/watch?v=MX8XX0fGqEY).
 
 Below are the presentation slides we used in our presentation at the CSM Talk.
 
-<object width="600" height="800" data="{{image ”iGEM CSM 2017.pdf” "directlink" mode}}"> </object>
-
-</div>
+<object width="600" height="800" data="{{image ”iGEM CSM 2017.pdf” "directlink" mode}}"></object>

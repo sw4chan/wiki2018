@@ -73,6 +73,9 @@
       <div class="row subProject" v-if="ip.showing=='Markov Model'">
         {{markdown markdown.markov}}
       </div>
+      <div class="row subProject" v-if="ip.showing=='FRET Conversion'">
+        {{markdown markdown.fret}}
+      </div>
       <center>
         <div class="ip-group-wrapper">
           <div class="btn-group btn-group" role="group" aria-label="Model">
@@ -100,6 +103,7 @@ var modelPage = new Vue({
       { title: "Aggregation DEs" },
       { title: "Combinatorial Model" },
       { title: "Markov Model" },
+      { title: "FRET Conversion" },
     ]
     }}}
 )

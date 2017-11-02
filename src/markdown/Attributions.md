@@ -104,3 +104,12 @@ The Waterloo iGEM team has 6 main advisors from different disciplines. The advis
 
 **Dr. Jordan Thomson** - main contact at Ontario Genomics that helped organize the oGEM Meetup at the University of Waterloo
 
+
+## Sponsors
+
+Thank you to our sponsors for supporting the work of the 2017 Waterloo iGEM team. This project is thanks to the funding and support received by them.
+
+<center>
+![Sponsors for Waterloo iGEM 2017]({{image "sponsors" "directlink" mode}})
+</center>
+

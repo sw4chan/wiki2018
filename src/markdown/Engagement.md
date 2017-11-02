@@ -1,11 +1,8 @@
-<center> ![Error]({{image "Publicengagementwaterloo.png" "directlink" mode}}) </center>
+<center> <img src="http://2017.igem.org/wiki/images/f/f1/Shadbiggerimage.png" alt="ERROR" style="width:258px;height:258px;"> </center>
 
 Education and outreach has always been a core value within  iGEM. This year, we ran a diverse selection of workshops and open houses to  showcase  both our project and synthetic biology as a rapidly developing field. We ran panel discussions to consider gender equity; workshops to teach essential synthetic biology techniques to students; and, events to  increase the interest and awareness of synthetic biology amongst the public.
 
 # Waterloo iGEM SHAD Valley Synthetic Biology Workshop
-
-<center> ![Error]({{image "shadbiggerimage.png" "directlink" mode}}) </center>
-
 As an emerging field, synthetic biology is not always well-understood by today’s high school student. We believe that as the future of synthetic biology continues to grow brighter, it is important to introduce students, especially those reaching the postsecondary level, to this field and its potential. To address this, we partnered with [SHAD Waterloo](<https://uwaterloo.ca/shad-waterloo/>) (a summer program that gives exceptional high school students chance to experience 4 weeks at several Canadian Universities) to host a three-day workshop to educate students about the foundations of synthetic biology, lab techniques/protocols, and the social and ethical aspects of science in the modern day.
 Specifically, our goals in hosting the SHAD workshop were three-fold: (1) to teach eager secondary school students about the field of synthetic biology and how it may be used in the world of today; (2) laboratory techniques that are used by the Waterloo iGEM team to manipulate the genomes of bacteria to exhibit particular properties; and (3) ethics surrounding synthetic biology, its impact on society, possible benefits, and possible misuses of the technology. Overall, the SHAD workshop organized by Waterloo iGEM was directed towards an interactive and interdisciplinary approach to synthetic biology education.
 ## **Day 1: Introduction to Synthetic Biology and the Fundamentals of Genetics**
@@ -74,14 +71,14 @@ In the spirit of iGEM and making science accessible to all, our team has made al
 
 <center> <object width="800" height="600" data="{{image "SHADiGEMBrochure.pdf" "directlink" mode}}"></object> </center>
 
-<br> 
+<br>
 
-Click [here](http://2017.igem.org/wiki/images/7/70/Allshadslides2017.pdf) to see the set of slides used for SHAD Valley 2017.
+<center> <object width="800" height="600" data="FullShadPresentation.pdf"></object> </center>
 
 <br>
 ____________________________________________________________________________
 
-<br> 
+<br>
 
 # Gender Equity in Synthetic Biology
 
@@ -89,7 +86,7 @@ ____________________________________________________________________________
 
 Waterloo iGEM and Waterloo WiSTEM (Women in STEM) teamed up to host a two-part event to address issues concerning gender equity in synthetic biology. Part one consisted of a panel discussion on how gender equity impacts synthetic biology and related fields. Part two was an accompanying laboratory component with two overarching goals: one, to provide a synthetic biology-centered environment in which individuals of all genders could feel welcome and two, to use a hands-on approach to familiarize students with synthetic biology.
 
-<br> 
+<br>
 **_Why talk about gender equity?_**  
 Gender inequity has long been an issue in the STEM fields. According to the U.S. Department of Commerce (Beede et al., 2011), women make up less than 25% of individuals working in STEM fields. Why is this the case? What can we do to resolve this glaring imbalance in STEM?  
 When women and non-binary individuals are left out of the picture, everyone loses. We lose half of humanity’s brightest ideas, we lose diversity of thought and opinion, we lose valuable and relevant experience. So why is there still such an enormous disproportion between men and women in STEM?  

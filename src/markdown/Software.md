@@ -1,16 +1,15 @@
-### ★ ALERT!
+# CiGEM
 
-This page is used by the judges to evaluate your team for the [Best Software Tool award](http://2016.igem.org/Judging/Awards).
+This year, we worked with U of T to adapt their [igemwiki-api](https://www.npmjs.com/package/igemwiki-api) into a continuous integration server. This server allows teams to edit their wikis locally and on GitHub and automatically upload them to igem.org servers when changes are made. This allows iGEM teams to write cleaner code and saves them time uploading that code manually.
 
-Delete this box in order to be evaluated for this medal. See more information at [Instructions for Pages for awards](http://2016.igem.org/Judging/Pages_for_Awards/Instructions).
+## Continuous Integration
 
-Regardless of the topic, iGEM projects often create or adapt computational tools to move the project forward. Because they are born out of a direct practical need, these software tools (or new computational methods) can be surprisingly useful for other teams. Without necessarily being big or complex, they can make the crucial difference to a project's success. This award tries to find and honor such "nuggets" of computational work.
+Continuous integration (CI) refers to a continuous process of integrating code after it is written. It is a very common practice in software development because it removes the unnecessary hassle of uploading by hand. It also ensures that the main repository which stores the code represents exactly what is seen on the website. This prevents confusion as to who changed what and ensures that those changes will never be lost.
 
-##### Inspiration
+## NodeJS
 
-Here are a few examples from previous teams:
+NodeJS is a platform for building Javascript programs that can be run on any machine. It is a very popular tool for building web servers and was what U of T iGEM made their igemwiki-api with. We decided to build the CI server with it because it is very fast, familiar for many web developers and natively supported the igemwiki-api.
 
-*   [TU Munich 2013](http://2013.igem.org/Team:TU-Munich/Results/Software)
-*   [Heidelberg 2014](http://2014.igem.org/Team:Heidelberg/Software)
-*   [Aachen 2014](http://2014.igem.org/Team:Aachen/Project/Measurement_Device#Software)
+## Implementation
 
+CiGEM is hosted on Google App Engine and supports two endpoints. The endpoint "/payload/setup" accepts a team name and GitHub repository URL and "clones" the code as well as adds the team to a registry. The endpoint "/payload" checks for a GitHub push header. If it finds one, it pulls the code from GitHub and pushes it live to iGEM's servers. The setup for the server is as easy as making a request to the setup handler and adding a WebHook on GitHub. The code for the server can be found on [our GitHub repository](https://github.com/igem-waterloo/cigem)
