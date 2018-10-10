@@ -1,6 +1,6 @@
 {
     "teamName": "Waterloo",
-    "year": "2017",
+    "year": "2018",
     "links": {
         "home": "index",
         "team": "Team",
@@ -24,7 +24,6 @@
         "gold": "HP/Gold_Integrated",
         "integrated_practices": "Integrated_Practices",
         "engagement": "Engagement",
-        "snake35": "Snake35",
         "software": "Software",
         "model": "Model"
    },
@@ -52,8 +51,7 @@
             "silver": "silver",
             "gold": "gold",
             "integrated_practices": "integrated_practices",
-            "engagement": "engagement",
-            "snake35": "snake35"
+            "engagement": "engagement"
         },
         "awards": {
             "software": "software",
@@ -86,20 +84,12 @@
         "silver": "HP-Silver",
         "gold": "HP-Gold",
         "integrated_practices": "Integrated_Practices",
-        "guidebook": "Guidebook",
         "applications": "Applications",
-        "iat": "IAT",
-        "snake35": "Snake35",
-        "3d_printing": "3D_Printing",
         "project_talks": "Project_Talks",
         "practices": "Practices",
         "engagement": "Engagement",
         "software": "Software",
         "model": "Model",
-        "markov": "Markov",
-        "fret": "FRET",
-        "des": "DEs",
-        "combinatorics": "Combinatorics",
         "modeling": "Modeling"
     }
 }

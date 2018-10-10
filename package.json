@@ -1,5 +1,5 @@
 {
-    "name": "Waterloo-wiki-2017",
+    "name": "Waterloo-wiki-2018",
     "version": "0.0.1",
     "description": "iGEM wiki for team Waterloo.",
     "private": true,
@@ -9,11 +9,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/igem-waterloo/wiki2017"
+        "url": "https://github.com/igem-waterloo/wiki2018"
     },
     "author": "Waterloo iGEM <uwigem@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/igem-waterloo/wiki2017#readme",
+    "homepage": "https://github.com/igem-waterloo/wiki2018#readme",
     "devDependencies": {
         "browser-sync": "^2.8.2",
         "browserify": "^11.0.1",
