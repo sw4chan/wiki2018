@@ -10,27 +10,14 @@
 {{Waterloo/head}}
 <html>
 
-<style>
-.teamMember {
-  height: 120px;
-  display: inline-table;
-  width: 120px;
-  cursor: pointer;
-  border-radius: 3px;
-  border: white;
-  border-style: solid;
-  margin: 12px;
-}
-</style>
-
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top"><a class="navbar-brand" href="http://2018.igem.org/Team:Waterloo">Waterloo</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button><div class="collapse navbar-collapse" id="navbarCollapse"><ul class="navbar-nav mr-auto">
 <li class="nav-item"><a class="nav-link" href="http://2018.igem.org/Team:Waterloo"><span>Home</span></a></li>
 </li>
-<li class="active dropdown nav-item"><a href="#" class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Team<span class="caret"></span></a>
+<li class="dropdown nav-item"><a href="#" class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Team<span class="caret"></span></a>
 <ul class="dropdown-menu">
-<li class="active"><a class="dropdown-item" href="http://2018.igem.org/Team:Waterloo/Team"><span>Team</span></a></li>
+<li class=""><a class="dropdown-item" href="http://2018.igem.org/Team:Waterloo/Team"><span>Team</span></a></li>
 </li>
 <li class=""><a class="dropdown-item" href="http://2018.igem.org/Team:Waterloo/Collaborations"><span>Collaborations</span></a></li>
 </li>
@@ -60,13 +47,13 @@
 </li>
 <li class="nav-item"><a class="nav-link" href="http://2018.igem.org/Team:Waterloo/Attributions"><span>Attributions</span></a></li>
 </li>
-<li class="dropdown nav-item"><a href="#" class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Human Practices<span class="caret"></span></a>
+<li class="active dropdown nav-item"><a href="#" class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Human Practices<span class="caret"></span></a>
 <ul class="dropdown-menu">
 <li class=""><a class="dropdown-item" href="http://2018.igem.org/Team:Waterloo/Human_Practices"><span>Human Practices</span></a></li>
 </li>
 <li class=""><a class="dropdown-item" href="http://2018.igem.org/Team:Waterloo/HP_Silver"><span>Silver</span></a></li>
 </li>
-<li class=""><a class="dropdown-item" href="http://2018.igem.org/Team:Waterloo/HP_Gold"><span>Gold</span></a></li>
+<li class="active"><a class="dropdown-item" href="http://2018.igem.org/Team:Waterloo/HP_Gold"><span>Gold</span></a></li>
 </li>
 <li class=""><a class="dropdown-item" href="http://2018.igem.org/Team:Waterloo/Integrated_Practices"><span>Integrated Practices</span></a></li>
 </li>
@@ -82,67 +69,23 @@
 </ul>
 </ul>
 </div></nav>
-<div class="content team">
-  <div class="titleBox row" style="background: url(http://2017.igem.org/wiki/images/4/4c/T--Waterloo--2017_teamphoto.jpg)">
+<div class="content">
+
+  <div class="titleBox row" style="background: url(undefined)">
     <div class="layer shade">
       <div class="squiggle squiggleForward col-xs-4"></div>
       <div class="titleCaption col-xs-4">
         <h1>
-          Our Lit Team
+        	HP Gold
         </h1>
       </div>
       <div class="squiggle squiggleBackward col-xs-4"></div>
     </div>
   </div>
-  <div class="content-main">
-    <div class="row">
-      <div class="col-sm-2"></div>
-      <div class="col-sm-4">
-        <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + member.picture + ')' }"></div>
-      </div>
-      <div class="col-sm-4">
-        <div class="teamMemberInfo">
-          <h2>^^member.name + (member.nickname ? ' (' + member.nickname + ')' : '')$$</h2>
-          <p>^^(member.year || '') + (member.year || '' && ', ') + (member.subteam || '')$$</p>
-          <p>^^member.bio$$</p>
-        </div>
-      </div>
-      <div class="col-sm-2"></div>
-    </div>
-  </div>
-	<div id="inserts"> 
-    <center>
-      <div class="ip-group-wrapper">
-        <div class="memberList">
-          <div style="border-radius:3px; overflow:hidden">
-	  
-          <div class="teamMember" v-on:click="member=me" v-for="me in ip.members">
-	    ^^me.name + (me.nickname ? ' (' + me.nickname + ')' : '')$$
-          </div>
-          </div>
-        </div>
-      </div>
-    </center>
-  </div>
+
+
+<div class="row"><div class="col"><div class="content-main"></div></div></div>
 </div>
 
-<script src="https://unpkg.com/vue"></script>
-<script>
-var teamPage = new Vue({
-  el: ".team",
-  delimiters: ['^^', '$$'],
-  data:{
-    member: {
-			name: 'Click a team member to view their information',
-		  bio: '',
-			photo: '',
-		},
-    ip: {
-    parent: "IP",
-    members: [
-    ]
-    }}}
-)
-</script>
 </html>
 {{Waterloo/footer}}
