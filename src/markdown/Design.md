@@ -1,80 +1,70 @@
+It’s been a long journey from ideas, to research sessions, design, failure, redesign, and redesign. One question lead to another. In this page, we explain our system development and experimental design processes, and the reasoning behind the decisions we made along the way. Question by question, answer by answer, we invite you to learn more about this process.
 
-# Project Design
+## Major Goals of the Project
 
-## Prions
+-   Create a stable co-culture system 
+-   Be able to maintain the co-culture at any desired ratio 
 
-Prions are self-perpetuating proteins that have a soluble, normally functional form and an additional insoluble form known as aggregates or amyloids (Tyedmers et.al, 2010). They are self-propagating conformations that have the ability to transmit phenotypes that are not caused by changes in nucleic acid formations (Tyedmers et.al, 2010). The first prions that were discovered were disease-prions, notably in mammalian diseases including sheep scrapie and human Creutzfeldt- Jacob (Liebman & Chernoff, 2012). These diseases were transmitted by infectious conformational isoforms of proteins, which in turn convert other proteins into the isoform (Liebman & Chernoff, 2012). To date, there are over thirty human diseases associated with the formation of prions (Liebman & Chernoff, 2012).
+## System Development
+### Q: How do we control growth rates? 
 
-Currently, there are seven-known prions in Saccharomyces cerevisiae, each with a different function and phenotype (Tyedmers et.al, 2010). Although there are no general sequence similarity among all the seven prions, there is a heightened expressed level of asparagine and glutamine residues in all the prions (Tyedmers et.al, 2010).
+Our project aims to maintain a stable co-culture by addressing the problem of competition between different microbial populations. We wanted to address this by regulating growth. We considered doing this in two ways:
+-   To kill cells in a population when it starts to outcompete the other
+-   To slow the growth of one population and allow the other to catch up
 
+Through our research, we came up with one method for each option. 
+The first method involved expressing HipA, a serine/threonine protein kinase toxin, in the _Escherichia coli_ (_E. coli_) population with the faster growth rate. This would begin to kill some of the culture which in turn would allow the slower culture to catch up, thereby maintaining the co-culture.    
 
-<br>
+The other method considered was to control the methionine production within the cell by controlling the metE gene. This gene is necessary for methionine biosynthesis. In a medium that lacks methionine, this gene becomes essential for growth. By controlling this gene’s expression, we can cut off the fast-growing population’s  supply of methionine to allow the slower population to catch up.
 
-## Modularity of Prions
+We decided to control the expression of metE in order to create our co-culturing system because it provides more dynamic control and a faster response from the cells once a command is given. Let’s say you have a co-culture with two bacterial populations: A and B. Population A starts out-growing the other so you turn off its metE production long enough to allow population B to catch up. But what if population B starts overgrowing? What if you want to change the ratio to now increase population A? If you had killed cells, it would take longer to get the few population A cells remaining to start dividing than it would if the cells were there all along, but simply arrested. 
 
+####    A: By controlling metE expression.
 
+### Q: How do we control metE expression? 
 
-New prion domains and functions and reporters found to make synthetic prions- leading to new natural prions (Wickner et.al, 2000). A hybrid prion protein can be formed by fusing different prion domains into the corresponding protein filaments (Wickner et.al, 2000). However, this hybridization is very selective - as it will not combine with all protein filaments (Wickner et.al, 2000).
+In order to control the expression of two cultures independently of one another, we needed two different light-activatable systems, also known as optogenetic systems. We found a CcaS/CcaS system which is activated by green light and shut off by red light, used by the Kammash Lab. [1] By putting a CcaS/CcaR-responsive promoter in front of metE, we could promote its expression with green light and slow cell growth  with red light. We decided to use this system because other research groups had verified that it worked to control the expression of MetE and  to control cell growth. [1,2]
 
+The second system that we wanted to use was a blue light activated system, so that we could control both populations independently and simultaneously. We found two systems that used blue light: the pDawn and Opto-T7 RNA polymerase systems. We prefered Opto-T7 because its response time, or the time it takes after the light is shined to start seeing an effect, is faster and closer to that of CcaS/CcaR. Therefore, we thought Opto-T7 would be a better fit with our existing red/green light system. Unfortunately, due to an inability to acquire the OptoT7 plasmids in time, we decided to use the pDawn system.
 
-<br>
+#### A: Via optogenetic systems. 
 
-## Reasoning for Usage
+### Q: How do we monitor different populations in a co-culture? 
+The next question to be answered was how to monitor the relative quantities of both populations in our co-culture. In order to know which lights to shine, and thus which population’s growth to encourage, we would need to obtain data on the relative abundance of the two populations. This data would need to be collected in real time so that we could modulate the light in response to any changes without disturbing the desired co-culture ratio. In order to do this, we decided to add a fluorescent protein marker to each population, RFP to one and GFP to the other, then detect the relative abundance of each culture using a flow cytometer. The flow cytometer allows almost real-time data collection and is far faster than plating cells and waiting for them to grow overnight. After some testing, we decided to change the plan to monitoring one culture using GFP and the other culture with no fluorescent protein, through flow cytometry. We decided this because our flow cytometer only contained a 488 nm laser, which was good at exciting GFP but not RFP, and it would be much simpler to collect data without RFP.
 
+##### A: Fluorescence and flow cytometry. 
 
+## Project Re-work
 
-By using the self-perpetuating qualities of the prion domain as a tool, alternative forms of various proteins can be induced. This can occur through the enhancement of an existing function, or transferring a new one. Through this mechanism, in future research and applications, isoforms of proteins can be produced and manipulated for the desired effect or product. Applications of this project can be found here.
+The experimental design described above is how we originally planned to carry out our project, in order to develop a system which was able to maintain a co-culture at specified ratios. Unfortunately, due to issues that arose with some of the light activated systems and time constraints, we had to rework the project design in order to complete our work in time. 
+We removed the blue light system entirely since we could not assemble it fast enough. Instead, we decided to focus only on the CcaS/CcaR system. Our revised co-culture involves engineering our faster-growing _E. coli_ population (JT2) to be controlled by CcaS/CcaR, and leaving our slower-growing _E. coli_ population (DH5𝛂) uncontrolled.  This allowed us to continue to pursue the core objective of our project: to create a stable co-culture, while removing some of the complexity so that we could finish on time. 
 
-## The Prion Domain
+## Experimental Design
 
-The prion domain, derived from Sup35 of *S.cerevisiae*, was employed in the design of this project. The utility of Sup35 is based on its ability to manifest in either an infectious or non-infectious state (Dale et al., 2012). In [PSI-], the non-infectious state, the protein acts as a translational termination factor (Dale et al., 2012). In the [PSI+] state, however, the protein confers prion-like properties (Dale et al., 2012)). [PSI+] is often observed upon overexpression of Sup35, which results in protein aggregation (Bradley & Liebman, 2004). Based on the discovery that only the N-terminal and a small portion of the middle domain are essential to the propagation of the prion state, only the coding sequence of the first 137 amino acids was incorporated into the plasmid design (Bradley & Liebman, 2004). Decreasing the size of the plasmid was expected to aid in plasmid construction and transformation. This prion domain is referred to as “PrD”. As we wanted the prion domain to be a modular tool, we created a biobrick and placed it in the registry ([BBa_K2475000](http://parts.igem.org/Part:BBa_K2475000)).
+### Q: Is methionine shared between cells/populations? 
 
-## Bimolecular Fluorescence Complementation (BiFC)
+A major consideration for our system was that we would have to grow the culture in a medium without methionine, and ensure that methionine produced within cells is not excreted into the media.  This is an important consideration for our system because we are controlling growth of two different microbial populations by controlling methionine production. Our system favours the growth of one population by allowing it to produce methionine, while inhibiting the other population’s ability to do so. However, this wouldn’t work if methionine was secreted by cells producing it and taken up by others. Here, we wanted to test if a methionine-producing population of _E. coli_ secreted methionine and if that amount was enough to support the growth of a non-producing population.
 
-BiFC is employed as a means to visualize protein interactions within live yeast cells. The method is based upon the principle that fragments of a fluorescent protein do not have the ability to fluoresce without interacting with one another in the form of a complex (Kerppola, 2008). In applying this principle to our project, the objective was to utilize the prion domain as a tool to give rise to functional proteins. The interaction of the N-terminal of YFP fused with PrD ([BBa_K2475003](http://parts.igem.org/Part:BBa_K2475003)) and the C-terminal of YFP fused with PrD ([BBa_K2475004](http://parts.igem.org/Part:BBa_K2475004) ) is expected to result in the emission of fluorescence when both split proteins come into close proximity in an aggregate.
+**Design Iterations:**
 
-<center>
-![BiFC]({{image "bifc" "directlink" mode}})
-</center>
+Initially, we thought of growing the two populations together in a methionine dropout medium, but we quickly realized that this would not work. If one population outgrew the other, we wouldn’t be able to tell if this was due to differences in methionine availability, competition for other nutrients, or a difference in growth rates. This was a major downfall because one of the main reasons we pursued this project was to maintain co-cultures of populations that had different growth rates.  
 
-## Fluorescence Resonance Energy Transfer (FRET)
+Another idea we proposed was to separate the populations within the medium, using a membrane to physically split the tube in half. The pores would be large enough to allow for exchange of any methionine excreted, but small enough to prevent cells from crossing. However, using a membrane would prevent us from being able to stir our co-culture from within, and shaking the tube could potentially dislodge the membrane. 
 
-FRET represents another method to visualize intracellular interactions. The premise underlying this technique is that the transfer of energy from excited fluorophores to non-excited fluorophores can occur when the two fluorophores are within a distance of 5 nm (Alberts et al., 2015). Labelling molecules of interest with different fluorophores enables the recognition of instances when they are at such close proximity, which typically only occurs when the molecules are interacting (Alberts et al., 2015). In order for the energy transfer to occur, the excitation spectrum of one fluorophore must overlap with the emission spectrum of another (Alberts et al., 2015). In this project, the excitation of cyan fluorescent protein (CFP) at approximately 430 nm will result in emission from yellow fluorescent protein (YFP) at approximately 535 nm if the associated prion domain is successful in increasing the interactive potential of the fluorophores (Alberts et al., 2015). FRET, as a part of this project design, is expected to demonstrate the ability of prion domains to bring together different proteins in an attempt to manipulate cellular processes. [PrD CFP](http://parts.igem.org/Part:BBa_K2475001) and [PrD YFP]( http://parts.igem.org/Part:BBa_K2475002 ) have been biobricked and placed in the registry.
+Finally, we decided to grow the methionine-producing population in a methionine-deficient medium, filter the cells out, then re-inoculate the medium with cells that couldn't produce methionine. If methionine was secreted by the first population, it would be present in the medium post-filtration, allowing growth of the second population. 
+These controls were a critical part of our design. 
 
-<center>
-![FRET]({{image "fret" "directlink" mode}})
-</center>
+### Q: What is the metabolic load of MetE (over)expression? 
+See p. 78 + 98 of online lab book 
 
-## Experimental Plan
+### Q: Can we reliably measure 2 populations in co-culture?
+P. 110-112
 
-
-1. **Design** parts and primers for IDT synthesis
-
-2. **PCR** amplify ordered parts
-
-3. **Clone** into *E. coli*
-
-4. **Isolate** cloned plasmid
-
-5. **Transform** into Yeast
-
-6. **Observe** engineered proteins in the aggregated form
-
-
+### Q: Can we control growth with red and green light? 
+P.106-108
 
 ## References
 
-Alberts, B., Johnson, A., Lewis, J., Morgan, D., Raff, M., Roberts, K., & Walter, P. (2015). Ways of Working with Cells. In Molecular Biology of the Cell (6th ed., pp. 543-544). New York, NY: Garland Science.
+[1] A. Milias-Argeitis, M. Rullan, S. K. Aoki, P. Buchmann, and M. Khammash, “Automated optogenetic feedback control for precise and robust regulation of gene expression and cell growth,” Nature Communications, vol. 7, p. 12546, 2016.
 
-2. Bradley, M. E., & Liebman, S. W. (2004). The Sup35 domains required for maintenance of weak, strong or undifferentiated yeast [PSI ] prions. Molecular Microbiology,51(6), 1649-1659. doi:10.1111/j.1365-
-2958.2003.03955.x
-
-3. Dale, J. W., Schantz, M. V., & Plant, N. (2012). Products from Native and Manipulated Cloned Genes. In From Genes to Genomes (3rd ed., p. 205). Hoboken, NJ: John Wiley & Sons, Inc.
-
-4. Kerppola, T. K. (2008). Bimolecular Fluorescence Complementation (BiFC) Analysis as a Probe of Protein Interactions in Living Cells. Annual Review of Biophysics, (37), 465 - 487. doi:10.1146/annurev.biophys.37.032807.125842.
-
-5. Liebman, S. W., & Chernoff, Y. O. (2012). Prions in Yeast. Genetics, 191(4), 1041-1072. doi:10.1534/genetics.111.137760
-
-6. Tyedmers, J., Treusch, S., Dong, J., Mccaffery, J. M., Bevis, B., & Lindquist, S. (2010). Prion induction involves an ancient system for the sequestration of aggregated proteins and heritable changes in prion fragmentation. Proceedings of the National Academy of Sciences, 107(19), 8633-8638. doi:10.1073/pnas.1003895107.
-
-7. Wickner, R., Taylor, K., Edskes, H., & Maddelein, M. (2000). Prions: Portable prion domains. Current Biology,10(9). doi:10.1016/s0960-9822(00)00460-7.
+[2] E. A. Davidson, A. S. Basu, and T. S. Bayer, “Programming Microbes Using Pulse Width Modulation of Optical Signals,” Journal of Molecular Biology, vol. 425, no. 22, pp. 4161–4166, 2013

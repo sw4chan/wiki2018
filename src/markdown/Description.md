@@ -1,42 +1,7 @@
+## _E. co-light_ : Dynamic Optogenetic Control of Co-cultures
 
-## Prions
+[insert "Intro to opto co-cultures video here] 
 
-Prions are a specific type of protein aggregate, consisting of only one protein, and possessing the interesting characteristic of being “infectious.” Proteins in the aggregate (in an insoluble form) have a different conformation than the same protein outside of the aggregate (in a soluble form), but if the former encounter the latter, the latter will “misfold” and join the aggregate.
+Microorganisms exist in complex and diverse communities. This enables a variety of important interactions including co-metabolism and nutrient cycling. Yet, it can be difficult to culture species together in a laboratory setting. Mixed populations are difficult to maintain primarily due to competition: a difference in growth rates often results in one population outcompeting another. Our team aims to dynamically control E. coli growth by using optogenetics (light-induced gene expression) to regulate the production of MetE, an enzyme essential for bacterial growth. This kind of control could help us overcome a major barrier to maintaining co-cultures: competition between microorganisms.  
 
-
-Prions are infectious, yet stable, protein aggregates.  They have the unique ability to catalyze the formation of additional prions by acting upon domains with a wild-type configuration, "infecting" them and causing them to misfold.  This induces the newly misfolded protein to aggregate onto a growing chain of prions.  At some point in time, this collection of prion aggregates break apart by either mechanical force or through some other unknown mechanism of action, giving rise to more surface area for further conversion of wild-type conformations to the prion state.  
-
-## Modular Prion domain
-
-All proteins that confer prion-like characteristics contain a sequence within their polypeptide chain called the prion domain. A prion will lose its ability to form protein aggregates if the prion domain is removed, while the addition of a prion domain to a protein will cause it to demonstrate novel prion-like properties. In our project we biobricked the Sup35 prion domain <a href="http://parts.igem.org/Part:BBa_K2475000"> (BBa_K2475000) </a> for other teams to use to give proteins aggregation ability.
-
-## Disease or Functional?
-
-Prions are the causing factor in some diseases such as mad cow disease in cattle, or the Creutzfeldt-Jakob disease in humans.  Although prions generally lead to negative effects in mammals, this may not always be the case.  In the example of Alypsa spp., the CPEB protein tags specific mRNAs for translation, but can only do so in the  aggregated state.  This preliminary research provides us with the groundwork to build on, and we wish to further capitalize on the specific properties of prions in order to use them to our advantage.
-
-
-## Why Prions?
-
-As demonstrated by Kushnirov et al., the insertion of a foreign prion domain to Sup35 resulted in the aggregation of the protein.  This aggregated version of Sup35 gave rise to [PSI+]; more simply put, [PSI+] is the prion version of Sup35.  We hypothesize that similar to the Sup35 and CPEB example, certain enzymes may demonstrate an increase in activity in an aggregated prion-like state.  The aggregation of prion tagged enzymes can potentially improve substrate channeling within a cell for metabolic processes or multi-step biochemical reactions, which may speed up reactions.  Prions are very heavily researched since many of its mechanisms are still unknown - this provides us with a large subfield with lots of potential for groundbreaking discoveries.
-
-<center>
-
-![Increasing activity of proteins by bringing them together]({{ image "Enzymeflux.png" "directlink" mode }})
-
-</center>
-
-
-
-## What are we trying to do?
-
-It has been theorized, as well as demonstrated, that fusing the prion domain to different proteins can reduce their function when aggregates are present. However, it would be interesting to cause an increase in function upon aggregation. This is the basis for the project this year.
-
-This year's project revolves around the central theory that an increase in function or activity of a protein will be observed should a prion domain be attached to the polypeptide chain.  To show that this is possible as a proof of principle we are going to be showing this in two ways and is described on the [design page](http://2017.igem.org/Team:Waterloo/Design)
-
-
-
-## References
-1. Liebman, S. W., & Derkatch, I. L. (1999). The Yeast [PSI+] Prion: Making Sense of Nonsense. The Journal of Biological Chemistry,274(3), 1181-1184. doi:10.1074/jbc.274.3.1181 
-2. Kushnirov, V. V., Kochneva-Pervukhova, N. V., Chechenova, M. B., Frolova, N. S., & Ter-Avanesyan, M. D. (2000). Prion properties of the Sup35 protein of yeast Pichia methanolica. EMBO J,19(3), 324-331. doi:10.1093/emboj/19.3.324
-4. Si, K., Lindquist, S., & Kandel, E. R. (2003). A Neuronal Isoform of the Aplysia CPEB Has Prion-Like Properties. Cell,115(7), 879-891. doi:10.1016/S0092-8674(03)01020-1
-4. Soto, C. (2011). Prion Hypothesis: The end of the Controversy? Trends Biochem Sci,36(3), 151-158. doi:10.1016/j.tibs.2010.11.001
+This would open several doors in biotech and research. For instance, metabolic engineering of microbial communities may improve the production of pharmaceuticals, biofuels, and other important materials. Moreover, controllable co-cultures would allow researchers to explore complex interactions between microbes and investigate questions that could not previously be answered due to co-culturing limitations.
