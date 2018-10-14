@@ -98,10 +98,12 @@ This led the team to conclude that our approach for distinguishing fluorescent a
 
 For the full code of the Python program, see:
 https://github.com/igem-waterloo/uwaterloo-igem-2018/blob/master/models/image/greenFluorescenceQuantifier.py
+
 For the full experimental protocol, see the online lab book (pages 80 and 81).
 
 ## Optimization Test with Camera
 
 ## Second Design and Future Experiments
+
 
 
