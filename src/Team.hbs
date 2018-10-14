@@ -28,34 +28,22 @@
     </div>
   </div>
   <div class="content-main">
-    <div class="row">
-      <div class="col-sm-2"></div>
-      <div class="col-sm-4">
-        <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + member.picture + ')' }"></div>
-      </div>
-      <div class="col-sm-4">
-        <div class="teamMemberInfo">
-          <h2>^^member.name + (member.nickname ? ' (' + member.nickname + ')' : '')$$</h2>
-          <p>^^(member.year || '') + (member.year || '' && ', ') + (member.subteam || '')$$</p>
-          <p>^^member.bio$$</p>
-        </div>
-      </div>
-      <div class="col-sm-2"></div>
-    </div>
-  </div>
-	<div id="inserts"> 
-    <center>
+    <div>
       <div class="ip-group-wrapper">
-        <div class="memberList">
-          <div style="border-radius:3px; overflow:hidden">
-	  
-          <div class="teamMember" v-on:click="member=me" v-for="me in ip.members">
-	    ^^me.name + (me.nickname ? ' (' + me.nickname + ')' : '')$$
+        <div class="memberList row" v-for="member in ip.members">
+          <div class="col-sm-4">
+            <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + member.picture + ')' }"></div>
           </div>
+          <div class="col-sm-4">
+            <div class="teamMemberInfo">
+              <h2>^^member.name + (member.nickname ? ' (' + member.nickname + ')' : '')$$</h2>
+              <p>^^(member.year || '') + (member.year ? ', ' : '') + (member.subteam || '')$$</p>
+              <p>^^member.bio$$</p>
+            </div>
           </div>
-        </div>
       </div>
-    </center>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -65,14 +53,20 @@ var teamPage = new Vue({
   el: ".team",
   delimiters: ['^^', '$$'],
   data:{
-    member: {
-			name: 'Click a team member to view their information',
-		  bio: '',
-			photo: '',
-		},
     ip: {
     parent: "IP",
     members: [
+      {'name': 'Test1', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test2', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test3', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test4', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test5', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test6', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test7', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test8', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test9', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test10', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
+      {'name': 'Test11', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'}
     ]
     }}}
 )

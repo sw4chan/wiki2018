@@ -6,7 +6,7 @@ In Canada, all research practices involving biological materials are strictly re
 
 # Laboratory Safety Guidelines at the University of Waterloo
  All laboratory practices operated within The University of Waterloo iGEM Team are regulated by [The University of Waterloo’s Safety Office](https://uwaterloo.ca/safety-office/). As such, everyone in the lab had been appropriately trained with the safety modules required by the University of Waterloo before being allowed to work in the lab. The training included WHMIS 2015, Laboratory Biosafety Training, and General Lab Safety. The training was based on the following safety guidelines:  
- * [University of Waterloo Laboratory Safety Guidelines](https://uwaterloo.ca/safety-office/programs-and-procedures/laboratory-safety)
+* [University of Waterloo Laboratory Safety Guidelines](https://uwaterloo.ca/safety-office/programs-and-procedures/laboratory-safety)
 * [University of Waterloo Biological Safety Guidelines](https://uwaterloo.ca/safety-office/programs-and-procedures/laboratory-safety/biological-safety-program)
 * [University of Waterloo Workplace Hazardous Materials Information System](https://uwaterloo.ca/safety-office/programs-and-procedures/whmis)
 * [University of Waterloo Workplace Violence and Harassment](https://uwaterloo.ca/safety-office/programs-and-procedures/workplace-violence-and-harassment)
