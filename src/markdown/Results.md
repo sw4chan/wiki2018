@@ -80,11 +80,28 @@ The container on the right was the one grown under green light, and it is very c
 ## Box Design and Test with Photodiode
 
 ## Quantification Test with Camera
-After the unclear result of the test with the original box apparatus, it was determined that the test using the camera should be redone. Similarly to the initial experiment, E. coli (this time JT2 containing GFP under the CcaR promoter) were grown up to an OD of ~0.6 in complete M9. Two samples were grown under green light, and two under red light. Both samples had a total volume of ~25 mL.
+After the unclear result of the test with the original box apparatus, it was determined that the test using the camera should be redone in a more quantitative manner. Similarly to the initial experiment, E. coli (this time JT2 containing GFP under the CcaR promoter) were grown up to an OD of ~0.6 in complete M9. Two samples were grown under green light, and two under red light.
 
-The tubes were arranged in a row in front of an iPhone camera, which had a light filter in front of it that blocked out green light. The tubes were 
+The tubes were arranged in a row in front of an iPhone camera, which had a light filter in front of it that blocked out green light. The tubes were placed in two alternate arrangements, and a movie was taken of the blue LED being passed behind them. See below for one of the movies taken.
+
+<video width="100%" height="480" controls> 
+<source src="http://2018.igem.org/wiki/images/9/97/T--Waterloo--August21_robotsExp1.mov" type="video/mp4"> 
+</video>
+
+As one can see (especially when looking at the bottoms of the vials), the first and third vials from the left are brighter. These were the vials grown under green light, and hence having more GFP. Screenshots of the vials were taken as the light was directly behind them, and the images were cropped down to just the vial (see below for an example cropped image).
+
+![alt text](http://2018.igem.org/wiki/images/1/19/T--Waterloo--August21_Arrangement1Vial1.jpg)
+
+These images were then fed into a Python program that broke them down into their RGB values. The red, green, and blue values of each pixel in each image were taken and averaged. Since some blue light still made it through the filter, average blue values for the images could not be used to distinguish the samples. Additionally, the green values were informative but still relatively in each image, mostly because a strong blue light actually emits some green light as well. However, examining the average red values made the cells grown under red and green light easily distinguishable.
+
+This led the team to conclude that our approach for distinguishing fluorescent and non-fluorescent cells was valid, and the failure of the initial box design was due to poor placement and control of the position of our photodiode, sample vial, and LED. We thus set out to find the optimal arrangement and implement that into future designs.
+
+For the full code of the Python program, see:
+https://github.com/igem-waterloo/uwaterloo-igem-2018/blob/master/models/image/greenFluorescenceQuantifier.py
+For the full experimental protocol, see the online lab book (pages 80 and 81).
 
 ## Optimization Test with Camera
 
 ## Second Design and Future Experiments
+
 
