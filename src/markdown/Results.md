@@ -147,6 +147,35 @@ Trial 6 was carried out as a negative control to assure that the stock media its
 
 Finally, the 7th trial indicated that the JT2 strain that was in this bacteria was healthy and could grow in the desired conditions within the M9 media, with the methionine and the KM from stock solution.
 
+# GFP vs Non-Fluorescent Flow Test Experiment 
+
+Our comparison of the flow cytometer against pour plating started with a fluorescent and a non-fluorescent culture of roughly the same OD values. Below our initial ODs and results from both the flow cytometer and pour plating.
+
+<table>
+  <tr>
+    <th></th>
+    <th>Fluorescent</th>
+    <th>Non-Fluorescent</th>
+  </tr>
+  <tr>
+    <td>Initial OD</td>
+    <td>0.405</td>
+    <td>0.430</td>
+  </tr>
+  <tr>
+    <td>Flow Cytometer <br> 480nm Laser at 10mW</td>
+    <td>52%</td>
+    <td>48%</td>
+  </tr>
+  <tr>
+    <td>Pour Plating <br> Percent total CFU/mL</td>
+    <td>52%</td>
+    <td>49%</td>
+  </tr>
+</table>
+ 
+These results lead us to believe that the flow cytometer is representative of pour plating, indicating that the flow cytometer is most likely capable of giving accurate readings of a 50/50 population of fluorescent/non-fluorescent cells.
+ 
 # ROBOT
 
 ## Initial Experiment
