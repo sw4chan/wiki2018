@@ -65,3 +65,26 @@ Trial 5 similarly was carried out with stock M9 to assure no environmental conta
 Trial 6 was carried out as a negative control to assure that the stock media itself was not contaminated with any nutrients that could be used by the JT2 to grow. This was important as it is possible that trace amounts could have been consumed in the other trials by the NCM bacteria and thus were not reflected in the experimental trial.  
 
 Finally, the 7th trial indicated that the JT2 strain that was in this bacteria was healthy and could grow in the desired conditions within the M9 media, with the methionine and the KM from stock solution.
+
+# ROBOT
+
+## Initial Experiment
+Having determined the utility of an automated sampling system, the team first set out to confirm whether or not cells with different levels of GFP expressed could be visually distinguished when exposed to a ~488 nm light source. To this end, a light source with a peak emission at 488 nm and a light filter capable of letting green light but not blue light pass through was borrowed from the Reed lab at the University of Waterloo.
+
+Cells (specifically BW 29655 E. coli) expressing GFP under the CcaR promoter were grown to an OD of ~1 under both red and green light in complete M9. Unfortunately fluorescence measurements were not taken under the flow cytometer, but for the record the cells grown under red light were white while those grown under green light were visibly green. Upon shining blue light on the cells and taking a picture through the filter, the following image was obtained:
+
+![alt text](http://2018.igem.org/wiki/images/a/a4/T--Waterloo--July18_initialFluorescenceCheck.jpg)
+
+The container on the right was the one grown under green light, and it is very clearly distinguishable from the container on the right.
+
+## Box Design and Test with Photodiode
+
+## Quantification Test with Camera
+After the unclear result of the test with the original box apparatus, it was determined that the test using the camera should be redone. Similarly to the initial experiment, E. coli (this time JT2 containing GFP under the CcaR promoter) were grown up to an OD of ~0.6 in complete M9. Two samples were grown under green light, and two under red light. Both samples had a total volume of ~25 mL.
+
+The tubes were arranged in a row in front of an iPhone camera, which had a light filter in front of it that blocked out green light. The tubes were 
+
+## Optimization Test with Camera
+
+## Second Design and Future Experiments
+
