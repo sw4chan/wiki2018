@@ -73,7 +73,7 @@ Having determined the utility of an automated sampling system, the team first se
 
 Cells (specifically BW 29655 E. coli) expressing GFP under the CcaR promoter were grown to an OD of ~1 under both red and green light in complete M9. Unfortunately fluorescence measurements were not taken under the flow cytometer, but for the record the cells grown under red light were white while those grown under green light were visibly green. Upon shining blue light on the cells and taking a picture through the filter, the following image was obtained:
 
-![alt text](http://2018.igem.org/File:T--Waterloo--July18_initialFluorescenceCheck.jpg)
+![alt text](http://2018.igem.org/wiki/images/a/a4/T--Waterloo--July18_initialFluorescenceCheck.jpg)
 
 The container on the right was the one grown under green light, and it is very clearly distinguishable from the container on the right.
 
