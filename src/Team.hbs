@@ -1,19 +1,6 @@
 {{template templates.head mode}}
 <html>
 
-<style>
-.teamMember {
-  height: 120px;
-  display: inline-table;
-  width: 120px;
-  cursor: pointer;
-  border-radius: 3px;
-  border: white;
-  border-style: solid;
-  margin: 12px;
-}
-</style>
-
 {{navigation mode "_team" "team"}}
 <div class="content team">
   <div class="titleBox row" style="background: url({{image "teamphoto.jpg" "directlink" mode}})">
@@ -30,15 +17,25 @@
   <div class="content-main">
     <div>
       <div class="ip-group-wrapper">
-        <div class="memberList row" v-for="member in ip.members">
-          <div class="col-sm-4">
-            <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + member.picture + ')' }"></div>
+        <div class="memberList row" v-for="memberPair in memberPairs">
+          <div class="col-sm-3">
+            <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + memberPair[0].picture + ')' }"></div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <div class="teamMemberInfo">
-              <h2>^^member.name + (member.nickname ? ' (' + member.nickname + ')' : '')$$</h2>
-              <p>^^(member.year || '') + (member.year ? ', ' : '') + (member.subteam || '')$$</p>
-              <p>^^member.bio$$</p>
+              <h2>^^memberPair[0].name + (memberPair[0].nickname ? ' (' + memberPair[0].nickname + ')' : '')$$</h2>
+              <p>^^(memberPair[0].year || '') + (memberPair[0].year ? ', ' : '') + (memberPair[0].subteam || '')$$</p>
+              <p>^^memberPair[0].bio$$</p>
+            </div>
+          </div>
+	  <div class="col-sm-3" v-if="memberPair.length > 1">
+            <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + memberPair[1].picture + ')' }"></div>
+          </div>
+	  <div class="col-sm-3" v-if="memberPair.length > 1">
+            <div class="teamMemberInfo">
+              <h2>^^memberPair[1].name + (memberPair[1].nickname ? ' (' + memberPair[1].nickname + ')' : '')$$</h2>
+              <p>^^(memberPair[1].year || '') + (memberPair[1].year ? ', ' : '') + (memberPair[1].subteam || '')$$</p>
+              <p>^^memberPair[1].bio$$</p>
             </div>
           </div>
       </div>
@@ -68,7 +65,23 @@ var teamPage = new Vue({
       {'name': 'Test10', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'},
       {'name': 'Test11', 'picture': 'http://2017.igem.org/wiki/images/6/69/Cody-waterloo.png', 'year': '3B ;)', 'nickname': 'Testeroo', 'subteam': 'Math', 'bio': 'I am a test'}
     ]
-    }}}
+    }},
+  computed: {
+    memberPairs: function () {
+    console.log('blah');
+    console.log(this.ip.members.reduce(function(result, value, index, array) {
+      if (index % 2 === 0)
+        result.push(array.slice(index, index + 2));
+      return result;
+    }, []));
+    return this.ip.members.reduce(function(result, value, index, array) {
+      if (index % 2 === 0)
+        result.push(array.slice(index, index + 2));
+      return result;
+    }, []);
+  }
+}
+}
 )
 </script>
 </html>
