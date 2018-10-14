@@ -16,7 +16,7 @@ To maintain sterility and safety, we implemented laminar flow hoods, gloves, and
 
 # Laboratory Safety Design at Waterloo iGEM: Additional Information
 
-All of our chemical solutions are labelled and safely stored in appropriate containers. Flammable substances and acids are stored separately in appropriate cupboards. 
+All of our chemical solutions are labelled and safely stored in appropriate containers. Flammable substances and acids are stored separately in appropriate cupboards.  
 ![Safety Lab Photo 1](http://2018.igem.org/wiki/images/1/16/T--Waterloo--Waterloo--Safety_Lab_Photo_1--.jpeg)  
 We take safety seriously; from our Broken Glass Waste bin and regularly checked Fire Extinguisher  to our fully stocked First Aid Kit and Safety Information signs on the door for all to see, safety awareness and procedures are not something we take lightly. 
 ![Safety Lab Photo 2](http://2018.igem.org/wiki/images/9/93/T--Waterloo--Waterloo--Safety_Lab_Photo_2--.jpeg)  
