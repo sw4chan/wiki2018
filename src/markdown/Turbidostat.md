@@ -10,7 +10,8 @@ Turbidostats are not widely available on the market, and at present there are fe
 ![alt text](http://2018.igem.org/wiki/images/1/19/T--Waterloo--turbidostatEntire.jpg)
 
 The basic design has the following components:
-⋅⋅* A MatLab program run off of a personal computer (see image 1)
+
+* A MatLab program run off of a personal computer (see image 1)
 ⋅⋅* An Arduino Mega connected to the computer
 ⋅⋅* A printed circuit board (PCB) connected to the Arduino
 ⋅⋅* A series of motors connected to the PCB
