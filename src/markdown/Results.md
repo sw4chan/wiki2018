@@ -183,8 +183,16 @@ https://github.com/igem-waterloo/uwaterloo-igem-2018/blob/master/models/image/gr
 For the full experimental protocol, see the online lab book (pages 80 and 81).
 
 ## Optimization Test with Camera
+Following the successful quantization experiment, the team determined that it was necessary to optimize the positions of both the camera and the blue LED relative to the sample. To do this, an experiment was designed according to the following diagram:
+
+![alt text](http://2018.igem.org/wiki/images/4/41/T--Waterloo--Sept24_setupArrangementDiagram.png)
+
+The green squares represent positions for the camera, the red squares represent positions for the blue LED, and the white circle represents the sample. Every combination of position was tried.
+
+For the samples, new cells were used. DH5alpha containing a GFP-expressing cassette (registry part I20270) in pSB1C3 was used as a “fluorescent” strain and empty JT2 was used as a “non-fluorescent” strain. Both cultures were grown up from frozen stock overnight in LB, then the cells were moved to complete M9 for ~3 hours of growth. After the end of this growth, 
 
 ## Second Design and Future Experiments
+
 
 
 
