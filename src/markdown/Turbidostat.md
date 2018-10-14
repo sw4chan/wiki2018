@@ -19,5 +19,3 @@ The basic design has the following components:
 * A vacuum connected to the Arduino
 * A vacuum manifold connected to the PCB
 * A 3D-printed sample vial holder, which the PCB is housed in and the vacuum manifold is connected to
-
-![alt text](http://2018.igem.org/wiki/images/f/ff/T--Waterloo--turbidostatInterior.mov)
