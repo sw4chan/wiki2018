@@ -17,14 +17,14 @@ To maintain sterility and safety, we implemented laminar flow hoods, gloves, and
 # Laboratory Safety Design at Waterloo iGEM: Additional Information
 
 All of our chemical solutions are labelled and safely stored in appropriate containers. Flammable substances and acids are stored separately in appropriate cupboards. 
-![Safety Lab Photo 1](http://parts.igem.org/wiki/images/f/f3/T--Waterloo--Waterloo--Safety Lab Photo 1--.jpeg)  
+![Safety Lab Photo 1](http://2018.igem.org/wiki/images/4/4b/T--Waterloo--Waterloo--Safety_Lab_Photo_1--.jpeg)  
 We take safety seriously; from our Broken Glass Waste bin and regularly checked Fire Extinguisher  to our fully stocked First Aid Kit and Safety Information signs on the door for all to see, safety awareness and procedures are not something we take lightly. 
-![Safety Lab Photo 2](http://parts.igem.org/wiki/images/f/f3/T--Waterloo--Waterloo--Safety Lab Photo 2--.jpeg)  
+![Safety Lab Photo 2](http://2018.igem.org/wiki/images/4/4b/T--Waterloo--Waterloo--Safety_Lab_Photo_2--.jpeg)  
 We also dispose of our biohazardous waste properly. Materials such as contaminated gloves, pipette tips, KimWipes, etc. are put in Biohazardous Waste containers and compiled into our large bin. Once the bin is full, we safely transport it to the Hazardous Waste Disposal site on the university campus, where it is properly disposed of by qualified employees.  
-![Safety Lab Photo 3](http://parts.igem.org/wiki/images/f/f3/T--Waterloo--Waterloo--Safety Lab Photo 3--.jpeg)  
-![Safety Lab Photo 4](http://parts.igem.org/wiki/images/f/f3/T--Waterloo--Waterloo--Safety Lab Photo 4--.jpeg)  
+![Safety Lab Photo 3](http://2018.igem.org/wiki/images/4/4b/T--Waterloo--Waterloo--Safety_Lab_Photo_3--.jpeg)  
+![Safety Lab Photo 4](http://2018.igem.org/wiki/images/4/4b/T--Waterloo--Waterloo--Safety_Lab_Photo_4--.jpeg)  
 We also take extreme care not to put any chemicals down the drain and contaminate the water supply. Instead, we add bleach to our bacterial solutions once we are finished experimenting with them, and then take them to be disposed of to the Hazardous Waste Disposal site. We have also implemented our Weekly Eyewash Maintenance program, to ensure that stagnant, dead-leg water is removed from the tubing and that the apparatus is always clear and working for any emergencies that may occur.  
-![Safety Lab Photo 5](http://parts.igem.org/wiki/images/f/f3/T--Waterloo--Waterloo--Safety Lab Photo 5--.jpeg)  
+![Safety Lab Photo 5](http://2018.igem.org/wiki/images/4/4b/T--Waterloo--Waterloo--Safety_Lab_Photo_5--.jpeg)  
 Overall, our lab and project had many safety features implemented in order to ensure everyone involved inside and outside of the lab were kept safe. 
 
 # Safe Project Design
