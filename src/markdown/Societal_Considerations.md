@@ -1,4 +1,4 @@
-#Human Practices Home Page
+#Human Practices Home
 
 This year, our Human Practices work included a combination of new project ideas, as well as carefully refined projects from previous seasons. We had a strong focus on consulting experts and our work is grouped into four major categories: Societal Considerations, Communication and Public Bias, Public Engagement, and Safety. 
 
