@@ -1,5 +1,86 @@
 Multiple trials went underway for the growth of J2T in knockout MetE media to definitively confirm that the predicted results occured in regards to NCM/J2T growth. As the goal of the experiment was to assure that there was no “leaking” of methionine from the J2T cells when stimulated with methionine production, the following test matrix was performed:
 
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Experimental</td>
+    <td>
+      → M9 Dropout with NCM removed (2 mL)
+      → Added JT2 (25 uL)
+      → KM (2 uL)
+    </td>
+    <td>No growth</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Positive</td>
+    <td>
+      → M9 Dropout with NCM removed (2 mL)
+      → Stock culture NCM (2 uL)
+    </td>
+    <td>Minor growth*</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Positive</td>
+    <td>
+      → M9 Dropout with NCM removed (2 mL)
+      → Added JT2 (25 uL)
+      → KM(2 uL)
+      → MetE (100 uL)
+    </td>
+    <td>Growth</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Negative</td>
+    <td>
+      → M9 Dropout with NCM removed (approx. 2 mL)
+      → KM (2 uL)
+    </td>
+    <td>No growth</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Negative</td>
+    <td>
+      → Stock M9 Dropout (2 mL)
+      → KM (2 uL)
+      → MetE (100 uL)
+    </td>
+    <td>No growth</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Negative</td>
+    <td>
+      → Stock M9 Dropout (2 mL)
+      → Added JT2 (25 uL)
+      → KM (2 uL)
+    </td>
+    <td>No growth</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Positive</td>
+    <td>
+      → Stock M9 Dropout (2 mL)
+      → Added JT2 (25 uL)
+      → KM (2 uL)
+      → MetE (100 uL) 
+    </td>
+    <td>Growth</td>
+  </tr>
+  <tr>
+    <td colspan="5">*WHAT DOES THAT STAR MEAN</td>
+  </tr>
+</table>
 
 Test Tube #
 Control
