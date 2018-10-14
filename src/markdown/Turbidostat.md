@@ -12,10 +12,10 @@ Turbidostats are not widely available on the market, and at present there are fe
 The basic design has the following components:
 
 * A MatLab program run off of a personal computer (see image 1)
-⋅⋅* An Arduino Mega connected to the computer
-⋅⋅* A printed circuit board (PCB) connected to the Arduino
-⋅⋅* A series of motors connected to the PCB
-⋅⋅* A collection of peristaltic pumps connected to the Arduino (see image 2)
-⋅⋅* A vacuum connected to the Arduino
-⋅⋅* A vacuum manifold connected to the PCB
-⋅⋅* A 3D-printed sample vial holder, which the PCB is housed in and the vacuum manifold is connected to
+* An Arduino Mega connected to the computer
+* A printed circuit board (PCB) connected to the Arduino
+* A series of motors connected to the PCB
+* A collection of peristaltic pumps connected to the Arduino (see image 2)
+* A vacuum connected to the Arduino
+* A vacuum manifold connected to the PCB
+* A 3D-printed sample vial holder, which the PCB is housed in and the vacuum manifold is connected to
