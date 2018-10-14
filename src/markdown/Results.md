@@ -1,5 +1,86 @@
 Multiple trials went underway for the growth of J2T in knockout MetE media to definitively confirm that the predicted results occured in regards to NCM/J2T growth. As the goal of the experiment was to assure that there was no “leaking” of methionine from the J2T cells when stimulated with methionine production, the following test matrix was performed:
 
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Experimental</td>
+    <td>
+      → M9 Dropout with NCM removed (2 mL)
+      → Added JT2 (25 uL)
+      → KM (2 uL)
+    </td>
+    <td>No growth</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Positive</td>
+    <td>
+      → M9 Dropout with NCM removed (2 mL)
+      → Stock culture NCM (2 uL)
+    </td>
+    <td>Minor growth*</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Positive</td>
+    <td>
+      → M9 Dropout with NCM removed (2 mL)
+      → Added JT2 (25 uL)
+      → KM(2 uL)
+      → MetE (100 uL)
+    </td>
+    <td>Growth</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Negative</td>
+    <td>
+      → M9 Dropout with NCM removed (approx. 2 mL)
+      → KM (2 uL)
+    </td>
+    <td>No growth</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Negative</td>
+    <td>
+      → Stock M9 Dropout (2 mL)
+      → KM (2 uL)
+      → MetE (100 uL)
+    </td>
+    <td>No growth</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Negative</td>
+    <td>
+      → Stock M9 Dropout (2 mL)
+      → Added JT2 (25 uL)
+      → KM (2 uL)
+    </td>
+    <td>No growth</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Positive</td>
+    <td>
+      → Stock M9 Dropout (2 mL)
+      → Added JT2 (25 uL)
+      → KM (2 uL)
+      → MetE (100 uL) 
+    </td>
+    <td>Growth</td>
+  </tr>
+  <tr>
+    <td colspan="5">*WHAT DOES THAT STAR MEAN</td>
+  </tr>
+</table>
 
 Test Tube #
 Control
@@ -66,6 +147,35 @@ Trial 6 was carried out as a negative control to assure that the stock media its
 
 Finally, the 7th trial indicated that the JT2 strain that was in this bacteria was healthy and could grow in the desired conditions within the M9 media, with the methionine and the KM from stock solution.
 
+# GFP vs Non-Fluorescent Flow Test Experiment 
+
+Our comparison of the flow cytometer against pour plating started with a fluorescent and a non-fluorescent culture of roughly the same OD values. Below our initial ODs and results from both the flow cytometer and pour plating.
+
+<table>
+  <tr>
+    <th></th>
+    <th>Fluorescent</th>
+    <th>Non-Fluorescent</th>
+  </tr>
+  <tr>
+    <td>Initial OD</td>
+    <td>0.405</td>
+    <td>0.430</td>
+  </tr>
+  <tr>
+    <td>Flow Cytometer <br> 480nm Laser at 10mW</td>
+    <td>52%</td>
+    <td>48%</td>
+  </tr>
+  <tr>
+    <td>Pour Plating <br> Percent total CFU/mL</td>
+    <td>52%</td>
+    <td>49%</td>
+  </tr>
+</table>
+ 
+These results lead us to believe that the flow cytometer is representative of pour plating, indicating that the flow cytometer is most likely capable of giving accurate readings of a 50/50 population of fluorescent/non-fluorescent cells.
+ 
 # ROBOT
 
 ## Initial Experiment
@@ -102,8 +212,16 @@ https://github.com/igem-waterloo/uwaterloo-igem-2018/blob/master/models/image/gr
 For the full experimental protocol, see the online lab book (pages 80 and 81).
 
 ## Optimization Test with Camera
+Following the successful quantization experiment, the team determined that it was necessary to optimize the positions of both the camera and the blue LED relative to the sample. To do this, an experiment was designed according to the following diagram:
+
+![alt text](http://2018.igem.org/wiki/images/4/41/T--Waterloo--Sept24_setupArrangementDiagram.png)
+
+The green squares represent positions for the camera, the red squares represent positions for the blue LED, and the white circle represents the sample. Every combination of position was tried.
+
+For the samples, new cells were used. DH5alpha containing a GFP-expressing cassette (registry part I20270) in pSB1C3 was used as a “fluorescent” strain and empty JT2 was used as a “non-fluorescent” strain. Both cultures were grown up from frozen stock overnight in LB, then the cells were moved to complete M9 for ~3 hours of growth. After the end of this growth, 
 
 ## Second Design and Future Experiments
+
 
 
 
